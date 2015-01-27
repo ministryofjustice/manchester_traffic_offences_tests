@@ -52,7 +52,7 @@ class Nexus:
 		if action_screenshot == "Y":
 			as_fields = case_hub.split("=")
 			as_hub, as_target = as_fields
-			engage_driver.get_screenshot_as_file('resources/images/' + as_target + '_' + action_identifier+ '.png')
+			engage_driver.get_screenshot_as_file('' + as_target + '_' + action_identifier+ '.png')
 
 	def release_driver(engage_driver):
 		print("   Selenium: Driver Released")
@@ -165,12 +165,12 @@ class Nexus:
 			print("Action Type: " + action_type + " not defined in nexus_object.py file (use_variable method)")
 
 	def write_file(action_identifier, sanitised_string, action_variable):
-		with open('resources/variables/' + action_identifier, 'wt') as reusable_file:
+		with open('' + action_identifier, 'wt') as reusable_file:
 			reusable_file.write(str(sanitised_string))
 			print("               --> Reusable Variable Stored (" + action_variable + "): " + sanitised_string)
 
 	def read_file(file_name):
-		with open('resources/variables/' + file_name, 'rt') as contents:
+		with open('' + file_name, 'rt') as contents:
 			for content in contents:
 				print("               --> Reusable Variable Retrieved: " + content)
 				return content
