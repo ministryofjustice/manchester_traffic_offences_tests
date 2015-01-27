@@ -46,6 +46,6 @@ class Jam:
 		Nexus.release_driver(engage_driver)
 
 start_time = time.time()
-Jam.execute_suite('resources/suites', 'resources/cases', 'resources/actions')
+Jam.execute_suite('suites', 'cases', 'actions')
 elapsed_time = (time.time() - start_time) / 60
 print("\n   Duration: " + str(elapsed_time))
