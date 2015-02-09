@@ -2,7 +2,6 @@ import time
 import re
 import string
 import random
-import mysql.connector
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 from selenium import webdriver
