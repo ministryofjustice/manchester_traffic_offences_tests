@@ -8,25 +8,26 @@ enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  E
 enterUrn2  standard_keys  id_urn_2  id  <RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
 enterUrn3  standard_keys  id_urn_3  id  <RIG>,2,0123456789  0  Enter random input generator value in the fourth URN input field
 clickCourtHearingTimeRadioButton  click_element  /html/body/div[4]/section/div/div/form/section[2]/div/fieldset/label[1]  xpath  NA  0  Click the '9:15am' radio button
-clickYourPleaGuiltyRadioButton  click_element  /html/body/div[4]/section/div/div/form/section/div[1]/fieldset/label[1]  xpath  NA  0  Click the 'Your Plea' page 'Guilty' radio button
+clickYourPleaGuiltyRadioButton  click_element  /html/body/div[4]/section/form/fieldset/div[1]/label[2]  xpath  NA  0  Click the 'Your Plea' page 'Guilty' radio button
 clickYourMoneyOtherRadioButton  click_element  /html/body/div[4]/section/div/div/form/section/div/fieldset/label[4]  xpath  NA  0  Click the 'Your money' page 'Other' radio button
 enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
 enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  10  0  Enter '10' in the court hearing data month input field
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
 enterNumberOfCharges  standard_keys  id_number_of_charges  id  1  0  Enter '2' in the 'Number of charges against you' input field
-clickPleaCaseContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[3]/button  xpath  NA  0  Click the 'Plea Case' page 'Continue' button
-clickPleaYourDetailsContinueButton  click_element  /html/body/div[4]/section/div/div/form/div/button  xpath  NA  0  Click the 'Your details' page 'Continue' button
+clickPleaCaseContinueButton  click_element  /html/body/div[4]/section/form/div[4]/button  xpath  NA  0  Click the 'Plea Case' page 'Continue' button
+clickPleaYourDetailsContinueButton  click_element  /html/body/div[4]/section/form/div[4]/button  xpath  NA  0  Click the 'Your details' page 'Continue' button
 enterPleaYourDetailsFullName  standard_keys  id_name  id  Rob Tanner  0  Enter 'Rob Tanner' in the 'Your details' page 'Full name' input field
 enterPleaYourDetailsContactNumber  standard_keys  id_contact_number  id  0123456789  0  Enter '0123456789' in the 'Your details' 'Contact Number' input field
-clickYourPleaContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the 'Your Plea' page 'Continue' button
+clickYourPleaContinueButton  click_element  /html/body/div[4]/section/form/div/button  xpath  NA  0  Click the 'Your Plea' page 'Continue' button
 enterPleaYourDetailsEmail  standard_keys  id_email  id  rob.tanner@digital.justice.gov.uk  0  Enter 'rob.tanner@digital.justice.gov.uk' in the 'Your details' page 'Email' input field
 enterYourMoneyAdditionalInformation  standard_keys  id_other_info  id  TEST  0  Enter 'TEST' into the 'Your money' page 'Please provide addtional information' text field
 clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the Your Money' page 'Continue' button
 clickConfirmYourPleaConfirmCheckbox  click_element  id_understand  id  NA  0  Click the 'I confirm' checkbox
-clickMakeYourPleaButton  click_element  /html/body/div[4]/section/div/form/div/button  xpath  NA  5  Click the 'Make your plea' button
+clickMakeYourPleaButton  click_element  /html/body/div[4]/section/form/div/button  xpath  NA  5  Click the 'Make your plea' button
 checkConditionSentPagePrintOffCopyLink  check_condition  Print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
 clickPleaReceiveEmail  click_element  id_receive_email_0  id  NA  0  Click the 'Would you like to receive confirmation and updates from the court by email?' Yes radio button
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  ALT,COMMAND,"m"  0  Send the 'Responsive Design View' shortcut keys
 enterPleaseProvideDetails  standard_keys  id_other_details  id  Retired  0  Enter 'Retired' into the 'Your finances' page 'Please provide details' input field
 enterMonthlyDisposableIncome  standard_keys  id_other_pay_amount  id  100  0  Enter '100' into the 'Your finances' page 'What is your monthly disposable income?' input field
 clickSeriousFinancialProblemsRadioButton  click_element  /html/body/div[4]/section/div/div/form/div[1]/div[4]/section[3]/div/fieldset/label[2]  xpath  NA  0  Click the 'Would paying a fine cause you serious financial problems?' radio button
+enterNotGuiltyBecause  standard_keys  id_form-0-mitigations  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' page 'Not guilty because?' input field
