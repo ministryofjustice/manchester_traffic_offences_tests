@@ -1,6 +1,6 @@
 import time
 import sys
-from nexus_object import Nexus
+from nexus import Nexus
 
 class Jam:
 	
