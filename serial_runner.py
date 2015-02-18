@@ -3,17 +3,18 @@ from nexus_object import Nexus
 
 class Jam:
 	
-	def execute_suite(suite_file, case_file, action_file):
-		with open(suite_file, 'rt') as suites: 
-			for suite in suites:
-				suite = suite.strip()
-				suite_fields = suite.split("  ")
-				cases, browsers, hubs, targets, screenshot, include = suite_fields
-				if include == "Y":
-					cases = cases.split(",")
-					for case in cases:
-						Jam.execute_case(case, browsers, hubs, targets, screenshot, case_file, action_file)
-	
+	def execute_suite(case_file, action_file):
+		cases = sys.argv[1]
+		browsers = sys.argv[2]
+		hubs = sys.argv[3]
+		targets = sys.argv[4]
+		screenshot = sys.argv[5]
+		include = sys.argv[6]
+		if include == "Y":
+			cases = cases.split(",")
+			for case in cases:
+				Jam.execute_case(case, browsers, hubs, targets, screenshot, case_file, action_file)
+				
 	def execute_case(suite_case, suite_browsers, suite_hubs, suite_targets, suite_screenshot, case_file, action_file):
 		case_browsers = suite_browsers.split(",")
 		case_hubs = suite_hubs.split(",")
@@ -46,6 +47,6 @@ class Jam:
 		Nexus.release_driver(engage_driver)
 
 start_time = time.time()
-Jam.execute_suite('suites', 'cases', 'actions')
+Jam.execute_suite('cases', 'actions')
 elapsed_time = (time.time() - start_time) / 60
 print("\n   Duration: " + str(elapsed_time))
