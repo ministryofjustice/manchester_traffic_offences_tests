@@ -1,7 +1,7 @@
 manchester_traffic_offences_tests
 =================================
 
-Integration test framwork for the 'Make A Plea' product.
+Integration test framework for the 'Make A Plea' product.
 
 For installation instructions, please see: https://dsdmoj.atlassian.net/wiki/display/DCE/Installation
 
