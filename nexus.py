@@ -104,7 +104,9 @@ class Nexus:
 		elif action_type == "key_chords":
 			chord_dictionary = {
 				"ALT":Keys.ALT,
-				"COMMAND":Keys.COMMAND
+				"COMMAND":Keys.COMMAND,
+				"SHIFT":Keys.SHIFT,
+				"CONTROL":Keys.CONTROL
 			}
 			key_sequence = ""
 			key_chords = action_text.split(",")
