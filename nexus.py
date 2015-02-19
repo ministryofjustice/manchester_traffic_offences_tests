@@ -46,7 +46,7 @@ class Nexus:
 		elif action_type == "get_url":
 			engage_driver.navigate.to(action_text)
 		else:
-			print("Action Type: " + action_type + " not defined in nexus_object.py file (execute_test method)")
+			print("Action Type: " + action_type + " not defined in nexus.py file (execute_test method)")
 		time.sleep(pause)
 		if action_screenshot == "Y":
 			as_fields = case_hub.split("=")
@@ -83,7 +83,7 @@ class Nexus:
 			else:
 				print(green_light)
 		else:
-			print("Action Type: " + action_type + " not defined in nexus_object.py file (do_assert method)")
+			print("Action Type: " + action_type + " not defined in nexus.py file (do_assert method)")
 
 	def do_action(engage_driver, explicit_wait, action_type, action_on, action_by, action_text):
 		execute_action = Nexus.locate_element(engage_driver, explicit_wait, action_on, action_by)
@@ -117,7 +117,7 @@ class Nexus:
 					key_sequence += key_chord + ", "
 			execute_action.send_keys(key_sequence.rstrip(", "))
 		else:
-			print("Action Type: " + action_type + " not defined in nexus_object.py file (do_action method)")
+			print("Action Type: " + action_type + " not defined in nexus.py file (do_action method)")
 
 	def locate_element(engage_driver, explicit_wait, action_on, action_by):
 		action_by_dictionary = {
@@ -163,7 +163,7 @@ class Nexus:
 			read_variable = Nexus.read_file(action_text)
 			Nexus.do_action(engage_driver, explicit_wait, "standard_keys", action_on, action_by, read_variable)
 		else:
-			print("Action Type: " + action_type + " not defined in nexus_object.py file (use_variable method)")
+			print("Action Type: " + action_type + " not defined in nexus.py file (use_variable method)")
 
 	def write_file(action_identifier, sanitised_string, action_variable):
 		with open('' + action_identifier, 'wt') as reusable_file:
