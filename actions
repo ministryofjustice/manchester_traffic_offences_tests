@@ -3,7 +3,7 @@ checkHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL
 checkHomePageTitle  check_title  NA  NA  Traffic offences: Plea online  0  Check the title of the homepage
 startHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
-enterUrn0  standard_keys  id_urn_0  id  <RIG>,2,0123456789  0  Enter random input generator value in the first URN input field
+enterUrn0  standard_keys  id_urn_0  id  06  0  Enter '06' in the first URN input field
 enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value in the second URN input field
 enterUrn2  standard_keys  id_urn_2  id  <RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
 enterUrn3  standard_keys  id_urn_3  id  <RIG>,2,0123456789  0  Enter random input generator value in the fourth URN input field
