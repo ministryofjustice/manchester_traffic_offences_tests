@@ -31,3 +31,4 @@ enterPleaseProvideDetails  standard_keys  id_other_details  id  Retired  0  Ente
 enterMonthlyDisposableIncome  standard_keys  id_other_pay_amount  id  100  0  Enter '100' into the 'Your finances' page 'What is your monthly disposable income?' input field
 clickSeriousFinancialProblemsRadioButton  click_element  /html/body/div[4]/section/div/div/form/div[1]/div[4]/section[3]/div/fieldset/label[2]  xpath  NA  0  Click the 'Would paying a fine cause you serious financial problems?' radio button
 enterNotGuiltyBecause  standard_keys  id_form-0-mitigations  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' page 'Not guilty because?' input field
+clickFalseOnBehalfOfCompany  click_element  id_company_plea_false  id  NA  0  Click the 'No' radio button on the start page for 'Are you making a plea on behalf of a company?'
