@@ -8,7 +8,7 @@ enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  E
 enterUrn2  standard_keys  id_urn_2  id  <RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
 enterUrn3  standard_keys  id_urn_3  id  <RIG>,2,0123456789  0  Enter random input generator value in the fourth URN input field
 clickCourtHearingTimeRadioButton  click_element  /html/body/div[4]/section/div/div/form/section[2]/div/fieldset/label[1]  xpath  NA  0  Click the '9:15am' radio button
-clickYourPleaGuiltyRadioButton  click_element  /html/body/div[4]/section/form/fieldset/div[1]/label[2]  xpath  NA  0  Click the 'Your Plea' page 'Guilty' radio button
+clickYourPleaGuiltyRadioButton  click_element  /html/body/div[4]/section/form/section/div[1]/fieldset/div/div/label[2]  xpath  NA  0  Click the 'Your Plea' page 'Guilty' radio button
 clickYourMoneyOtherRadioButton  click_element  /html/body/div[4]/section/div/div/form/section/div/fieldset/label[4]  xpath  NA  0  Click the 'Your money' page 'Other' radio button
 enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
 enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  07  0  Enter '07' in the court hearing data month input field
