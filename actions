@@ -1,5 +1,6 @@
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
-checkHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
+checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
+checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Check the URL of the homepage
 checkHomePageTitle  check_title  NA  NA  Traffic offences: Plea online  0  Check the title of the homepage
 startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
