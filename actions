@@ -1,7 +1,8 @@
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
 checkHomePageTitle  check_title  NA  NA  Traffic offences: Plea online  0  Check the title of the homepage
-startHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application
+startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
+startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
 enterUrn0  standard_keys  id_urn_0  id  06  0  Enter '06' in the first URN input field
 enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value in the second URN input field
