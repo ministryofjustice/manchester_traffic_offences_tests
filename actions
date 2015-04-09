@@ -20,7 +20,7 @@ clickPleaCaseContinueButton  click_element  /html/body/div[5]/section/form/div/d
 clickPleaYourDetailsContinueButton  click_element  //html/body/div[5]/section/form/div[4]/button  xpath  NA  0  Click the 'Your details' page 'Continue' button
 enterPleaYourDetailsFullName  standard_keys  id_name  id  Rob Tanner  0  Enter 'Rob Tanner' in the 'Your details' page 'Full name' input field
 enterPleaYourDetailsContactNumber  standard_keys  id_contact_number  id  0123456789  0  Enter '0123456789' in the 'Your details' 'Contact Number' input field
-clickYourPleaContinueButton  click_element  /html/body/div[4]/section/form/div/button  xpath  NA  0  Click the 'Your Plea' page 'Continue' button
+clickYourPleaContinueButton  click_element  /html/body/div[5]/section/form/div/button  xpath  NA  0  Click the 'Your Plea' page 'Continue' button
 enterPleaYourDetailsEmail  standard_keys  id_email  id  rob.tanner@digital.justice.gov.uk  0  Enter 'rob.tanner@digital.justice.gov.uk' in the 'Your details' page 'Email' input field
 enterYourMoneyAdditionalInformation  standard_keys  id_other_info  id  TEST  0  Enter 'TEST' into the 'Your money' page 'Please provide addtional information' text field
 clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the Your Money' page 'Continue' button
