@@ -25,7 +25,7 @@ enterPleaYourDetailsEmail  standard_keys  id_email  id  rob.tanner@digital.justi
 enterYourMoneyAdditionalInformation  standard_keys  id_other_info  id  TEST  0  Enter 'TEST' into the 'Your money' page 'Please provide addtional information' text field
 clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the Your Money' page 'Continue' button
 clickConfirmYourPleaConfirmCheckbox  click_element  id_understand  id  NA  0  Click the 'I confirm' checkbox
-clickMakeYourPleaButton  click_element  /html/body/div[4]/section/form/div/button  xpath  NA  5  Click the 'Make your plea' button
+clickMakeYourPleaButton  click_element  /html/body/div[5]/section/form/div/button  xpath  NA  5  Click the 'Make your plea' button
 checkConditionSentPagePrintOffCopyLink  check_condition  Print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
 clickPleaReceiveEmail  click_element  id_receive_email_0  id  NA  0  Click the 'Would you like to receive confirmation and updates from the court by email?' Yes radio button
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,"m"  5  Send the 'Responsive Design View' shortcut keys
