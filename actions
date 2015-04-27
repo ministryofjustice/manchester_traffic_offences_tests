@@ -36,3 +36,6 @@ enterNotGuiltyBecause  standard_keys  id_form-0-not_guilty_extra  id  I am not g
 clickFalseOnBehalfOfCompany  click_element  id_company_plea_false  id  NA  0  Click the 'No' radio button on the start page for 'Are you making a plea on behalf of a company?'
 personNamedOnPostalRequisition  click_element  id_plea_made_by_defendant  id  NA  0  Click 'The person named on the Postal Requisition' radio button
 correctAddressOnPostalRequisition  click_element  id_correct_address_true  id  NA  0  Click 'Is your address on the Postal Requisition correct?' radio button
+enterDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter '31' in the court hearing data day input field
+enterDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  07  0  Enter '07' in the court hearing data month input field
+enterDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '2015' in the court hearing data year input field
