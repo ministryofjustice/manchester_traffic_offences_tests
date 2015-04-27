@@ -35,3 +35,4 @@ clickSeriousFinancialProblemsRadioButton  click_element  /html/body/div[4]/secti
 enterNotGuiltyBecause  standard_keys  id_form-0-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' page 'Not guilty because?' input field
 clickFalseOnBehalfOfCompany  click_element  id_company_plea_false  id  NA  0  Click the 'No' radio button on the start page for 'Are you making a plea on behalf of a company?'
 personNamedOnPostalRequisition  click_element  id_plea_made_by_defendant  id  NA  0  Click 'The person named on the Postal Requisition' radio button
+correctAddressOnPostalRequisition  click_element  id_correct_address_true  id  NA  0  Click 'Is your address on the Postal Requisition correct?' radio button
