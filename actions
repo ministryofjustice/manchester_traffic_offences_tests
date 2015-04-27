@@ -17,7 +17,7 @@ enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  07  0  Ente
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
 enterNumberOfCharges  standard_keys  id_number_of_charges  id  1  0  Enter '2' in the 'Number of charges against you' input field
 clickPleaCaseContinueButton  click_element  /html/body/div[5]/section/form/div/div[7]/button  xpath  NA  0  Click the 'Plea Case' page 'Continue' button
-clickPleaYourDetailsContinueButton  click_element  button  className  NA  0  Click the 'Your details' page 'Continue' button
+clickPleaYourDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Your details' page 'Continue' button
 enterPleaYourDetailsFullName  standard_keys  id_name  id  Rob Tanner  0  Enter 'Rob Tanner' in the 'Your details' page 'Full name' input field
 enterPleaYourDetailsContactNumber  standard_keys  id_contact_number  id  0123456789  0  Enter '0123456789' in the 'Your details' 'Contact Number' input field
 clickYourPleaContinueButton  click_element  /html/body/div[5]/section/form/div/button  xpath  NA  0  Click the 'Your Plea' page 'Continue' button
