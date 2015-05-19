@@ -18,14 +18,15 @@ enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Ent
 enterNumberOfCharges  standard_keys  id_number_of_charges  id  1  0  Enter '2' in the 'Number of charges against you' input field
 clickPleaCaseContinueButton  click_element  /html/body/div[5]/section/form/div/div[7]/button  xpath  NA  0  Click the 'Plea Case' page 'Continue' button
 clickPleaYourDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Your details' page 'Continue' button
-enterPleaYourDetailsFullName  standard_keys  id_name  id  Rob Tanner  0  Enter 'Rob Tanner' in the 'Your details' page 'Full name' input field
+enterPleaYourDetailsFirstName  standard_keys  id_first_name  id  Rob  0  Enter 'Rob' in the 'Your details' page 'First Name' input field
+enterPleaYourDetailsLastName  standard_keys  id_last_name  id  Tanner  0  Enter 'Tanner' in the 'Your details' page 'Last Name' input field
 enterPleaYourDetailsContactNumber  standard_keys  id_contact_number  id  0123456789  0  Enter '0123456789' in the 'Your details' 'Contact Number' input field
 clickYourPleaContinueButton  click_element  /html/body/div[5]/section/form/div/button  xpath  NA  0  Click the 'Your Plea' page 'Continue' button
 enterPleaYourDetailsEmail  standard_keys  id_email  id  rob.tanner@digital.justice.gov.uk  0  Enter 'rob.tanner@digital.justice.gov.uk' in the 'Your details' page 'Email' input field
 enterYourMoneyAdditionalInformation  standard_keys  id_other_info  id  TEST  0  Enter 'TEST' into the 'Your money' page 'Please provide addtional information' text field
 clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the Your Money' page 'Continue' button
 clickConfirmYourPleaConfirmCheckbox  click_element  id_understand  id  NA  0  Click the 'I confirm' checkbox
-clickMakeYourPleaButton  click_element  /html/body/div[5]/section/form/div/button  xpath  NA  5  Click the 'Make your plea' button
+clickMakeYourPleaButton  click_element  button-large  class_name  NA  0  Click the 'Make your plea' button
 checkConditionSentPagePrintOffCopyLink  check_condition  Print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
 clickPleaReceiveEmail  click_element  id_receive_email_0  id  NA  0  Click the 'Would you like to receive confirmation and updates from the court by email?' Yes radio button
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,"m"  5  Send the 'Responsive Design View' shortcut keys
