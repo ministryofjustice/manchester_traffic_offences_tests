@@ -1,5 +1,5 @@
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  start page 
+.  .  .  .  .  0  . start page 
 .  .  .  .  .  0  .
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
@@ -9,7 +9,7 @@ startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  case details 
+.  .  .  .  .  0  . case details 
 .  .  .  .  .  0  .
 enterUrn0  standard_keys  id_urn_0  id  51  0  Enter '51' in the first URN input field
 enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value in the second URN input field
@@ -32,7 +32,7 @@ clickDefendantPlea  click_element  id_plea_made_by_defendant  id  NA  0  Click '
 clickCompanyPlea  click_element  id_plea_made_by_company-representative  id  NA  0  Click the 'Pleading on behalf of a company' radio button
 clickCaseDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Case details' page 'Continue' button
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your details generic 
+.  .  .  .  .  0  . your details generic 
 .  .  .  .  .  0  .
 enterYourDetailsFirstName  standard_keys  id_first_name  id  Rob  0  Enter 'Rob' in the 'Your details' page 'First Name' input field
 enterYourDetailsLastName  standard_keys  id_last_name  id  Tanner  0  Enter 'Tanner' in the 'Your details' page 'Last Name' input field
@@ -43,7 +43,7 @@ enterYourDetailsContactNumber  standard_keys  id_contact_number  id  0123456789 
 enterYourDetailsEmail  standard_keys  id_email  id  christine.houlding@digital.justice.gov.uk  0  Enter 'christine.houlding@digital.justice.gov.uk' in the 'Your details' page 'Email' input field
 clickYourDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Your details' page 'Continue' button
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your details defendant
+.  .  .  .  .  0  . your details defendant
 .  .  .  .  .  0  .
 enterDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter '31' in the DOB data day input field
 enterDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  07  0  Enter '07' in the DOB data month input field
@@ -51,77 +51,77 @@ enterDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '196
 enterNINumber  standard_keys  id_ni_number  id  AB123456C  0  Enter 'AB123456C' in the 'Your details' 'National insurance number' input field
 enterDrivingLicenceNumber  standard_keys  id_driving_licence_number  id  ABCDE12345  0  Enter 'ABCDE12345' in the 'Your details' 'Driving licence number' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your details company
+.  .  .  .  .  0  . your details company
 .  .  .  .  .  0  .
 enterYourDetailsCompanyName  standard_keys  id_company_name  id  ABC Company  0  Enter 'ABC Company' in the Company name field
 clickPositionInCompanyDirector  click_element  id_position_in_company_director  id  NA  0  Click the 'director' radio button under 'Your position in the company'
 clickPositionInCompanySecretary  click_element  id_position_in_company_company-secretary  id  NA  0  Click the 'company secretary' radio button under 'Your position in the company'
 clickPositionInCompanySolicitor  click_element  id_position_in_company_company-solicitor  id  NA  0  Click the 'company solicitor' radio button under 'Your position in the company'
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 1
+.  .  .  .  .  0  . your plea 1
 .  .  .  .  .  0  .
 clickYourPlea1GuiltyRadioButton  click_element  id_form-0-guilty_guilty  id  NA  0  Click the 'Your Plea' 1 'Guilty' radio button
 clickYourPlea1NotGuiltyRadioButton  click_element  id_form-0-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 1 'Not Guilty' radio button
 enterNotGuilty1Because  standard_keys  id_form-0-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 1 'Not guilty because?' input field
 enterGuilty1Mitigation  standard_keys  id_form-0-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 1 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 2
+.  .  .  .  .  0  . your plea 2
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-1-guilty_guilty  id  NA  0  Click the 'Your Plea' 2 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-1-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 2 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-1-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 2 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-1-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 2 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 3
+.  .  .  .  .  0  . your plea 3
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-2-guilty_guilty  id  NA  0  Click the 'Your Plea' 3 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-2-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 3 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-2-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 3 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-2-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 3 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 4
+.  .  .  .  .  0  . your plea 4
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-3-guilty_guilty  id  NA  0  Click the 'Your Plea' 4 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-3-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 4 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-3-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 4 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-3-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 4 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 5
+.  .  .  .  .  0  . your plea 5
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-4-guilty_guilty  id  NA  0  Click the 'Your Plea' 5 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-4-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 5 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-4-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 5 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-4-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 5 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 6
+.  .  .  .  .  0  . your plea 6
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-5-guilty_guilty  id  NA  0  Click the 'Your Plea' 6 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-5-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 6 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-5-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 6 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-5-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 6 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 7
+.  .  .  .  .  0  . your plea 7
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-6-guilty_guilty  id  NA  0  Click the 'Your Plea' 7 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-6-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 7 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-6-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 7 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-6-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 7 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 8
+.  .  .  .  .  0  . your plea 8
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-7-guilty_guilty  id  NA  0  Click the 'Your Plea' 8 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-7-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 8 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-7-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 8 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-7-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 8 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 9
+.  .  .  .  .  0  . your plea 9
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-8-guilty_guilty  id  NA  0  Click the 'Your Plea' 9 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-8-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 9 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-8-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 9 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-8-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 9 'Mitigation' input field
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your plea 10
+.  .  .  .  .  0  . your plea 10
 .  .  .  .  .  0  .
 clickYourPlea2GuiltyRadioButton  click_element  id_form-9-guilty_guilty  id  NA  0  Click the 'Your Plea' 10 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-9-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 10 'Not Guilty' radio button
@@ -130,7 +130,7 @@ enterGuilty2Mitigation  standard_keys  id_form-9-guilty_extra  id  Please consid
 .....0.
 clickYourPleaContinueButton  click_element  button  class_name  NA  0  Click the 'Your Plea' page 'Continue' button
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  your finances
+.  .  .  .  .  0  . your finances
 .  .  .  .  .  0  .
 clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your finances' page
 clickEmployedPaidWeekly  click_element  id_employed_take_home_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
@@ -171,7 +171,7 @@ clickOtherFinancialHardshipFalse  click_element  id_other_hardship_false  id  NA
 .  .  .  .  .  0  .
 clickYourFinancesContinueButton  click_element  button  class_name  NA  0  Click the 'Your FInances' page 'Continue' button
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .your expenses
+.  .  .  .  .  0  . your expenses
 .  .  .  .  .  0  .
 enterHardshipDetails  standard_keys  id_hardship_details  id  House being repossessed  0  Enter ‘House being repossessed’ in ‘How would paying a fine cause you serious financial problems?’
 enterAccommodationExpenses  standard_keys  id_household_accommodation  id  750  0  Enter ‘750’ in ‘Accommodation’ under ‘Household Expenses’
@@ -190,7 +190,7 @@ enterChildMaintenance  standard_keys  id_other_child_maintenance  id  147  0  En
 .  .  .  .  .  0  .
 clickYourExpensesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Expenses' page 'Continue' button
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .company details
+.  .  .  .  .  0  . company details
 .  .  .  .  .  0  .
 clickMoreThan12MonthsRadioButton  click_element  id_trading_period_true  id  NA  0  Click the 'Yes' radio button under 'Has the company been trading for more than 12 months?'
 clickLessThan12MonthsRadioButton  click_element  id_trading_period_false  id  NA  0  Click the 'No' radio button under 'Has the company been trading for more than 12 months?'
@@ -201,16 +201,16 @@ enterGrossTurnover  standard_keys  id_gross_turnover  id  150000  0  Enter '1500
 enterNetTurnover  standard_keys  id_net_turnover  id  110000  0  Enter '110000' in 'Gross turnover' field
 clickCompanyDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Company Details' page 'Continue' button
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  confirm your plea
+.  .  .  .  .  0  . confirm your plea
 .  .  .  .  .  0  .
 clickConfirmPleaCheckbox  click_element  id_understand  id  NA  0  Click the 'I confirm' checkbox
 clickMakeYourPleaButton  click_element  button-large  class_name  NA  0  Click the 'Make your plea' button
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  plea suubmitted confirmation
+.  .  .  .  .  0  . plea suubmitted confirmation
 .  .  .  .  .  0  .
 checkConditionSentPagePrintOffCopyLink  check_condition  Print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
 .  .  .  .  .  0  .
-.  .  .  .  .  0  .  robs additional actions
+.  .  .  .  .  0  . robs additional actions
 .  .  .  .  .  0  .
 clickCourtHearingTimeRadioButton  click_element  /html/body/div[4]/section/div/div/form/section[2]/div/fieldset/label[1]  xpath  NA  0  Click the '9:15am' radio button
 clickYourMoneyOtherRadioButton  click_element  /html/body/div[4]/section/div/div/form/section/div/fieldset/label[4]  xpath  NA  0  Click the 'Your money' page 'Other' radio button
