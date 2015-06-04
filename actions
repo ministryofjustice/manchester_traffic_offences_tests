@@ -100,7 +100,7 @@ enterSelfEmployedTakeHomePay  standard_keys  id_self_employed_pay_amount  id  25
 clickSelfEmployedFinancialHardshipTrue  click_element  id_self_employed_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickSelfEmployedFinancialHardshipFalse  click_element  id_self_employed_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickReceivingBenefitsButton  click_element  id_you_are_receiving-benefits  id  NA  0  Click the 'Receiving Benefits' radio button on the 'Your finances' page
-enterBenefitDetails  standard_keys  id_benefits_details  id  Disability Living Allowance  0  Enter 'Disability Living Allowance in the ‘Which benefits do you receive’  text field
+enterBenefitDetails  standard_keys  id_benefits_details  id  Disability Living Allowance  0  Enter 'Disability Living Allowance in the ‘Which benefits do you receive’ text field
 clickPaymentForDependantsTrue  click_element  id_benefits_dependents_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Does this include payment for dependants?’
 clickPaymentForDependantsFalse  click_element  id_benefits_dependents_false  id  NA  0  Click the ‘No’ Radio button under ‘Does this include payment for dependants?’
 clickBenefitsPaidWeekly  click_element  id_benefits_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often are your benefits paid’
