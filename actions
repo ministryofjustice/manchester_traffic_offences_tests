@@ -1,6 +1,3 @@
-.  .  .  .  .  0  .
-.  .  .  .  .  0  . start page 
-.  .  .  .  .  0  .
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
 checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Check the URL of the homepage
