@@ -116,7 +116,7 @@ enterOtherEmploymentDetails  standard_keys  id_other_details  id  Retired  0  En
 enterOtherDisposableIncome  standard_keys  id_other_pay_amount  id  500  0  Enter ‘500’ in the ‘Disposable Income’ amount field
 clickOtherFinancialHardshipTrue  click_element  id_other_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickOtherFinancialHardshipFalse  click_element  id_other_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
-clickYourFinancesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Finances' page 'Continue' button
+clickYourFinancesContinueButton  click_element  button  class_name  NA  20  Click the 'Your Finances' page 'Continue' button
 enterHardshipDetails  standard_keys  id_hardship_details  id  House being repossessed  0  Enter ‘House being repossessed’ in ‘How would paying a fine cause you serious financial problems?’
 enterAccommodationExpenses  standard_keys  id_household_accommodation  id  750  0  Enter ‘750’ in ‘Accommodation’ under ‘Household Expenses’
 enterUtilityBills  standard_keys  id_household_utility_bills  id  250  0  Enter ‘250’ in ‘Utility Bills’ under ‘Household Expenses’
