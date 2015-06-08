@@ -50,38 +50,38 @@ clickYourPlea2GuiltyRadioButton  click_element  id_form-1-guilty_guilty  id  NA 
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-1-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 2 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-1-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 2 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-1-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 2 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-2-guilty_guilty  id  NA  0  Click the 'Your Plea' 3 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-2-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 3 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-2-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 3 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-2-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 3 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-3-guilty_guilty  id  NA  0  Click the 'Your Plea' 4 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-3-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 4 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-3-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 4 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-3-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 4 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-4-guilty_guilty  id  NA  0  Click the 'Your Plea' 5 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-4-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 5 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-4-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 5 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-4-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 5 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-5-guilty_guilty  id  NA  0  Click the 'Your Plea' 6 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-5-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 6 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-5-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 6 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-5-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 6 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-6-guilty_guilty  id  NA  0  Click the 'Your Plea' 7 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-6-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 7 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-6-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 7 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-6-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 7 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-7-guilty_guilty  id  NA  0  Click the 'Your Plea' 8 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-7-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 8 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-7-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 8 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-7-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 8 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-8-guilty_guilty  id  NA  0  Click the 'Your Plea' 9 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-8-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 9 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-8-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 9 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-8-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 9 'Mitigation' input field
-clickYourPlea2GuiltyRadioButton  click_element  id_form-9-guilty_guilty  id  NA  0  Click the 'Your Plea' 10 'Guilty' radio button
-clickYourPlea2NotGuiltyRadioButton  click_element  id_form-9-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 10 'Not Guilty' radio button
-enterNotGuilty2Because  standard_keys  id_form-9-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 10 'Not guilty because?' input field
-enterGuilty2Mitigation  standard_keys  id_form-9-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 10 'Mitigation' input field
+clickYourPlea3GuiltyRadioButton  click_element  id_form-2-guilty_guilty  id  NA  0  Click the 'Your Plea' 3 'Guilty' radio button
+clickYourPlea3NotGuiltyRadioButton  click_element  id_form-2-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 3 'Not Guilty' radio button
+enterNotGuilty3Because  standard_keys  id_form-2-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 3 'Not guilty because?' input field
+enterGuilty3Mitigation  standard_keys  id_form-2-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 3 'Mitigation' input field
+clickYourPlea4GuiltyRadioButton  click_element  id_form-3-guilty_guilty  id  NA  0  Click the 'Your Plea' 4 'Guilty' radio button
+clickYourPlea4NotGuiltyRadioButton  click_element  id_form-3-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 4 'Not Guilty' radio button
+enterNotGuilty4Because  standard_keys  id_form-3-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 4 'Not guilty because?' input field
+enterGuilty4Mitigation  standard_keys  id_form-3-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 4 'Mitigation' input field
+clickYourPlea5GuiltyRadioButton  click_element  id_form-4-guilty_guilty  id  NA  0  Click the 'Your Plea' 5 'Guilty' radio button
+clickYourPlea5NotGuiltyRadioButton  click_element  id_form-4-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 5 'Not Guilty' radio button
+enterNotGuilty5Because  standard_keys  id_form-4-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 5 'Not guilty because?' input field
+enterGuilty5Mitigation  standard_keys  id_form-4-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 5 'Mitigation' input field
+clickYourPlea6GuiltyRadioButton  click_element  id_form-5-guilty_guilty  id  NA  0  Click the 'Your Plea' 6 'Guilty' radio button
+clickYourPlea6NotGuiltyRadioButton  click_element  id_form-5-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 6 'Not Guilty' radio button
+enterNotGuilty6Because  standard_keys  id_form-5-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 6 'Not guilty because?' input field
+enterGuilty6Mitigation  standard_keys  id_form-5-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 6 'Mitigation' input field
+clickYourPlea7GuiltyRadioButton  click_element  id_form-6-guilty_guilty  id  NA  0  Click the 'Your Plea' 7 'Guilty' radio button
+clickYourPlea7NotGuiltyRadioButton  click_element  id_form-6-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 7 'Not Guilty' radio button
+enterNotGuilty7Because  standard_keys  id_form-6-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 7 'Not guilty because?' input field
+enterGuilty7Mitigation  standard_keys  id_form-6-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 7 'Mitigation' input field
+clickYourPlea8GuiltyRadioButton  click_element  id_form-7-guilty_guilty  id  NA  0  Click the 'Your Plea' 8 'Guilty' radio button
+clickYourPlea8NotGuiltyRadioButton  click_element  id_form-7-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 8 'Not Guilty' radio button
+enterNotGuilty8Because  standard_keys  id_form-7-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 8 'Not guilty because?' input field
+enterGuilty8Mitigation  standard_keys  id_form-7-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 8 'Mitigation' input field
+clickYourPlea9GuiltyRadioButton  click_element  id_form-8-guilty_guilty  id  NA  0  Click the 'Your Plea' 9 'Guilty' radio button
+clickYourPlea9NotGuiltyRadioButton  click_element  id_form-8-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 9 'Not Guilty' radio button
+enterNotGuilty9Because  standard_keys  id_form-8-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 9 'Not guilty because?' input field
+enterGuilty9Mitigation  standard_keys  id_form-8-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 9 'Mitigation' input field
+clickYourPlea10GuiltyRadioButton  click_element  id_form-9-guilty_guilty  id  NA  0  Click the 'Your Plea' 10 'Guilty' radio button
+clickYourPlea10NotGuiltyRadioButton  click_element  id_form-9-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 10 'Not Guilty' radio button
+enterNotGuilty10Because  standard_keys  id_form-9-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 10 'Not guilty because?' input field
+enterGuilty10Mitigation  standard_keys  id_form-9-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 10 'Mitigation' input field
 clickYourPleaContinueButton  click_element  button  class_name  NA  0  Click the 'Your Plea' page 'Continue' button
 clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your finances' page
 clickEmployedPaidWeekly  click_element  id_employed_take_home_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
