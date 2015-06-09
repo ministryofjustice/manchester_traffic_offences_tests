@@ -135,7 +135,7 @@ clickMoreThan12MonthsRadioButton  click_element  id_trading_period_true  id  NA 
 clickLessThan12MonthsRadioButton  click_element  id_trading_period_false  id  NA  0  Click the 'No' radio button under 'Has the company been trading for more than 12 months?'
 enterNumberOfEmployees  standard_keys  id_number_of_employees  id  12  0  Enter '12' in 'Number of Employees' field
 checkCompanyAccountsWording1  check_content  NA  NA  From the most recent audited company accounts, tell us:  0  Check more than 12 months wording 
-checkCompanyAccountsWording2  check_content  NA  NA  From the first 12 months' trading projections, tell us:  0  Check less than 12 months wording 
+checkCompanyAccountsWording2  check_content  From the first 12 months' trading projections, tell us:  NA  NA  0  Check less than 12 months wording 
 enterGrossTurnover  standard_keys  id_gross_turnover  id  150000  0  Enter '150000' in 'Gross turnover' field
 enterNetTurnover  standard_keys  id_net_turnover  id  110000  0  Enter '110000' in 'Gross turnover' field
 clickCompanyDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Company Details' page 'Continue' button
