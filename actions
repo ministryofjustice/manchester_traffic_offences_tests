@@ -25,8 +25,8 @@ enterNumberOfCharges10  standard_keys  id_number_of_charges  id  10  0  Enter '1
 clickDefendantPlea  click_element  id_plea_made_by_defendant  id  NA  0  Click 'the person named in the requisition pack' radio button
 clickCompanyPlea  click_element  id_plea_made_by_company-representative  id  NA  0  Click the 'Pleading on behalf of a company' radio button
 clickCaseDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Case details' page 'Continue' button
-enterYourDetailsFirstName  standard_keys  id_first_name  id  Rob  0  Enter 'Rob' in the 'Your details' page 'First Name' input field
-enterYourDetailsLastName  standard_keys  id_last_name  id  Tanner  0  Enter 'Tanner' in the 'Your details' page 'Last Name' input field
+enterYourDetailsFirstName  standard_keys  id_first_name  id  Christine  0  Enter 'Christine' in the 'Your details' page 'First Name' input field
+enterYourDetailsLastName  standard_keys  id_last_name  id  Houlding  0  Enter 'Houlding' in the 'Your details' page 'Last Name' input field
 correctAddressOnPostalRequisition  click_element  id_correct_address_true  id  NA  0  Click 'Is your address on the Postal Requisition correct?' Yes radio button
 incorrectAddressOnPostalRequisition  click_element  id_correct_address_false  id  NA  0  Click 'Is your address on the Postal Requisition correct?' No radio button
 enterCorrectAddressIfDiff  standard_keys  id_updated_address  id  12 High Street Manchester M1 3BN  0  Enter '12 High Street Manchester M1 3BN' in the company address text box
@@ -134,8 +134,8 @@ clickYourExpensesContinueButton  click_element  button  class_name  NA  0  Click
 clickMoreThan12MonthsRadioButton  click_element  id_trading_period_true  id  NA  0  Click the 'Yes' radio button under 'Has the company been trading for more than 12 months?'
 clickLessThan12MonthsRadioButton  click_element  id_trading_period_false  id  NA  0  Click the 'No' radio button under 'Has the company been trading for more than 12 months?'
 enterNumberOfEmployees  standard_keys  id_number_of_employees  id  12  0  Enter '12' in 'Number of Employees' field
-checkCompanyAccountsWording1  check_content  NA  NA  From the most recent audited company accounts, tell us:  0  Check more than 12 months wording 
-checkCompanyAccountsWording2  check_content  NA  NA  From the first 12 months' trading projections, tell us:  0  Check less than 12 months wording 
+checkCompanyAccountsWording1  check_content  NA  NA  From the most recent audited company accounts, tell us  0  Check more than 12 months wording 
+checkCompanyAccountsWording2  check_content  NA  NA  From the first 12 months' trading projections, tell us  0  Check less than 12 months wording 
 enterGrossTurnover  standard_keys  id_gross_turnover  id  150000  0  Enter '150000' in 'Gross turnover' field
 enterNetTurnover  standard_keys  id_net_turnover  id  110000  0  Enter '110000' in 'Gross turnover' field
 clickCompanyDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Company Details' page 'Continue' button
