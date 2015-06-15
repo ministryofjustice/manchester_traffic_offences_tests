@@ -9,7 +9,7 @@ enterUrn0  standard_keys  id_urn_0  id  51  0  Enter '51' in the first URN input
 enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value in the second URN input field
 enterUrn2  standard_keys  id_urn_2  id  <RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
 enterUrn3  standard_keys  id_urn_3  id  <RIG>,2,0123456789  0  Enter random input generator value in the fourth URN input field
-enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
+enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  30  0  Enter '30' in the court hearing data day input field
 enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  11  0  Enter '11' in the court hearing data month input field
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
 enterNumberOfCharges1  standard_keys  id_number_of_charges  id  1  0  Enter '1' in the 'Number of charges against you' input field
