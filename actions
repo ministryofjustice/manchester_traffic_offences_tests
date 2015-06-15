@@ -10,7 +10,7 @@ enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  E
 enterUrn2  standard_keys  id_urn_2  id  <RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
 enterUrn3  standard_keys  id_urn_3  id  <RIG>,2,0123456789  0  Enter random input generator value in the fourth URN input field
 enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
-enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  12  0  Enter '12' in the court hearing data month input field
+enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  11  0  Enter '11' in the court hearing data month input field
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
 enterNumberOfCharges1  standard_keys  id_number_of_charges  id  1  0  Enter '1' in the 'Number of charges against you' input field
 enterNumberOfCharges2  standard_keys  id_number_of_charges  id  2  0  Enter '2' in the 'Number of charges against you' input field
@@ -25,8 +25,8 @@ enterNumberOfCharges10  standard_keys  id_number_of_charges  id  10  0  Enter '1
 clickDefendantPlea  click_element  id_plea_made_by_defendant  id  NA  0  Click 'the person named in the requisition pack' radio button
 clickCompanyPlea  click_element  id_plea_made_by_company-representative  id  NA  0  Click the 'Pleading on behalf of a company' radio button
 clickCaseDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Case details' page 'Continue' button
-enterYourDetailsFirstName  standard_keys  id_first_name  id  Rob  0  Enter 'Rob' in the 'Your details' page 'First Name' input field
-enterYourDetailsLastName  standard_keys  id_last_name  id  Tanner  0  Enter 'Tanner' in the 'Your details' page 'Last Name' input field
+enterYourDetailsFirstName  standard_keys  id_first_name  id  Christine  0  Enter 'Christine' in the 'Your details' page 'First Name' input field
+enterYourDetailsLastName  standard_keys  id_last_name  id  Houlding  0  Enter 'Houlding' in the 'Your details' page 'Last Name' input field
 correctAddressOnPostalRequisition  click_element  id_correct_address_true  id  NA  0  Click 'Is your address on the Postal Requisition correct?' Yes radio button
 incorrectAddressOnPostalRequisition  click_element  id_correct_address_false  id  NA  0  Click 'Is your address on the Postal Requisition correct?' No radio button
 enterCorrectAddressIfDiff  standard_keys  id_updated_address  id  12 High Street Manchester M1 3BN  0  Enter '12 High Street Manchester M1 3BN' in the company address text box
