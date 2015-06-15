@@ -110,7 +110,7 @@ clickBenefitsPaidOther  click_element  id_benefits_period_benefits-other  id  NA
 enterBenefitsPaidOtherDetails  standard_keys  id_benefits_pay_other  id  Every 3 weeks  0  Enter 'Every 3 weeks' in the ‘Other’ ho often are your benefits paid text field
 enterBenefitsTakeHomePay  standard_keys  id_benefits_amount  id  160  0  Enter ‘160’ in the ‘Take home pay’ amount field
 clickBenefitsFinancialHardshipTrue  click_element  id_receiving_benefits_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
-clickBenefitsFinancialHardshipFalse  click_element  id_receiving_benefits_hardship_true  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+clickBenefitsFinancialHardshipFalse  click_element  id_receiving_benefits_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickOtherButton  click_element  id_you_are_other  id  NA  0  Click the 'Other' radio button on the 'Your finances' page
 enterOtherEmploymentDetails  standard_keys  id_other_details  id  Retired  0  Enter ‘Retired’ in the ‘Provide details’ other employment text field
 enterOtherDisposableIncome  standard_keys  id_other_pay_amount  id  500  0  Enter ‘500’ in the ‘Disposable Income’ amount field
