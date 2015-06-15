@@ -10,7 +10,7 @@ enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  E
 enterUrn2  standard_keys  id_urn_2  id  <RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
 enterUrn3  standard_keys  id_urn_3  id  <RIG>,2,0123456789  0  Enter random input generator value in the fourth URN input field
 enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
-enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  07  0  Enter '07' in the court hearing data month input field
+enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  12  0  Enter '12' in the court hearing data month input field
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
 enterNumberOfCharges1  standard_keys  id_number_of_charges  id  1  0  Enter '1' in the 'Number of charges against you' input field
 enterNumberOfCharges2  standard_keys  id_number_of_charges  id  2  0  Enter '2' in the 'Number of charges against you' input field
@@ -150,3 +150,56 @@ enterYourMoneyAdditionalInformation  standard_keys  id_other_info  id  TEST  0  
 clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the Your Money' page 'Continue' button
 clickPleaReceiveEmail  click_element  id_receive_email_0  id  NA  0  Click the 'Would you like to receive confirmation and updates from the court by email?' Yes radio button
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,"m"  5  Send the 'Responsive Design View' shortcut keys
+checkURNMissingValidation  check_content  NA  NA  Enter your unique reference number (URN)  0  Check URN missing validation wording appears
+enterInvalidUrn0  standard_keys  id_urn_0  id  AA  0  Enter 'AA' in the first URN input field
+enterInvalidUrn1  standard_keys  id_urn_1  id  55  0  Enter '55' in the second URN input field
+enterInvalidUrn2  standard_keys  id_urn_2  id  BB  0  Enter 'BB' in the third URN input field
+enterInvalidUrn3  standard_keys  id_urn_3  id  CC  0  Enter 'CC' in the fourth URN input field
+checkURNInvalidWording  check_content  NA  NA  The unique reference number (URN) isn't valid. Enter the number exactly as it appears on page 1 of the pack  0  Check URN incorrect validation wording appears
+checkHearingDateMissingValidation  check_content  NA  NA  Provide a court hearing date  0  Check Hearing Date missing validation wording appears
+enterInvalidCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
+enterInvalidCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  09  0  Enter '09' in the court hearing data month input field
+enterInvalidCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
+enterPastCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2014  0  Enter '2014' in the court hearing data year input field
+checkHearingDateInvalidWording  check_content  NA  NA  The court hearing date isn't a valid format  0  Check Hearing Date is invalid wording appears
+checkHearingDatePastWording  check_content  NA  NA  The court hearing date must be after today  0  Check Hearing Date must be after today wording appears
+checkNumberChargesMissingValidation  check_content  NA  NA  Select the number of charges against you  0  Check Number of charges missing validation wording appears
+enterInvalidNumberOfCharges11  standard_keys  id_number_of_charges  id  11  0  Enter '11' in the 'Number of charges against you' input field
+checkNumberChargesInvalidWording  check_content  NA  NA  Ensure this value is less than or equal to 10.  0  Check Number of charges invalid wording appears
+checkPersonPleadingValidation  check_content  NA  NA  You must tell us if you are the person named in the requisition pack or pleading on behalf of a company  0  Check Person Pleading validation wording appears
+checkFirstNameMissingValidation  check_content  NA  NA  Enter your first name  0  Check First name missing validation wording appears
+checkLastNameMissingValidation  check_content  NA  NA  Enter your last name  0  Check Last name missing validation wording appears
+checkContactNumberMissingValidation  check_content  NA  NA  You must provide a contact number  0  Check Contact number missing validation wording appears
+checkEmailMissingValidation  check_content  NA  NA  You must provide an email address  0  Check Email address missing validation wording appears
+enterYourDetailsInvalidEmail  standard_keys  id_email  id  test.com  0  Enter 'test.com' in the 'Your details' page 'Email' input field
+checkEmailInvalidWording  check_content  NA  NA  Email address isn't a valid format  0  Check Email address invalid format wording appears
+checkDefendantAddressMissingValidation  check_content  NA  NA  Tell us if your address on the requisition pack is correct   0  Check Correct Address radio option not selected validation wording appears
+checkDefendantAddressIfDiff  check_content  NA  NA  Tell us your address  0  Check Different address missing validation wording appears
+checkDobMissingValidation  check_content  NA  NA  Enter your date of birth  0  Check Date of birth missing validation wording appears
+enterInvalidDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter '31' in the DOB data day input field
+enterInvalidDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  11  0  Enter '11' in the DOB data month input field
+enterInvalidDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '1964' in the DOB data year input field
+checkDobInvalidWording  check_content  NA  NA  The date of birth isn't a valid format  0  Check Date of birth invalid wording appears
+checkCompanyNameMissingValidation  check_content  NA  NA  Enter the company name  0  Check company name missing validation wording appears
+checkCompanyAddressMissingValidation  check_content  NA  NA  Tell us if the company's address on the requisition pack is correct   0  Check Correct Address radio option not selected validation wording appears
+checkCompanyAddressIfDiff  check_content  NA  NA  Tell us the company's address  0  Check Different address missing validation wording appears
+checkConfirmPositionMissingValidation  check_content  NA  NA  Confirm your position in the company  0  Check confirm position in company option not selected validation wording appears
+checkYourPlea1MissingValidation  check_content  NA  NA  Your plea must be selected  0  Check Your Plea radio option not selected validation wording appears
+checkNotGuilty1BecauseMissingValidation  check_content  NA  NA  Tell us why you believe you are not guilty  0  Check Not Guilty additional info required validation wording appears
+checkYourEmploymentMissingValidation  check_content  NA  NA  You must let us know if you're employed, receiving benefits or other  0  Check employment radio options not selected validation wording appears
+checkPaidFrequencyMissingValidation  check_content  NA  NA  Tell us how often you get paid  0  Check frequency paid radio options not selected validation wording appears
+checkBenefitsOtherDetailsMissing  check_content  NA  NA  This field is required.  0  Check Benefits paid ‘Other’ details missing validation wording appears
+checkPaidAmountMissingValidation  check_content  NA  NA  Enter your take home pay  0  Check take home pay missing validation wording appears
+enterInvalidTakeHomePay  standard_keys  id_employed_take_home_pay_amount  id  A  0  Enter ‘A’ in the ‘Take home pay’ amount field
+checkPaidAmountInvalidWording  check_content  NA  NA  Enter a number.  0  Check take home pay invalid wording appears
+checkBenefitsReceivedMissingValidation  check_content  NA  NA  Tell us which benefits you receive  0  Check benefits received missing wording appears
+checkDependantsPayMissingValidation  check_content  NA  NA  Tell us if this includes payment for dependants  0  Check payment for dependants missing wording appears
+checkOtherIncomeMissingValidation  check_content  NA  NA  Tell us how you earn your money  0  Check other income source details missing wording appears
+checkFinancialHardshipMissingValidation  check_content  NA  NA  Tell us if paying a fine would cause you serious financial problems  0  Check financial hardship radio not selected validation wording
+checkHardshipDetailsMissingValidation  check_content  NA  NA  You must tell us why paying a fine will cause you serious financial problems  0  Check financial hardship reason missing wording appears
+checkOtherContributorsMissingValidation   check_content  NA  NA  You must tell us if anyone else contributes to your household bills  0  Check additional contributors radio option not selected validation wording appears
+check12MonthsRadioMissingValidation  check_content  NA  NA  Enter the number of employees  0  Check number of mployees missing wording appears
+checkNumberOfEmployeesMissingValidation  check_content  NA  NA  Enter the number of employees  0  Check number of employees missing validation wording appears
+checkGrossTurnoverMissingValidation  check_content  NA  NA  Enter the company's gross turnover  0  Check Gross turnover missing wording appears
+checkNetTurnoverMissingValidation  check_content  NA  NA  Enter the company's net turnover  0  Check Net turnover missing wording appears
+checkConfirmPleaMissingValidation  check_content  NA  NA  You must confirm that you have read and understood the charge against you before you can submit your plea  0  Check unticked checkbox validation wording appears
