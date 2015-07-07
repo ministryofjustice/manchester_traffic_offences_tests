@@ -48,7 +48,7 @@ class Jam:
                         line_output.append(action_description + "\n")
                         line_output.append(Nexus.execute_test(engage_driver, case_hub, explicit_wait, action_identifier, action_type, action_on, action_by, action_text, action_screenshot, action_pause))
                 output.append(" ".join(line_output) + "\n")
-            print "\n".join(output)
+            print("\n".join(output))
         Nexus.release_driver(engage_driver)
 
 start_time = time.time()
