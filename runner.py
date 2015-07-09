@@ -34,7 +34,6 @@ class Jam:
     def run_test(case_identifier, case_description, explicit_wait, case_actions, case_browser, case_hub, case_target, action_screenshot, action_file):
         engage_driver = Nexus.engage_driver(case_browser, case_hub, case_target)
         print("Starting: " + case_identifier + "\n")
-        import ipdb; ipdb.set_trace()
         journey_actions = case_actions.split(",")
         output = []
         with open(action_file, 'rt') as actions:
