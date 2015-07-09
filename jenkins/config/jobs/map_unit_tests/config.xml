@@ -3,21 +3,10 @@
   <actions/>
   <description></description>
   <keepDependencies>false</keepDependencies>
-  <properties>
-    <jenkins.plugins.hipchat.HipChatNotifier_-HipChatJobProperty plugin="hipchat@0.1.8">
-      <room></room>
-      <startNotification>false</startNotification>
-      <notifySuccess>false</notifySuccess>
-      <notifyAborted>false</notifyAborted>
-      <notifyNotBuilt>false</notifyNotBuilt>
-      <notifyUnstable>false</notifyUnstable>
-      <notifyFailure>false</notifyFailure>
-      <notifyBackToNormal>false</notifyBackToNormal>
-    </jenkins.plugins.hipchat.HipChatNotifier_-HipChatJobProperty>
-  </properties>
-  <scm class="org.jenkinsci.plugins.multiplescms.MultiSCM" plugin="multiple-scms@0.3">
+  <properties/>
+  <scm class="org.jenkinsci.plugins.multiplescms.MultiSCM" plugin="multiple-scms@0.4">
     <scms>
-      <hudson.plugins.git.GitSCM plugin="git@2.3.4">
+      <hudson.plugins.git.GitSCM plugin="git@2.3.5">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>
@@ -38,7 +27,7 @@
           </hudson.plugins.git.extensions.impl.RelativeTargetDirectory>
         </extensions>
       </hudson.plugins.git.GitSCM>
-      <hudson.plugins.git.GitSCM plugin="git@2.3.4">
+      <hudson.plugins.git.GitSCM plugin="git@2.3.5">
         <configVersion>2</configVersion>
         <userRemoteConfigs>
           <hudson.plugins.git.UserRemoteConfig>
@@ -90,7 +79,7 @@ coverage xml -o reports/coverage.xml --omit=*/migrations/*</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>
-    <hudson.plugins.cobertura.CoberturaPublisher plugin="cobertura@1.9.6">
+    <hudson.plugins.cobertura.CoberturaPublisher plugin="cobertura@1.9.7">
       <coberturaReportFile>manchester_traffic_offences_pleas/reports/coverage.xml</coberturaReportFile>
       <onlyStable>false</onlyStable>
       <failUnhealthy>false</failUnhealthy>

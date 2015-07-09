@@ -33,10 +33,11 @@ class Jam:
 
     def run_test(case_identifier, case_description, explicit_wait, case_actions, case_browser, case_hub, case_target, action_screenshot, action_file):
         engage_driver = Nexus.engage_driver(case_browser, case_hub, case_target)
-        print("Starting: " + case_identifier)
+        print("Starting: " + case_identifier + "\n")
+        import ipdb; ipdb.set_trace()
         journey_actions = case_actions.split(",")
+        output = []
         with open(action_file, 'rt') as actions:
-            output = []
             for count, journey_action in enumerate(journey_actions, start=1):
                 line_output = []
                 line_output.append("{0}.".format(count))
@@ -47,8 +48,8 @@ class Jam:
                     if journey_action == action_identifier:
                         line_output.append(action_description + "\n")
                         line_output.append(Nexus.execute_test(engage_driver, case_hub, explicit_wait, action_identifier, action_type, action_on, action_by, action_text, action_screenshot, action_pause))
-                output.append(" ".join(line_output) + "\n")
-            print("\n".join(output))
+                        output.append(" ".join(line_output))
+        print("\n".join(output))
         Nexus.release_driver(engage_driver)
 
 start_time = time.time()

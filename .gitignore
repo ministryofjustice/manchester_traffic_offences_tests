@@ -52,3 +52,24 @@ docs/_build/
 
 # PyBuilder
 target/
+
+# IDE
+.idea/
+.vagrant/
+
+# Jenkins stuff
+jenkins/config/secret*
+jenkins/config/plugins/
+jenkins/config/updates/
+jenkins/config/userContent/
+jenkins/config/jobs/*/builds/
+jenkins/config/jobs/*/workspace/
+jenkins/config/jobs/*/nextBuildNumber
+jenkins/config/jobs/*/lastSuccessful
+jenkins/config/jobs/*/lastStable
+jenkins/config/queue.*
+jenkins/config/hudson.*
+jenkins/config/nodeMonitors.xml
+jenkins/config/identity.key.enc
+jenkins/config/.*
+batch-install-jenkins-plugins.sh
