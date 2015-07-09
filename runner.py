@@ -46,8 +46,9 @@ class Jam:
                     action_identifier, action_type, action_on, action_by, action_text, action_pause, action_description = action_fields
                     if journey_action == action_identifier:
                         line_output.append(action_description + "\n")
-                        line_output.append(Nexus.execute_test(engage_driver, case_hub, explicit_wait, action_identifier, action_type, action_on, action_by, action_text, action_screenshot, action_pause))
-                        output.append(" ".join(line_output))
+                        result = Nexus.execute_test(engage_driver, case_hub, explicit_wait, action_identifier, action_type, action_on, action_by, action_text, action_screenshot, action_pause)
+                        line_output.append(result)
+                output.append(" ".join(line_output))
         print("\n".join(output))
         Nexus.release_driver(engage_driver)
 
