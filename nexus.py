@@ -1,6 +1,5 @@
 import time
 import re
-import string
 import random
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
@@ -9,87 +8,102 @@ from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
-red_light = "               --> Checkpoint: RED"
-green_light = "               --> Checkpoint: GREEN"
 
-class Nexus:
+red_light = "    --> Checkpoint: \033[31mRED\033[0m"
+green_light = "    --> Checkpoint: \033[32mGREEN\033[0m"
 
-    def engage_driver(case_browser, case_hub, case_target):
+
+class Nexus(object):
+    def __init__(self, case_browser, case_hub, case_target):
+        self.driver = None
+        self.case_browser = None
+        self.case_hub = case_hub
+        self.case_target = None
         hub_fields = case_hub.split("=")
-        target_hub, identify_hub = hub_fields
-        print("\n\n" + "   Selenium: Driver Acquired\n" + "   Browser: " + identify_hub + "\n" + "   Grid: " + target_hub)
-        capability_dictionary = {
-            "FIREFOX":webdriver.DesiredCapabilities.FIREFOX.copy(),
-            "INTERNETEXPLORER":webdriver.DesiredCapabilities.INTERNETEXPLORER.copy(),
-            "CHROME":webdriver.DesiredCapabilities.CHROME.copy(),
-            "SAFARI":webdriver.DesiredCapabilities.SAFARI.copy(),
-            "MOBILE":webdriver.DesiredCapabilities.FIREFOX.copy()
-        }
-        browser = capability_dictionary[case_browser]
-        driver = webdriver.Remote(target_hub, browser)
-        driver.implicitly_wait(10)
-        return driver
+        self.target_hub, self.identify_hub = hub_fields
+        self.wait = 0
 
-    def execute_test(engage_driver, case_hub, explicit_wait, action_identifier, action_type, action_on, action_by, action_text, action_screenshot, action_pause):
-        output = ""
-        pause = float(action_pause)
-        output += "Type: {0}, Identity: {1}".format(action_type, action_identifier)
+        capability_dictionary = {
+            "FIREFOX": webdriver.DesiredCapabilities.FIREFOX.copy(),
+            "INTERNETEXPLORER": webdriver.DesiredCapabilities.INTERNETEXPLORER.copy(),
+            "CHROME": webdriver.DesiredCapabilities.CHROME.copy(),
+            "SAFARI": webdriver.DesiredCapabilities.SAFARI.copy(),
+            "MOBILE": webdriver.DesiredCapabilities.FIREFOX.copy()
+        }
+
+        self.browser = capability_dictionary[case_browser]
+        self.driver = webdriver.Remote(self.target_hub, self.browser)
+
+        self.log("{0} driver acquired from grid: {1}".format(self.identify_hub, self.target_hub))
+
+    def __del__(self):
+        self.log("{0} driver released".format(self.identify_hub))
+        self.driver.quit()
+
+    def log(self, *messages):
+        print("\033[32m **", *messages, end="")
+        print(" **\033[0m\n")
+
+    def execute_test(self, explicit_wait, action_identifier, action_type, action_on, action_by, action_text, action_screenshot, action_pause):
+        self.wait = explicit_wait
+        output = "    --> {0}: {1}".format(action_type, action_identifier)
         if action_type == "start_url":        
-            engage_driver.get(action_text)
+            result = self.driver.get(action_text)
         elif action_type == "click_element" or action_type == "standard_keys" or action_type == "special_keys" or action_type == "key_chords":
-            Nexus.do_action(engage_driver, explicit_wait, action_type, action_on, action_by, action_text)
+            result = self.do_action(action_type, action_on, action_by, action_text)
         elif action_type == "check_condition" or action_type == "check_content" or action_type == "check_url" or action_type == "check_title":
-            Nexus.do_assert(engage_driver, explicit_wait, action_type, action_on, action_by, action_text)
+            result = self.do_assert(action_type, action_on, action_by, action_text)
         elif action_type == "switch_frame":
-            Nexus.switch_frame(action_text)
+            result = self.switch_frame(action_text)
         elif action_type == "write_database_variable" or action_type == "write_screen_variable" or action_type == "read_variable":
-            Nexus.use_variable(engage_driver, explicit_wait, action_identifier, action_type, action_on, action_by, action_text)
+            result = self.use_variable(action_identifier, action_type, action_on, action_by, action_text)
         elif action_type == "get_url":
-            engage_driver.navigate.to(action_text)
+            result = self.driver.navigate.to(action_text)
         else:
-            output += "\n\n** Action Type: " + action_type + " not defined in nexus.py file (execute_test method) **\n\n"
-        time.sleep(pause)
+            raise Exception("Action Type: " + action_type + " not defined in nexus.py file (execute_test method)")
+
+        if result is not None:
+            output += "\n" + result
+
+        time.sleep(float(action_pause))
+
         if action_screenshot == "Y":
-            as_fields = case_hub.split("=")
+            as_fields = self.case_hub.split("=")
             as_hub, as_target = as_fields
-            engage_driver.get_screenshot_as_file('' + as_target + '_' + action_identifier+ '.png')
+            output += self.driver.get_screenshot_as_file('' + as_target + '_' + action_identifier + '.png')
 
         return output
 
-    def release_driver(engage_driver):
-        print("   Selenium: Driver Released")
-        engage_driver.quit()
-
-    def do_assert(engage_driver, explicit_wait, action_type, action_on, action_by, action_text):
+    def do_assert(self, action_type, action_on, action_by, action_text):
         if action_type == "check_condition":
-            check_condition = Nexus.locate_element(engage_driver, explicit_wait, action_on, action_by)
+            check_condition = self.locate_element(action_on, action_by)
             if str(check_condition) == "FAILURE":
-                print(red_light)
+                return red_light
             else:
-                print(green_light)
+                return green_light
         elif action_type == "check_content":
-            check_content =  Nexus.locate_element(engage_driver, explicit_wait, action_on, action_by).text
+            check_content = self.locate_element(action_on, action_by).text
             if action_text not in check_content:
-                print(red_light)
+                return red_light
             else:
-                print(green_light)
+                return green_light
         elif action_type == "check_url":
-            check_url = str(engage_driver.current_url)
+            check_url = str(self.driver.current_url)
             if action_text != check_url:
-                print(red_light)
+                return red_light
             else:
-                print(green_light)
+                return green_light
         elif action_type == "check_title":
-            check_title = str(engage_driver.title)
+            check_title = str(self.driver.title)
             if action_text != check_title:
-                print(red_light)
+                return red_light
             else:
-                print(green_light)
+                return green_light
         else:
-            print("Action Type: " + action_type + " not defined in nexus.py file (do_assert method)")
+            raise Exception("Action Type: " + action_type + " not defined in nexus.py file (do_assert method)")
 
-    def do_action(engage_driver, explicit_wait, action_type, action_on, action_by, action_text):
-        execute_action = Nexus.locate_element(engage_driver, explicit_wait, action_on, action_by)
+    def do_action(self, action_type, action_on, action_by, action_text):
+        execute_action = self.locate_element(action_on, action_by)
         if action_type == "click_element":
             execute_action.click()
         elif action_type == "standard_keys":
@@ -98,18 +112,18 @@ class Nexus:
             else:
                 rdg_fields = action_text.split(",")
                 rdg_tag, rdg_length, rdg_characters = rdg_fields
-                execute_action.send_keys(Nexus.generator(rdg_length, rdg_characters))
+                execute_action.send_keys(self.generator(rdg_length, rdg_characters))
         elif action_type == "special_keys":
             special_dictionary = {
-                "BACK_SPACE":Keys.BACK_SPACE
+                "BACK_SPACE": Keys.BACK_SPACE
             }
             execute_action.send_keys(special_dictionary[action_text])
         elif action_type == "key_chords":
             chord_dictionary = {
-                "ALT":Keys.ALT,
-                "COMMAND":Keys.COMMAND,
-                "SHIFT":Keys.SHIFT,
-                "CONTROL":Keys.CONTROL
+                "ALT": Keys.ALT,
+                "COMMAND": Keys.COMMAND,
+                "SHIFT": Keys.SHIFT,
+                "CONTROL": Keys.CONTROL
             }
             key_sequence = ""
             key_chords = action_text.split(",")
@@ -120,66 +134,64 @@ class Nexus:
                     key_sequence += key_chord + ", "
             execute_action.send_keys(key_sequence.rstrip(", "))
         else:
-            print("Action Type: " + action_type + " not defined in nexus.py file (do_action method)")
+            raise Exception("Action Type: " + action_type + " not defined in nexus.py file (do_action method)")
 
-    def locate_element(engage_driver, explicit_wait, action_on, action_by):
+    def locate_element(self, action_on, action_by):
         action_by_dictionary = {
-            "id":By.ID, 
-            "link_text":By.LINK_TEXT,
-            "partial_link_text":By.PARTIAL_LINK_TEXT,
-            "xpath":By.XPATH,
-            "tag_name":By.TAG_NAME,
-            "class_name":By.CLASS_NAME,
-            "css_selector":By.CSS_SELECTOR,
-            "name":By.NAME
+            "id": By.ID,
+            "link_text": By.LINK_TEXT,
+            "partial_link_text": By.PARTIAL_LINK_TEXT,
+            "xpath": By.XPATH,
+            "tag_name": By.TAG_NAME,
+            "class_name": By.CLASS_NAME,
+            "css_selector": By.CSS_SELECTOR,
+            "name": By.NAME
         }
         try:
-            action = WebDriverWait(engage_driver, float(explicit_wait)).until(EC.presence_of_element_located((action_by_dictionary[action_by], action_on)))
+            action = WebDriverWait(self.driver, float(self.wait)).until(EC.presence_of_element_located((action_by_dictionary[action_by], action_on)))
             return action
         except TimeoutException:
             return "FAILURE"
 
-    def use_variable(engage_driver, explicit_wait, action_identifier, action_type, action_on, action_by, action_text):
+    def use_variable(self, action_identifier, action_type, action_on, action_by, action_text):
         if action_type == "write_database_variable":
             on_fields = action_on.split(",")
             database_user, database_password, database_host, database_name = on_fields
             try:
-                database_connection = Nexus.mysql_connection(database_user, database_password, database_host, database_name)
+                database_connection = self.mysql_connection(database_user, database_password, database_host, database_name)
                 cursor = database_connection.cursor()
-                query = (action_by)
+                query = action_by
                 cursor.execute(query)
                 for (action_text) in cursor:
                     transformed_string = str(action_text)
                     sanitised_string = transformed_string.strip("('").strip("',)")
-                    Nexus.write_file(action_identifier, sanitised_string, "DB")
+                    self.write_file(action_identifier, sanitised_string, "DB")
                 cursor.close()
                 database_connection.close()
             except:
                 print(red_light + " (Database Error)")
         elif action_type == "write_screen_variable":
-            write_screen_variable = re.search(action_text, Nexus.locate_element(engage_driver, explicit_wait, action_on, action_by).text)
+            write_screen_variable = re.search(action_text, self.locate_element(action_on, action_by).text)
             if write_screen_variable:
-                Nexus.write_file(action_identifier, write_screen_variable.group(0), "UI")
+                self.write_file(action_identifier, write_screen_variable.group(0), "UI")
             else:
-                print("               --> Checkpoint: RED (" + action_text + " Not Located")
+                return red_light + " (" + action_text + " Not Located"
         elif action_type == "read_variable":
-            read_variable = Nexus.read_file(action_text)
-            Nexus.do_action(engage_driver, explicit_wait, "standard_keys", action_on, action_by, read_variable)
+            read_variable = self.read_file(action_text)
+            self.do_action("standard_keys", action_on, action_by, read_variable)
         else:
-            print("Action Type: " + action_type + " not defined in nexus.py file (use_variable method)")
+            raise Exception("Action Type: " + action_type + " not defined in nexus.py file (use_variable method)")
 
-    def write_file(action_identifier, sanitised_string, action_variable):
+    def write_file(self, action_identifier, sanitised_string, action_variable):
         with open('' + action_identifier, 'wt') as reusable_file:
             reusable_file.write(str(sanitised_string))
-            print("               --> Reusable Variable Stored (" + action_variable + "): " + sanitised_string)
 
-    def read_file(file_name):
+    def read_file(self, file_name):
         with open('' + file_name, 'rt') as contents:
             for content in contents:
-                print("               --> Reusable Variable Retrieved: " + content)
                 return content
 
-    def mysql_connection(database_user, database_password, database_host, database_name):
+    def mysql_connection(self, database_user, database_password, database_host, database_name):
         default_connection = {
             'user': database_user,
             'password': database_password,
@@ -189,11 +201,11 @@ class Nexus:
         connection = mysql.connector.connect(**default_connection)
         return connection
 
-    def switch_frame(action_text):
+    def switch_frame(self, action_text):
         if action_text != "defaultContent":
-            engage_driver.switchTo.frame(action_text)
+            self.driver.switch_to.frame(action_text)
         else:
-            engage_driver.switchTo.defaultContent
+            self.driver.switch_to.default_content()
 
-    def generator(rdg_length, rdg_characters):
+    def generator(self, rdg_length, rdg_characters):
         return ''.join(random.choice(rdg_characters) for _ in range(int(rdg_length)))

@@ -62,6 +62,7 @@ fi
 if [ ! -d "/home/jenkins" ]; then
     sudo mkdir -pv /home/jenkins
 fi
+sudo chmod 777 /home/jenkins
 
 # Dependencies for this script
 apt-get-install realpath
