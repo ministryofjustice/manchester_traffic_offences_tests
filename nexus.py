@@ -70,7 +70,7 @@ class Nexus(object):
         if action_screenshot == "Y":
             as_fields = self.case_hub.split("=")
             as_hub, as_target = as_fields
-            output += self.driver.get_screenshot_as_file('' + as_target + '_' + action_identifier + '.png')
+            self.driver.save_screenshot('' + as_target + '_' + action_identifier + '.png')
 
         return output
 
