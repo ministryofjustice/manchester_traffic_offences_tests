@@ -1,2 +1,2 @@
 secretfile filter=git-crypt diff=git-crypt
-jenkins/.ssh filter=git-crypt diff=git-crypt
+jenkins/.ssh/** filter=git-crypt diff=git-crypt
