@@ -186,22 +186,20 @@ checkCompanyAddressIfDiff  check_condition  Tell us the company's address  link_
 checkConfirmPositionMissingValidation  check_condition  Confirm your position in the company  link_text  NA  0  Check confirm position in company option not selected validation wording appears
 checkYourPlea1MissingValidation  check_condition  Your plea must be selected  link_text  NA  0  Check Your Plea radio option not selected validation wording appears
 checkNotGuilty1BecauseMissingValidation  check_condition  Tell us why you believe you are not guilty  link_text  NA  0  Check Not Guilty additional info required validation wording appears
-
-
-checkYourEmploymentMissingValidation  check_content  NA  NA  You must let us know if you're employed, receiving benefits or other  0  Check employment radio options not selected validation wording appears
-checkPaidFrequencyMissingValidation  check_content  NA  NA  Tell us how often you get paid  0  Check frequency paid radio options not selected validation wording appears
-checkBenefitsOtherDetailsMissing  check_content  NA  NA  This field is required.  0  Check Benefits paid ‘Other’ details missing validation wording appears
-checkPaidAmountMissingValidation  check_content  NA  NA  Enter your take home pay  0  Check take home pay missing validation wording appears
+checkYourEmploymentMissingValidation  check_condition  You must let us know if you're employed, receiving benefits or other  link_text  NA  0  Check employment radio options not selected validation wording appears
+checkPaidFrequencyMissingValidation  check_condition  Tell us how often you get paid  link_text  NA  0  Check frequency paid radio options not selected validation wording appears
+checkBenefitsOtherDetailsMissing  check_condition  This field is required.  link_text  NA  0  Check Benefits paid ‘Other’ details missing validation wording appears
+checkPaidAmountMissingValidation  check_condition  Enter your take home pay  link_text  NA  0  Check take home pay missing validation wording appears
 enterInvalidTakeHomePay  standard_keys  id_employed_take_home_pay_amount  id  A  0  Enter ‘A’ in the ‘Take home pay’ amount field
-checkPaidAmountInvalidWording  check_content  NA  NA  Enter a number.  0  Check take home pay invalid wording appears
-checkBenefitsReceivedMissingValidation  check_content  NA  NA  Tell us which benefits you receive  0  Check benefits received missing wording appears
-checkDependantsPayMissingValidation  check_content  NA  NA  Tell us if this includes payment for dependants  0  Check payment for dependants missing wording appears
-checkOtherIncomeMissingValidation  check_content  NA  NA  Tell us how you earn your money  0  Check other income source details missing wording appears
-checkFinancialHardshipMissingValidation  check_content  NA  NA  Tell us if paying a fine would cause you serious financial problems  0  Check financial hardship radio not selected validation wording
-checkHardshipDetailsMissingValidation  check_content  NA  NA  You must tell us why paying a fine will cause you serious financial problems  0  Check financial hardship reason missing wording appears
-checkOtherContributorsMissingValidation   check_content  NA  NA  You must tell us if anyone else contributes to your household bills  0  Check additional contributors radio option not selected validation wording appears
-check12MonthsRadioMissingValidation  check_content  NA  NA  Enter the number of employees  0  Check number of mployees missing wording appears
-checkNumberOfEmployeesMissingValidation  check_content  NA  NA  Enter the number of employees  0  Check number of employees missing validation wording appears
-checkGrossTurnoverMissingValidation  check_content  NA  NA  Enter the company's gross turnover  0  Check Gross turnover missing wording appears
-checkNetTurnoverMissingValidation  check_content  NA  NA  Enter the company's net turnover  0  Check Net turnover missing wording appears
-checkConfirmPleaMissingValidation  check_content  NA  NA  You must confirm that you have read and understood the charge against you before you can submit your plea  0  Check unticked checkbox validation wording appears
+checkPaidAmountInvalidWording  check_condition  Enter a number.  link_text  NA  0  Check take home pay invalid wording appears
+checkBenefitsReceivedMissingValidation  check_condition  Tell us which benefits you receive  link_text  NA  0  Check benefits received missing wording appears
+checkDependantsPayMissingValidation  check_condition  Tell us if this includes payment for dependants  link_text  NA  0  Check payment for dependants missing wording appears
+checkOtherIncomeMissingValidation  check_condition  Tell us how you earn your money  link_text  NA  0  Check other income source details missing wording appears
+checkFinancialHardshipMissingValidation  check_condition  Tell us if paying a fine would cause you serious financial problems  link_text  NA  0  Check financial hardship radio not selected validation wording
+checkHardshipDetailsMissingValidation  check_condition  You must tell us why paying a fine will cause you serious financial problems  link_text  NA  0  Check financial hardship reason missing wording appears
+checkOtherContributorsMissingValidation   check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
+check12MonthsRadioMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of mployees missing wording appears
+checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
+checkGrossTurnoverMissingValidation  check_condition  Enter the company's gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
+checkNetTurnoverMissingValidation  check_condition  Enter the company's net turnover  link_text  NA  0  Check Net turnover missing wording appears
+checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understood the charge against you before you can submit your plea  link_text  NA  0  Check unticked checkbox validation wording appears
