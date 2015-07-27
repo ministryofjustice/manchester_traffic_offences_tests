@@ -5,6 +5,7 @@ checkHomePageTitle  check_title  NA  NA  Traffic offences: Plea online  0  Check
 startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
+clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
 enterUrn0  standard_keys  id_urn_0  id  51  0  Enter '51' in the first URN input field
 enterUrn1  standard_keys  id_urn_1  id  <RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value in the second URN input field
 enterUrn2  standard_keys  id_urn_2  id  <RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
