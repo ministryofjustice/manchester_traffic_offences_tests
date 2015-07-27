@@ -192,7 +192,7 @@ checkYourEmploymentMissingValidation  check_condition  You must let us know if y
 checkPaidFrequencyMissingValidation  check_condition  Tell us how often you get paid  link_text  NA  0  Check frequency paid radio options not selected validation wording appears
 checkBenefitsOtherDetailsMissing  check_condition  This field is required.  link_text  NA  0  Check Benefits paid ‘Other’ details missing validation wording appears
 checkPaidAmountMissingValidation  check_condition  Enter your take home pay  link_text  NA  0  Check take home pay missing validation wording appears
-enterInvalidTakeHomePay  standard_keys  id_employed_take_home_pay_amount  id  A  0  Enter ‘A’ in the ‘Take home pay’ amount field
+enterInvalidTakeHomePay  standard_keys  id_self_employed_pay_amount  id  A  0  Enter ‘A’ in the ‘Take home pay’ amount field
 checkPaidAmountInvalidWording  check_condition  Enter a number.  link_text  NA  0  Check take home pay invalid wording appears
 checkBenefitsReceivedMissingValidation  check_condition  Tell us which benefits you receive  link_text  NA  0  Check benefits received missing wording appears
 checkDependantsPayMissingValidation  check_condition  Tell us if this includes payment for dependants  link_text  NA  0  Check payment for dependants missing wording appears
