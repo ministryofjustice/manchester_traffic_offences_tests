@@ -143,7 +143,7 @@ enterNetTurnover  standard_keys  id_net_turnover  id  110000  0  Enter '110000' 
 clickCompanyDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Company Details' page 'Continue' button
 clickConfirmPleaCheckbox  click_element  id_understand  id  NA  0  Click the 'I confirm' checkbox
 clickMakeYourPleaButton  click_element  button-large  class_name  NA  0  Click the 'Make your plea' button
-checkConditionSentPagePrintOffCopyLink  check_condition  Print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
+checkConditionSentPagePrintOffCopyLink  check_condition  print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
 clickCourtHearingTimeRadioButton  click_element  /html/body/div[4]/section/div/div/form/section[2]/div/fieldset/label[1]  xpath  NA  0  Click the '9:15am' radio button
 clickYourMoneyOtherRadioButton  click_element  /html/body/div[4]/section/div/div/form/section/div/fieldset/label[4]  xpath  NA  0  Click the 'Your money' page 'Other' radio button
 clickPleaCaseContinueButton  click_element  /html/body/div[5]/section/form/div/div[7]/button  xpath  NA  0  Click the 'Plea Case' page 'Continue' button
