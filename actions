@@ -199,7 +199,7 @@ checkDependantsPayMissingValidation  check_condition  Tell us if this includes p
 checkOtherIncomeMissingValidation  check_condition  Tell us how you earn your money  link_text  NA  0  Check other income source details missing wording appears
 checkFinancialHardshipMissingValidation  check_condition  Tell us if paying a fine would cause you serious financial problems  link_text  NA  0  Check financial hardship radio not selected validation wording
 checkHardshipDetailsMissingValidation  check_condition  You must tell us why paying a fine will cause you serious financial problems  link_text  NA  0  Check financial hardship reason missing wording appears
-checkOtherContributorsMissingValidation   check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
+checkOtherContributorsMissingValidation  check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
 check12MonthsRadioMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of mployees missing wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
 checkGrossTurnoverMissingValidation  check_condition  Enter the company's gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
