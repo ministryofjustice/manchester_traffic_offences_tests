@@ -200,7 +200,7 @@ checkOtherIncomeMissingValidation  check_condition  Tell us how you earn your mo
 checkFinancialHardshipMissingValidation  check_condition  Tell us if paying a fine would cause you serious financial problems  link_text  NA  0  Check financial hardship radio not selected validation wording
 checkHardshipDetailsMissingValidation  check_condition  You must tell us why paying a fine will cause you serious financial problems  link_text  NA  0  Check financial hardship reason missing wording appears
 checkOtherContributorsMissingValidation  check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
-check12MonthsRadioMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing wording appears
+check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
 checkGrossTurnoverMissingValidation  check_condition  Enter the company's gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
 checkNetTurnoverMissingValidation  check_condition  Enter the company's net turnover  link_text  NA  0  Check Net turnover missing wording appears
