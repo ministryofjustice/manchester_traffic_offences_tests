@@ -186,6 +186,8 @@ checkCompanyNameMissingValidation  check_condition  Enter the company name  link
 checkCompanyAddressMissingValidation  check_condition  Tell us if the company's address on the requisition pack is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
 checkCompanyAddressIfDiff  check_condition  Tell us the company's address  link_text  NA  0  Check Different address missing validation wording appears
 checkConfirmPositionMissingValidation  check_condition  Confirm your position in the company  link_text  NA  0  Check confirm position in company option not selected validation wording appears
+checkCompanyContactNumberMissingValidation  check_condition  Enter a phone number so we can contact you about the company's plea  link_text  NA  0  Check Contact number missing validation wording appears
+checkCompanyEmailMissingValidation  check_condition  Enter an email address so we can contact you about the company's plea  link_text  NA  0  Check Email address missing validation wording appears
 checkYourPlea1MissingValidation  check_condition  Your plea must be selected  link_text  NA  0  Check Your Plea radio option not selected validation wording appears
 checkNotGuilty1BecauseMissingValidation  check_condition  Tell us why you believe you are not guilty  link_text  NA  0  Check Not Guilty additional info required validation wording appears
 checkYourEmploymentMissingValidation  check_condition  You must let us know if you're employed, receiving benefits or other  link_text  NA  0  Check employment radio options not selected validation wording appears
@@ -202,6 +204,6 @@ checkHardshipDetailsMissingValidation  check_condition  You must tell us why pay
 checkOtherContributorsMissingValidation  check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
 check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
-checkGrossTurnoverMissingValidation  check_condition  Enter the company's gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
-checkNetTurnoverMissingValidation  check_condition  Enter the company's net turnover  link_text  NA  0  Check Net turnover missing wording appears
+checkGrossTurnoverMissingValidation  check_condition  Enter the company's projected gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
+checkNetTurnoverMissingValidation  check_condition  Enter the company's projected net turnover  link_text  NA  0  Check Net turnover missing wording appears
 checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understood the charge against you before you can submit your plea  link_text  NA  0  Check unticked checkbox validation wording appears
