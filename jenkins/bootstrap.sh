@@ -64,8 +64,8 @@ if [ ! -d "/home/jenkins" ]; then
 fi
 sudo chmod 777 /home/jenkins
 
-# Dependencies for this script
-apt-get-install realpath
+# General dependencies
+apt-get-install realpath unzip swig
 
 # Dependencies for MaP unit tests
 apt-get-install git python-setuptools build-essential libxml2 libxslt1-dev postgresql-9.3
@@ -89,6 +89,15 @@ sudo pip install -r jenkins/requirements.txt
 
 sudo easy_install3 pip
 sudo pip3 install -r selenium/requirements.txt
+
+# Git crypt setup
+wget https://github.com/AGWA/git-crypt/archive/0.4.2.zip
+unzip 0.4.2.zip
+cd git-crypt-0.4.2/
+make
+sudo make install
+
+gpg --import /home/jenkins/.ssh/jenkins.gpg
 
 # Selenium setup
 linkfile selenium/files/var/spool/cron/crontabs/root /var/spool/cron/crontabs/root
