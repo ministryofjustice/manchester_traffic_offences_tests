@@ -5,8 +5,10 @@ SELENIUM_URL="http://selenium-release.storage.googleapis.com/2.46/selenium-serve
 
 if [ -d "/vagrant" ]
 then
-    cd /vagrant
+    $SCRIPT_HOME = "/vagrant"
     VAGRANT=1
+else
+    $SCRIPT_HOME = "~/jenkins/"
 fi
 
 # Some convenience functions
@@ -119,7 +121,7 @@ sudo update-rc.d selenium defaults
 
 sudo curl -L https://raw.githubusercontent.com/hgomez/devops-incubator/master/forge-tricks/batch-install-jenkins-plugins.sh -o batch-install-jenkins-plugins.sh
 sudo chmod +x batch-install-jenkins-plugins.sh
-./batch-install-jenkins-plugins.sh --plugins /vagrant/jenkins/iplugins --plugindir /home/jenkins/config/plugins
+./batch-install-jenkins-plugins.sh --plugins "$SCRIPT_HOME/jenkins/iplugins" --plugindir /home/jenkins/config/plugins
 
 # Restart services
 sudo service selenium restart
