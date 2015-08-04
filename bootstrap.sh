@@ -11,6 +11,8 @@ else
     $SCRIPT_HOME = "~/jenkins/"
 fi
 
+cd "$SCRIPT_HOME"
+
 # Some convenience functions
 function _link {
     sudo rm -rf $2
@@ -93,11 +95,12 @@ sudo easy_install3 pip
 sudo pip3 install -r selenium/requirements.txt
 
 # Git crypt setup
-wget https://github.com/AGWA/git-crypt/archive/0.4.2.zip
-unzip 0.4.2.zip
-cd git-crypt-0.4.2/
+wget https://github.com/AGWA/git-crypt/archive/0.4.2.zip /tmp
+unzip /tmp/0.4.2.zip
+cd /tmp/git-crypt-0.4.2/
 make
 sudo make install
+cd -
 
 gpg --import /home/jenkins/.ssh/jenkins.gpg
 

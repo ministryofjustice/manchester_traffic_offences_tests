@@ -19,6 +19,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
     config.vm.provision :shell do |sh|
         sh.privileged = false
-        sh.path = "jenkins/bootstrap.sh"
+        sh.path = "bootstrap.sh"
     end
 end
