@@ -204,6 +204,8 @@ checkHardshipDetailsMissingValidation  check_condition  You must tell us why pay
 checkOtherContributorsMissingValidation  check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
 check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
-checkGrossTurnoverMissingValidation  check_condition  Enter the company's projected gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
-checkNetTurnoverMissingValidation  check_condition  Enter the company's projected net turnover  link_text  NA  0  Check Net turnover missing wording appears
+checkGrossTurnoverMissingValidation<12  check_condition  Enter the company's projected gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
+checkNetTurnoverMissingValidation<12  check_condition  Enter the company's projected net turnover  link_text  NA  0  Check Net turnover missing wording appears
+checkGrossTurnoverMissingValidation>12  check_condition  Enter the company's gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
+checkNetTurnoverMissingValidation>12  check_condition  Enter the company's net turnover  link_text  NA  0  Check Net turnover missing wording appears
 checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understood the charge against you before you can submit your plea  link_text  NA  0  Check unticked checkbox validation wording appears
