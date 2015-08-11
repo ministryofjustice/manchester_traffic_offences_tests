@@ -202,6 +202,26 @@ checkOtherIncomeMissingValidation  check_condition  Tell us how you earn your mo
 checkFinancialHardshipMissingValidation  check_condition  Tell us if paying a fine would cause you serious financial problems  link_text  NA  0  Check financial hardship radio not selected validation wording
 checkHardshipDetailsMissingValidation  check_condition  You must tell us why paying a fine will cause you serious financial problems  link_text  NA  0  Check financial hardship reason missing wording appears
 checkOtherContributorsMissingValidation  check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
+enterInvalidAccommodationExpenses  standard_keys  id_household_accommodation  id  A  0  Enter ‘A’ in ‘Accommodation’ under ‘Household Expenses’
+enterInvalidUtilityBills  standard_keys  id_household_utility_bills  id  B  0  Enter ‘B’ in ‘Utility Bills’ under ‘Household Expenses’
+enterInvalidInsurance  standard_keys  id_household_insurance  id  C  0  Enter ‘C’ in ‘Insurance’ under ‘Household Expenses’
+enterInvalidCouncilTax  standard_keys  id_household_council_tax  id  D  0  Enter ‘D’ in ‘Council tax’ under ‘Household Expenses’
+enterInvalidTVSubscription  standard_keys  id_other_tv_subscription  id  E  0  Enter ‘E’ in ‘Television subscription’ under ‘Other Expenses’
+enterInvalidTravelExpenses  standard_keys  id_other_travel_expenses  id  F  0  Enter ‘F’ in ‘Travel expenses’ under ‘Other Expenses’
+enterInvalidTelephoneExpenses  standard_keys  id_other_telephone  id  G  0  Enter ‘G’ in ‘Telephone expenses’ under ‘Other Expenses’
+enterInvalidLoanRepayments  standard_keys  id_other_loan_repayments  id  H  0  Enter ‘H’ in ‘Loan repayments’ under ‘Other Expenses’
+enterInvalidCountyCourtOrders  standard_keys  id_other_court_payments  id  J  0  Enter ‘J’ in ‘County court orders’ under ‘Other Expenses’
+enterInvalidChildMaintenance  standard_keys  id_other_child_maintenance  id  K  0  Enter ‘K’ in ‘Child Maintenance’ under ‘Other Expenses’
+checkAccomInvalidWording  check_condition  Accommodation must be a number  link_text  NA  0  Check Accommodation invalid wording appears
+checkUtilityInvalidWording  check_condition  Utility bills must be a number  link_text  NA  0  Check Utility bills invalid wording appears
+checkInsuranceInvalidWording  check_condition  Insurance must be a number  link_text  NA  0  Check Insurance invalid wording appears
+checkTaxInvalidWording  check_condition  Insurance must be a number  link_text  NA  0  Check Council Tax invalid wording appears
+checkTVInvalidWording  check_condition  TV subscription must be a number  link_text  NA  0  Check TV Subscription invalid wording appears
+checkTravelInvalidWording  check_condition  Travel expenses must be a number  link_text  NA  0  Check Travel Expenses invalid wording appears
+checkTelephoneInvalidWording  check_condition  Telephone must be a number  link_text  NA  0  Check Telephone invalid wording appears
+checkLoanInvalidWording  check_condition  Loan repayment must be a number  link_text  NA  0  Check Loan Repayments invalid wording appears
+checkCourtInvalidWording  check_condition  Court payments must be a number  link_text  NA  0  Check Court Payments invalid wording appears
+checkChildInvalidWording  check_condition  Child maintenance must be a number  link_text  NA  0  Check Child Maintenance invalid wording appears
 check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
 checkGrossTurnoverMissingValidation<12  check_condition  Enter the company's projected gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
