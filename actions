@@ -215,7 +215,7 @@ enterInvalidChildMaintenance  standard_keys  id_other_child_maintenance  id  K  
 checkAccomInvalidWording  check_condition  Accommodation must be a number  link_text  NA  0  Check Accommodation invalid wording appears
 checkUtilityInvalidWording  check_condition  Utility bills must be a number  link_text  NA  0  Check Utility bills invalid wording appears
 checkInsuranceInvalidWording  check_condition  Insurance must be a number  link_text  NA  0  Check Insurance invalid wording appears
-checkTaxInvalidWording  check_condition  Insurance must be a number  link_text  NA  0  Check Council Tax invalid wording appears
+checkTaxInvalidWording  check_condition  Council tax must be a number  link_text  NA  0  Check Council Tax invalid wording appears
 checkTVInvalidWording  check_condition  TV subscription must be a number  link_text  NA  0  Check TV Subscription invalid wording appears
 checkTravelInvalidWording  check_condition  Travel expenses must be a number  link_text  NA  0  Check Travel Expenses invalid wording appears
 checkTelephoneInvalidWording  check_condition  Telephone must be a number  link_text  NA  0  Check Telephone invalid wording appears
