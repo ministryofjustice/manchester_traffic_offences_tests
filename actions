@@ -153,10 +153,10 @@ clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/f
 clickPleaReceiveEmail  click_element  id_receive_email_0  id  NA  0  Click the 'Would you like to receive confirmation and updates from the court by email?' Yes radio button
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,"m"  5  Send the 'Responsive Design View' shortcut keys
 checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
-enterInvalidUrn0  standard_keys  id_urn_0  id  AA  0  Enter 'AA' in the first URN input field
-enterInvalidUrn1  standard_keys  id_urn_1  id  55  0  Enter '55' in the second URN input field
-enterInvalidUrn2  standard_keys  id_urn_2  id  BB  0  Enter 'BB' in the third URN input field
-enterInvalidUrn3  standard_keys  id_urn_3  id  CC  0  Enter 'CC' in the fourth URN input field
+enterInvalidUrn0  standard_keys  id_urn  id  AA  0  Enter 'AA' in the first URN input field
+enterInvalidUrn1  standard_keys  id_urn  id  55  0  Enter '55' in the second URN input field
+enterInvalidUrn2  standard_keys  id_urn  id  BB  0  Enter 'BB' in the third URN input field
+enterInvalidUrn3  standard_keys  id_urn  id  CC  0  Enter 'CC' in the fourth URN input field
 checkURNInvalidWording  check_condition  The unique reference number (URN) isn't valid. Enter the number exactly as it appears on page 1 of the pack  link_text  NA  0  Check URN incorrect validation wording appears
 checkHearingDateMissingValidation  check_condition  Provide a court hearing date  link_text  NA  0  Check Hearing Date missing validation wording appears
 enterInvalidCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
