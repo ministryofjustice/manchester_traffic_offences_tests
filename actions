@@ -1,7 +1,16 @@
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
 checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Check the URL of the homepage
-checkHomePageTitle  check_title  NA  NA  Traffic offences: Plea online  0  Check the title of the homepage
+checkHomePageTitle  check_title  NA  NA  Make a Plea: Traffic offences  0  Check the title of the homepage
+checkWelshHomePageTitle  check_title  NA  NA  Cofnodi ple: Troseddau traffig  0  Check the Welsh title of the homepage
+checkLawSocietyLinkText  check_condition  Law Society  link_text  NA  0  Check 'Law Society' link text is found
+clickLawSocietyLink  click_element  Law Society  link_text  NA  0  Click the ‘Law Society’ link on the homepage
+checkLawSocietyUrl  check_url  NA  NA  http://www.lawsociety.org.uk/for-the-public/common-legal-issues/criminal/  0  Check the URL of the Law Society page
+checkContactCourtLinkText  check_condition  Contact your court  link_text  NA  0  Check 'Contact your court' link text is found
+clickContactCourtLink  click_element  Contact your court  link_text  NA  0  Click the ‘Contact your court’ link on the homepage
+checkContactCourtUrl  check_url  NA  NA  https://makeaplea.dsd.io/court-finder/  0  Check the URL of the court finder page
+clickCymraegLink  click_element  Cymraeg  link_text  NA  0  Click the Cymraeg link to change the language to Welsh
+clickEnglishLink  click_element  English  link_text  NA  0  Click the English link to change the language to English
 startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
