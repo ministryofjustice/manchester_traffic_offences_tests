@@ -166,12 +166,17 @@ enterYourMoneyAdditionalInformation  standard_keys  id_other_info  id  TEST  0  
 clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the Your Money' page 'Continue' button
 clickPleaReceiveEmail  click_element  id_receive_email_0  id  NA  0  Click the 'Would you like to receive confirmation and updates from the court by email?' Yes radio button
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,"m"  5  Send the 'Responsive Design View' shortcut keys
+checkPleaSubmittedText  check_condition  ticked  class_name  NA  0  Check 'Plea has been submitted” text is found
+clickCourtFinderContinueButton  click_element  button  class_name  NA  0  Click the 'Court Finder' page 'Continue' button
+checkYourCourtHeading  check_contact  Your court  tag_name  NA  0  Check that “Your Court” is displayed
 checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
+checkCourtFinderURNMissing  check_content  Enter your URN to find the contact details for your court.  tag_name  NA  0  Check URN missing validation on Court Finder page
 enterInvalidUrn0  standard_keys  id_urn  id  AA  0  Enter 'AA' in the first URN input field
 enterInvalidUrn1  standard_keys  id_urn  id  55  0  Enter '55' in the second URN input field
 enterInvalidUrn2  standard_keys  id_urn  id  BB  0  Enter 'BB' in the third URN input field
 enterInvalidUrn3  standard_keys  id_urn  id  CC  0  Enter 'CC' in the fourth URN input field
 checkURNInvalidWording  check_condition  The unique reference number (URN) isn't valid. Enter the number exactly as it appears on page 1 of the pack  link_text  NA  0  Check URN incorrect validation wording appears
+checkCourtFinderUrnInvalid  check_content  You've entered incorrect details  tag_name  NA  0  Check URN incorrect validation working appears on Court Finder page
 checkHearingDateMissingValidation  check_condition  Provide a court hearing date  link_text  NA  0  Check Hearing Date missing validation wording appears
 enterInvalidCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
 enterInvalidCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  09  0  Enter '09' in the court hearing data month input field
@@ -181,6 +186,8 @@ checkHearingDateInvalidWording  check_condition  The court hearing date isn't a 
 checkHearingDatePastWording  check_condition  The court hearing date must be after today  link_text  NA  0  Check Hearing Date must be after today wording appears
 checkNumberChargesMissingValidation  check_condition  Select the number of charges against you  link_text  NA  0  Check Number of charges missing validation wording appears
 enterInvalidNumberOfCharges11  standard_keys  id_number_of_charges  id  11  0  Enter '11' in the 'Number of charges against you' input field
+enterInvalidNumberOfChargesQ  standard_keys  id_number_of_charges  id  Q  0  Enter 'Q' in the 'Number of charges against you' input field
+checkNumberChargesInvalidWording2  check_condition  Enter a whole number.  link_text  NA  0  Check Number of charges must be a number wording appears
 checkNumberChargesInvalidWording  check_condition  Ensure this value is less than or equal to 10.  link_text  NA  0  Check Number of charges invalid wording appears
 checkPersonPleadingValidation  check_condition  You must tell us if you are the person named in the requisition pack or pleading on behalf of a company  link_text  NA  0  Check Person Pleading validation wording appears
 checkFirstNameMissingValidation  check_condition  Enter your first name  link_text  NA  0  Check First name missing validation wording appears
