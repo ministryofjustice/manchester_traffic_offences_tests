@@ -3,22 +3,27 @@ checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check 
 checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Check the URL of the homepage
 checkHomePageTitle  check_title  NA  NA  Make a Plea: Traffic offences - GOV.UK  0  Check the title of the homepage
 checkWelshHomePageTitle  check_title  NA  NA  Cofnodi ple: Troseddau traffig - GOV.UK  0  Check the Welsh title of the homepage
-checkLawSocietyLinkText  check_condition  Law Society  link_text  NA  0  Check 'Law Society' link text is found
-clickLawSocietyLink  click_element  Law Society  link_text  NA  0  Click the ‘Law Society’ link on the homepage
+checkLawSocietyLinkText  check_condition  Legal help and advice  link_text  NA  0  Check 'Legal help and advice' link text is found
+clickLawSocietyLink  click_element  Legal help and advice  link_text  NA  0  Click the ‘Legal help and advice’ link on the homepage
 checkLawSocietyUrl  check_url  NA  NA  http://www.lawsociety.org.uk/for-the-public/common-legal-issues/criminal/  0  Check the URL of the Law Society page
-checkContactCourtLinkText  check_condition  Contact your court  link_text  NA  0  Check 'Contact your court' link text is found
-clickContactCourtLink  click_element  Contact your court  link_text  NA  0  Click the ‘Contact your court’ link on the homepage
+checkContactCourtLinkText  check_condition  Questions about your pleas?  link_text  NA  0  Check 'Questions about your pleas?' link text is found
+clickContactCourtLink  click_element  Questions about your pleas?  link_text  NA  0  Click the ‘Questions about your pleas?’ link on the homepage
 checkContactCourtUrl  check_url  NA  NA  https://makeaplea.dsd.io/court-finder/  0  Check the URL of the court finder page
+checkHelpingYouPleadLinkText  check_condition  Need help using this service?  link_text  NA  0  Check 'Need help using this service?' link text is found
+clickHelpingYouPleadLink  click_element  Need help using this service?  link_text  NA  0  Click the ‘Need help using this service?’ link on the homepage
+checkHelpingYouPleadUrl  check_url  NA  NA  https://makeaplea.dsd.io/helping-you-plead-online/  0  Check the URL of the court finder page
+checkHelpingYouPleadTitle  check_title  NA  NA  Helping you plead online - Make a Plea: Traffic offences - GOV.UK  0  Check the title of the Helping You Plead Online page
+clickHelpingYouPleadBackLink  click_element  Back  link_text  NA  0  Click the ‘Back’ link on the Helping you Plead Online page
 clickCymraegLink  click_element  Cymraeg  link_text  NA  0  Click the Cymraeg link to change the language to Welsh
 clickEnglishLink  click_element  English  link_text  NA  0  Click the English link to change the language to English
 startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
 clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
-enterUrn0  standard_keys  id_urn  id  51  0  Enter '51' in the first URN input field
-enterUrn1  standard_keys  id_urn  id  /<RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value in the second URN input field
-enterUrn2  standard_keys  id_urn  id  /<RIG>,7,0123456789  0  Enter random input generator value in the third URN input field
-enterUrn3  standard_keys  id_urn  id  /<RIG>,2,0123456789  0  Enter random input generator value in the fourth URN input field
+enterUrn0  standard_keys  id_urn  id  51  0  Enter '51' first in the URN input field
+enterUrn1  standard_keys  id_urn  id  /<RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value secondly in the URN input field
+enterUrn2  standard_keys  id_urn  id  /<RIG>,7,0123456789  0  Enter random input generator value thridly in the URN input field
+enterUrn3  standard_keys  id_urn  id  /<RIG>,2,0123456789  0  Enter random input generator value fourth in the URN input field
 enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  30  0  Enter '30' in the court hearing data day input field
 enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  11  0  Enter '11' in the court hearing data month input field
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
