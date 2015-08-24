@@ -20,6 +20,7 @@ startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
 clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
+.  .  .  .  .  0  case details
 enterUrn0  standard_keys  id_urn  id  51  0  Enter '51' first in the URN input field
 enterUrn1  standard_keys  id_urn  id  /<RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value secondly in the URN input field
 enterUrn2  standard_keys  id_urn  id  /<RIG>,7,0123456789  0  Enter random input generator value thridly in the URN input field
@@ -40,64 +41,107 @@ enterNumberOfCharges10  standard_keys  id_number_of_charges  id  10  0  Enter '1
 clickDefendantPlea  click_element  id_plea_made_by_defendant  id  NA  0  Click 'the person named in the requisition pack' radio button
 clickCompanyPlea  click_element  id_plea_made_by_company-representative  id  NA  0  Click the 'Pleading on behalf of a company' radio button
 clickCaseDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Case details' page 'Continue' button
+.  .  .  .  .  0  your details generic
 enterYourDetailsFirstName  standard_keys  id_first_name  id  Christine  0  Enter 'Christine' in the 'Your details' page 'First Name' input field
 enterYourDetailsLastName  standard_keys  id_last_name  id  Houlding  0  Enter 'Houlding' in the 'Your details' page 'Last Name' input field
 correctAddressOnPostalRequisition  click_element  id_correct_address_true  id  NA  0  Click 'Is your address on the Postal Requisition correct?' Yes radio button
 incorrectAddressOnPostalRequisition  click_element  id_correct_address_false  id  NA  0  Click 'Is your address on the Postal Requisition correct?' No radio button
 enterCorrectAddressIfDiff  standard_keys  id_updated_address  id  12 High Street Manchester M1 3BN  0  Enter '12 High Street Manchester M1 3BN' in the company address text box
 enterYourDetailsContactNumber  standard_keys  id_contact_number  id  0123456789  0  Enter '0123456789' in the 'Your details' 'Contact Number' input field
-enterYourDetailsEmail  standard_keys  id_email  id  christine.houlding@digital.justice.gov.uk  0  Enter 'christine.houlding@digital.justice.gov.uk' in the 'Your details' page 'Email' input field
 clickYourDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Your details' page 'Continue' button
+.  .  .  .  .  0  your details defendant
 enterDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter '31' in the DOB data day input field
 enterDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  07  0  Enter '07' in the DOB data month input field
 enterDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '1964' in the DOB data year input field
 enterNINumber  standard_keys  id_ni_number  id  AB123456C  0  Enter 'AB123456C' in the 'Your details' 'National insurance number' input field
 enterDrivingLicenceNumber  standard_keys  id_driving_licence_number  id  ABCDE12345  0  Enter 'ABCDE12345' in the 'Your details' 'Driving licence number' input field
+.  .  .  .  .  0  your details company
 enterYourDetailsCompanyName  standard_keys  id_company_name  id  ABC Company  0  Enter 'ABC Company' in the Company name field
 clickPositionInCompanyDirector  click_element  id_position_in_company_director  id  NA  0  Click the 'director' radio button under 'Your position in the company'
 clickPositionInCompanySecretary  click_element  id_position_in_company_company-secretary  id  NA  0  Click the 'company secretary' radio button under 'Your position in the company'
 clickPositionInCompanySolicitor  click_element  id_position_in_company_company-solicitor  id  NA  0  Click the 'company solicitor' radio button under 'Your position in the company'
+.  .  .  .  .  0  your plea 1
 clickYourPlea1GuiltyRadioButton  click_element  id_form-0-guilty_guilty  id  NA  0  Click the 'Your Plea' 1 'Guilty' radio button
 clickYourPlea1NotGuiltyRadioButton  click_element  id_form-0-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 1 'Not Guilty' radio button
 enterNotGuilty1Because  standard_keys  id_form-0-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 1 'Not guilty because?' input field
 enterGuilty1Mitigation  standard_keys  id_form-0-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 1 'Mitigation' input field
+clickInterpreter1NeededTrue  click_element  id_form-0-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 1
+clickInterpreter1NeededFalse  click_element  id_form-0-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 1
+enterInterpreterLanguage1  standard_keys  id_form-0-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 1 Interpreter Language field
+.  .  .  .  .  0  your plea 2
 clickYourPlea2GuiltyRadioButton  click_element  id_form-1-guilty_guilty  id  NA  0  Click the 'Your Plea' 2 'Guilty' radio button
 clickYourPlea2NotGuiltyRadioButton  click_element  id_form-1-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 2 'Not Guilty' radio button
 enterNotGuilty2Because  standard_keys  id_form-1-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 2 'Not guilty because?' input field
 enterGuilty2Mitigation  standard_keys  id_form-1-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 2 'Mitigation' input field
+clickInterpreter2NeededTrue  click_element  id_form-1-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 2
+clickInterpreter2NeededFalse  click_element  id_form-1-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 2
+enterInterpreterLanguage2  standard_keys  id_form-1-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 2 Interpreter Language field
+.  .  .  .  .  0  your plea 3
 clickYourPlea3GuiltyRadioButton  click_element  id_form-2-guilty_guilty  id  NA  0  Click the 'Your Plea' 3 'Guilty' radio button
 clickYourPlea3NotGuiltyRadioButton  click_element  id_form-2-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 3 'Not Guilty' radio button
 enterNotGuilty3Because  standard_keys  id_form-2-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 3 'Not guilty because?' input field
 enterGuilty3Mitigation  standard_keys  id_form-2-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 3 'Mitigation' input field
+clickInterpreter3NeededTrue  click_element  id_form-2-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 3
+clickInterpreter3NeededFalse  click_element  id_form-2-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 3
+enterInterpreterLanguage3  standard_keys  id_form-2-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 3 Interpreter Language field
+.  .  .  .  .  0  your plea 4
 clickYourPlea4GuiltyRadioButton  click_element  id_form-3-guilty_guilty  id  NA  0  Click the 'Your Plea' 4 'Guilty' radio button
 clickYourPlea4NotGuiltyRadioButton  click_element  id_form-3-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 4 'Not Guilty' radio button
 enterNotGuilty4Because  standard_keys  id_form-3-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 4 'Not guilty because?' input field
 enterGuilty4Mitigation  standard_keys  id_form-3-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 4 'Mitigation' input field
+clickInterpreter4NeededTrue  click_element  id_form-3-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 4
+clickInterpreter4NeededFalse  click_element  id_form-3-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 4
+enterInterpreterLanguage4  standard_keys  id_form-3-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 4 Interpreter Language field
+.  .  .  .  .  0  your plea 5
 clickYourPlea5GuiltyRadioButton  click_element  id_form-4-guilty_guilty  id  NA  0  Click the 'Your Plea' 5 'Guilty' radio button
 clickYourPlea5NotGuiltyRadioButton  click_element  id_form-4-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 5 'Not Guilty' radio button
 enterNotGuilty5Because  standard_keys  id_form-4-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 5 'Not guilty because?' input field
 enterGuilty5Mitigation  standard_keys  id_form-4-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 5 'Mitigation' input field
+clickInterpreter5NeededTrue  click_element  id_form-4-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 5
+clickInterpreter5NeededFalse  click_element  id_form-4-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 5
+enterInterpreterLanguage5  standard_keys  id_form-4-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 5 Interpreter Language field
+.  .  .  .  .  0  your plea 6
 clickYourPlea6GuiltyRadioButton  click_element  id_form-5-guilty_guilty  id  NA  0  Click the 'Your Plea' 6 'Guilty' radio button
 clickYourPlea6NotGuiltyRadioButton  click_element  id_form-5-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 6 'Not Guilty' radio button
 enterNotGuilty6Because  standard_keys  id_form-5-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 6 'Not guilty because?' input field
 enterGuilty6Mitigation  standard_keys  id_form-5-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 6 'Mitigation' input field
+clickInterpreter6NeededTrue  click_element  id_form-5-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 6
+clickInterpreter6NeededFalse  click_element  id_form-5-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 6
+enterInterpreterLanguage6  standard_keys  id_form-5-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 6 Interpreter Language field
+.  .  .  .  .  0  your plea 7
 clickYourPlea7GuiltyRadioButton  click_element  id_form-6-guilty_guilty  id  NA  0  Click the 'Your Plea' 7 'Guilty' radio button
 clickYourPlea7NotGuiltyRadioButton  click_element  id_form-6-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 7 'Not Guilty' radio button
 enterNotGuilty7Because  standard_keys  id_form-6-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 7 'Not guilty because?' input field
 enterGuilty7Mitigation  standard_keys  id_form-6-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 7 'Mitigation' input field
+clickInterpreter7NeededTrue  click_element  id_form-6-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 7
+clickInterpreter1NeededFalse  click_element  id_form-6-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 7
+enterInterpreterLanguage7  standard_keys  id_form-6-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 7 Interpreter Language field
+.  .  .  .  .  0  your plea 8
 clickYourPlea8GuiltyRadioButton  click_element  id_form-7-guilty_guilty  id  NA  0  Click the 'Your Plea' 8 'Guilty' radio button
 clickYourPlea8NotGuiltyRadioButton  click_element  id_form-7-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 8 'Not Guilty' radio button
 enterNotGuilty8Because  standard_keys  id_form-7-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 8 'Not guilty because?' input field
 enterGuilty8Mitigation  standard_keys  id_form-7-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 8 'Mitigation' input field
+clickInterpreter8NeededTrue  click_element  id_form-7-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 8
+clickInterpreter8NeededFalse  click_element  id_form-7-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 8
+enterInterpreterLanguage8 standard_keys  id_form-7-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 8 Interpreter Language field
+.  .  .  .  .  0  your plea 9
 clickYourPlea9GuiltyRadioButton  click_element  id_form-8-guilty_guilty  id  NA  0  Click the 'Your Plea' 9 'Guilty' radio button
 clickYourPlea9NotGuiltyRadioButton  click_element  id_form-8-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 9 'Not Guilty' radio button
 enterNotGuilty9Because  standard_keys  id_form-8-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 9 'Not guilty because?' input field
 enterGuilty9Mitigation  standard_keys  id_form-8-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 9 'Mitigation' input field
+clickInterpreter9NeededTrue  click_element  id_form-8-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 9
+clickInterpreter9NeededFalse  click_element  id_form-8-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 9
+enterInterpreterLanguage9  standard_keys  id_form-8-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 9 Interpreter Language field
+.  .  .  .  .  0  your plea 10
 clickYourPlea10GuiltyRadioButton  click_element  id_form-9-guilty_guilty  id  NA  0  Click the 'Your Plea' 10 'Guilty' radio button
 clickYourPlea10NotGuiltyRadioButton  click_element  id_form-9-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 10 'Not Guilty' radio button
 enterNotGuilty10Because  standard_keys  id_form-9-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 10 'Not guilty because?' input field
 enterGuilty10Mitigation  standard_keys  id_form-9-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 10 'Mitigation' input field
+clickInterpreter10NeededTrue  click_element  id_form-9-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 10
+clickInterpreter10NeededFalse  click_element  id_form-9-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 10
+enterInterpreterLanguage10  standard_keys  id_form-9-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 10 Interpreter Language field
 clickYourPleaContinueButton  click_element  button  class_name  NA  0  Click the 'Your Plea' page 'Continue' button
+.  .  .  .  .  0  your finances
 clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your finances' page
 clickEmployedPaidWeekly  click_element  id_employed_take_home_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
 clickEmployedPaidFortnightly  click_element  id_employed_take_home_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
@@ -105,6 +149,7 @@ clickEmployedPaidMonthly  click_element  id_employed_take_home_pay_period_monthl
 enterEmployedTakeHomePay  standard_keys  id_employed_take_home_pay_amount  id  170  0  Enter ‘170’ in the ‘Take home pay’ amount field
 clickEmployedFinancialHardshipTrue  click_element  id_employed_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickEmployedFinancialHardshipFalse  click_element  id_employed_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+.  .  .  .  .  0  .
 clickSelfEmployedButton  click_element  id_you_are_self-employed  id  NA  0  Click the 'Self Employed' radio button on the 'Your finances' page
 clickSelfEmployedPaidWeekly  click_element  id_self_employed_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
 clickSelfEmployedPaidFortnightly  click_element  id_self_employed_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
@@ -114,6 +159,7 @@ enterSelfEmployedPaidOtherDetails  standard_keys  id_self_employed_pay_other  id
 enterSelfEmployedTakeHomePay  standard_keys  id_self_employed_pay_amount  id  250  0  Enter ‘250’ in the ‘Take home pay’ amount field
 clickSelfEmployedFinancialHardshipTrue  click_element  id_self_employed_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickSelfEmployedFinancialHardshipFalse  click_element  id_self_employed_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+.  .  .  .  .  0  .
 clickReceivingBenefitsButton  click_element  id_you_are_receiving-benefits  id  NA  0  Click the 'Receiving Benefits' radio button on the 'Your finances' page
 enterBenefitDetails  standard_keys  id_benefits_details  id  Disability Living Allowance  0  Enter 'Disability Living Allowance in the ‘Which benefits do you receive’ text field
 clickPaymentForDependantsTrue  click_element  id_benefits_dependents_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Does this include payment for dependants?’
@@ -126,13 +172,16 @@ enterBenefitsPaidOtherDetails  standard_keys  id_benefits_pay_other  id  Every 3
 enterBenefitsTakeHomePay  standard_keys  id_benefits_amount  id  160  0  Enter ‘160’ in the ‘Take home pay’ amount field
 clickBenefitsFinancialHardshipTrue  click_element  id_receiving_benefits_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickBenefitsFinancialHardshipFalse  click_element  id_receiving_benefits_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+.  .  .  .  .  0  .
 clickOtherButton  click_element  id_you_are_other  id  NA  0  Click the 'Other' radio button on the 'Your finances' page
 enterOtherEmploymentDetails  standard_keys  id_other_details  id  Retired  0  Enter ‘Retired’ in the ‘Provide details’ other employment text field
 enterOtherDisposableIncome  standard_keys  id_other_pay_amount  id  500  0  Enter ‘500’ in the ‘Disposable Income’ amount field
 clickOtherFinancialHardshipTrue  click_element  id_other_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickOtherFinancialHardshipFalse  click_element  id_other_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+.  .  .  .  .  0  .
 clickFinancesChangeLink  click_element  Change  link_text  NA  0  Click the 'Change' link on the Your Finances page
 clickYourFinancesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Finances' page 'Continue' button
+.  .  .  .  .  0  your expenses
 enterHardshipDetails  standard_keys  id_hardship_details  id  House being repossessed  0  Enter ‘House being repossessed’ in ‘How would paying a fine cause you serious financial problems?’
 enterAccommodationExpenses  standard_keys  id_household_accommodation  id  750  0  Enter ‘750’ in ‘Accommodation’ under ‘Household Expenses’
 enterUtilityBills  standard_keys  id_household_utility_bills  id  250  0  Enter ‘250’ in ‘Utility Bills’ under ‘Household Expenses’
@@ -140,13 +189,16 @@ enterInsurance  standard_keys  id_household_insurance  id  150  0  Enter ‘150�
 enterCouncilTax  standard_keys  id_household_council_tax  id  100  0  Enter ‘100’ in ‘Council tax’ under ‘Household Expenses’
 clickOtherBillPayersTrue  click_element  id_other_bill_payers_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Does anyone else contribute to these bills?’
 clickOtherBillPayersFalse  click_element  id_other_bill_payers_false  id  NA  0  Click the ‘No’ Radio button under ‘Does anyone else contribute to these bills?’
+.  .  .  .  .  0  .
 enterTVSubscription  standard_keys  id_other_tv_subscription  id  75  0  Enter ‘75’ in ‘Television subscription’ under ‘Other Expenses’
 enterTravelExpenses  standard_keys  id_other_travel_expenses  id  15  0  Enter ‘15’ in ‘Travel expenses’ under ‘Other Expenses’
 enterTelephoneExpenses  standard_keys  id_other_telephone  id  35  0  Enter ‘35’ in ‘Telephone expenses’ under ‘Other Expenses’
 enterLoanRepayments  standard_keys  id_other_loan_repayments  id  0  0  Enter ‘0’ in ‘Loan repayments’ under ‘Other Expenses’
 enterCountyCourtOrders  standard_keys  id_other_court_payments  id  20  0  Enter ‘20’ in ‘County court orders’ under ‘Other Expenses’
 enterChildMaintenance  standard_keys  id_other_child_maintenance  id  147  0  Enter ‘147’ in ‘Child Maintenance’ under ‘Other Expenses’
+.  .  .  .  .  0  .
 clickYourExpensesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Expenses' page 'Continue' button
+.  .  .  .  .  0  company details
 clickMoreThan12MonthsRadioButton  click_element  id_trading_period_true  id  NA  0  Click the 'Yes' radio button under 'Has the company been trading for more than 12 months?'
 clickLessThan12MonthsRadioButton  click_element  id_trading_period_false  id  NA  0  Click the 'No' radio button under 'Has the company been trading for more than 12 months?'
 enterNumberOfEmployees  standard_keys  id_number_of_employees  id  12  0  Enter '12' in 'Number of Employees' field
@@ -155,20 +207,19 @@ checkCompanyAccountsWording2  check_content  NA  NA  From the first 12 months' t
 enterGrossTurnover  standard_keys  id_gross_turnover  id  150000  0  Enter '150000' in 'Gross turnover' field
 enterNetTurnover  standard_keys  id_net_turnover  id  110000  0  Enter '110000' in 'Gross turnover' field
 clickCompanyDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Company Details' page 'Continue' button
+.  .  .  .  .  0  confirm your plea
 clickConfirmPleaCheckbox  click_element  id_understand  id  NA  0  Click the 'I confirm' checkbox
 clickMakeYourPleaButton  click_element  button-large  class_name  NA  0  Click the 'Make your plea' button
+clickEmailUpdatesTrue  click_element  id_receive_email_updates_true  id  NA  0  Click ‘Yes’ to receiving email updates
+clickEmailUpdatesFalse  click_element  id_receive_email_updates_false  id  NA  0  Click ‘No’ to receiving email updates
+enterYourDetailsEmail  standard_keys  id_email  id  christine.houlding@digital.justice.gov.uk  0  Enter 'christine.houlding@digital.justice.gov.uk' in the 'Your details' page 'Email' input field
+.  .  .  .  .  0  plea submitted confirmation
 checkConditionSentPagePrintOffCopyLink  check_condition  print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
-clickCourtHearingTimeRadioButton  click_element  /html/body/div[4]/section/div/div/form/section[2]/div/fieldset/label[1]  xpath  NA  0  Click the '9:15am' radio button
-clickYourMoneyOtherRadioButton  click_element  /html/body/div[4]/section/div/div/form/section/div/fieldset/label[4]  xpath  NA  0  Click the 'Your money' page 'Other' radio button
-clickPleaCaseContinueButton  click_element  /html/body/div[5]/section/form/div/div[7]/button  xpath  NA  0  Click the 'Plea Case' page 'Continue' button
-clickYourPleaContinueButton  click_element  /html/body/div[5]/section/form/div/button  xpath  NA  0  Click the 'Your Plea' page 'Continue' button
-enterYourMoneyAdditionalInformation  standard_keys  id_other_info  id  TEST  0  Enter 'TEST' into the 'Your money' page 'Please provide addtional information' text field
-clickYourMoneyContinueButton  click_element  /html/body/div[4]/section/div/div/form/div[2]/button  xpath  NA  0  Click the Your Money' page 'Continue' button
-clickPleaReceiveEmail  click_element  id_receive_email_0  id  NA  0  Click the 'Would you like to receive confirmation and updates from the court by email?' Yes radio button
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,"m"  5  Send the 'Responsive Design View' shortcut keys
 checkPleaSubmittedText  check_condition  ticked  class_name  NA  0  Check 'Plea has been submitted” text is found
 clickCourtFinderContinueButton  click_element  button  class_name  NA  0  Click the 'Court Finder' page 'Continue' button
 checkYourCourtHeading  check_contact  Your court  tag_name  NA  0  Check that “Your Court” is displayed
+.  .  .  .  .  0  Negative case details
 checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
 checkCourtFinderURNMissing  check_content  Enter your URN to find the contact details for your court.  tag_name  NA  0  Check URN missing validation on Court Finder page
 enterInvalidUrn0  standard_keys  id_urn  id  AA  0  Enter 'AA' in the first URN input field
@@ -190,12 +241,14 @@ enterInvalidNumberOfChargesQ  standard_keys  id_number_of_charges  id  Q  0  Ent
 checkNumberChargesInvalidWording2  check_condition  Enter a whole number.  link_text  NA  0  Check Number of charges must be a number wording appears
 checkNumberChargesInvalidWording  check_condition  Ensure this value is less than or equal to 10.  link_text  NA  0  Check Number of charges invalid wording appears
 checkPersonPleadingValidation  check_condition  You must tell us if you are the person named in the requisition pack or pleading on behalf of a company  link_text  NA  0  Check Person Pleading validation wording appears
+.  .  .  .  .  0  Negative your details generic
 checkFirstNameMissingValidation  check_condition  Enter your first name  link_text  NA  0  Check First name missing validation wording appears
 checkLastNameMissingValidation  check_condition  Enter your last name  link_text  NA  0  Check Last name missing validation wording appears
 checkContactNumberMissingValidation  check_condition  You must provide a contact number  link_text  NA  0  Check Contact number missing validation wording appears
 checkEmailMissingValidation  check_condition  You must provide an email address  link_text  NA  0  Check Email address missing validation wording appears
 enterYourDetailsInvalidEmail  standard_keys  id_email  id  test.com  0  Enter 'test.com' in the 'Your details' page 'Email' input field
 checkEmailInvalidWording  check_condition  Email address isn't a valid format  link_text  NA  0  Check Email address invalid format wording appears
+.  .  .  .  .  0  Negative your details defendant
 checkDefendantAddressMissingValidation  check_condition  Tell us if your address on the requisition pack is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
 checkDefendantAddressIfDiff  check_condition  Tell us your address  link_text  NA  0  Check Different address missing validation wording appears
 checkDobMissingValidation  check_condition  Enter your date of birth  link_text  NA  0  Check Date of birth missing validation wording appears
@@ -203,14 +256,18 @@ enterInvalidDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter 
 enterInvalidDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  11  0  Enter '11' in the DOB data month input field
 enterInvalidDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '1964' in the DOB data year input field
 checkDobInvalidWording  check_condition  The date of birth isn't a valid format  link_text  NA  0  Check Date of birth invalid wording appears
+.  .  .  .  .  0  Negative your details company
 checkCompanyNameMissingValidation  check_condition  Enter the company name  link_text  NA  0  Check company name missing validation wording appears
-checkCompanyAddressMissingValidation  check_condition  Tell us if the company's address on the requisition pack is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
-checkCompanyAddressIfDiff  check_condition  Tell us the company's address  link_text  NA  0  Check Different address missing validation wording appears
-checkConfirmPositionMissingValidation  check_condition  Confirm your position in the company  link_text  NA  0  Check confirm position in company option not selected validation wording appears
-checkCompanyContactNumberMissingValidation  check_condition  Enter a phone number so we can contact you about the company's plea  link_text  NA  0  Check Contact number missing validation wording appears
-checkCompanyEmailMissingValidation  check_condition  Enter an email address so we can contact you about the company's plea  link_text  NA  0  Check Email address missing validation wording appears
-checkYourPlea1MissingValidation  check_condition  Your plea must be selected  link_text  NA  0  Check Your Plea radio option not selected validation wording appears
+checkCompanyAddressMissingValidation  check_condition  Tell us if the company's address, as it’s written on the notice, is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
+checkCompanyAddressIfDiff  check_condition  Enter the correct company address  link_text  NA  0  Check Different address missing validation wording appears
+checkConfirmPositionMissingValidation  check_condition  You must tell us your position in the company  link_text  NA  0  Check confirm position in company option not selected validation wording appears
+checkCompanyContactNumberMissingValidation  check_condition  Enter a contact number  link_text  NA  0  Check Contact number missing validation wording appears
+.  .  .  .  .  0  Negative your plea 1
+checkYourPlea1MissingValidation  check_condition  You must select a plea for charge 1  link_text  NA  0  Check Your Plea radio option not selected validation wording appears
 checkNotGuilty1BecauseMissingValidation  check_condition  Tell us why you believe you are not guilty  link_text  NA  0  Check Not Guilty additional info required validation wording appears
+checkInterpreterNeededMissingValidation  check_condition  You must tell us if you need an interpreter in court  link_text  NA  0  Check is interpreter needed missing validation appears
+checkInterpreterLanguageMissingValidation  check_condition  You must tell us which language  link_text  NA  0  Check ‘tell us which language’ interpreter wording appears
+.  .  .  .  .  0  Negative your finances
 checkYourEmploymentMissingValidation  check_condition  You must let us know if you're employed, receiving benefits or other  link_text  NA  0  Check employment radio options not selected validation wording appears
 checkPaidFrequencyMissingValidation  check_condition  Tell us how often you get paid  link_text  NA  0  Check frequency paid radio options not selected validation wording appears
 checkBenefitsOtherDetailsMissing  check_condition  This field is required.  link_text  NA  0  Check Benefits paid ‘Other’ details missing validation wording appears
@@ -221,18 +278,21 @@ checkBenefitsReceivedMissingValidation  check_condition  Tell us which benefits 
 checkDependantsPayMissingValidation  check_condition  Tell us if this includes payment for dependants  link_text  NA  0  Check payment for dependants missing wording appears
 checkOtherIncomeMissingValidation  check_condition  Tell us how you earn your money  link_text  NA  0  Check other income source details missing wording appears
 checkFinancialHardshipMissingValidation  check_condition  Tell us if paying a fine would cause you serious financial problems  link_text  NA  0  Check financial hardship radio not selected validation wording
+.  .  .  .  .  0  your expenses
 checkHardshipDetailsMissingValidation  check_condition  You must tell us why paying a fine will cause you serious financial problems  link_text  NA  0  Check financial hardship reason missing wording appears
 checkOtherContributorsMissingValidation  check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
 enterInvalidAccommodationExpenses  standard_keys  id_household_accommodation  id  A  0  Enter ‘A’ in ‘Accommodation’ under ‘Household Expenses’
 enterInvalidUtilityBills  standard_keys  id_household_utility_bills  id  B  0  Enter ‘B’ in ‘Utility Bills’ under ‘Household Expenses’
 enterInvalidInsurance  standard_keys  id_household_insurance  id  C  0  Enter ‘C’ in ‘Insurance’ under ‘Household Expenses’
 enterInvalidCouncilTax  standard_keys  id_household_council_tax  id  D  0  Enter ‘D’ in ‘Council tax’ under ‘Household Expenses’
+.  .  .  .  .  0  .
 enterInvalidTVSubscription  standard_keys  id_other_tv_subscription  id  E  0  Enter ‘E’ in ‘Television subscription’ under ‘Other Expenses’
 enterInvalidTravelExpenses  standard_keys  id_other_travel_expenses  id  F  0  Enter ‘F’ in ‘Travel expenses’ under ‘Other Expenses’
 enterInvalidTelephoneExpenses  standard_keys  id_other_telephone  id  G  0  Enter ‘G’ in ‘Telephone expenses’ under ‘Other Expenses’
 enterInvalidLoanRepayments  standard_keys  id_other_loan_repayments  id  H  0  Enter ‘H’ in ‘Loan repayments’ under ‘Other Expenses’
 enterInvalidCountyCourtOrders  standard_keys  id_other_court_payments  id  J  0  Enter ‘J’ in ‘County court orders’ under ‘Other Expenses’
 enterInvalidChildMaintenance  standard_keys  id_other_child_maintenance  id  K  0  Enter ‘K’ in ‘Child Maintenance’ under ‘Other Expenses’
+.  .  .  .  .  0  .
 checkAccomInvalidWording  check_condition  Accommodation must be a number  link_text  NA  0  Check Accommodation invalid wording appears
 checkUtilityInvalidWording  check_condition  Utility bills must be a number  link_text  NA  0  Check Utility bills invalid wording appears
 checkInsuranceInvalidWording  check_condition  Insurance must be a number  link_text  NA  0  Check Insurance invalid wording appears
@@ -243,10 +303,14 @@ checkTelephoneInvalidWording  check_condition  Telephone must be a number  link_
 checkLoanInvalidWording  check_condition  Loan repayment must be a number  link_text  NA  0  Check Loan Repayments invalid wording appears
 checkCourtInvalidWording  check_condition  Court payments must be a number  link_text  NA  0  Check Court Payments invalid wording appears
 checkChildInvalidWording  check_condition  Child maintenance must be a number  link_text  NA  0  Check Child Maintenance invalid wording appears
+.  .  .  .  .  0  Negative company details
 check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
 checkGrossTurnoverMissingValidation<12  check_condition  Enter the company's projected gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
 checkNetTurnoverMissingValidation<12  check_condition  Enter the company's projected net turnover  link_text  NA  0  Check Net turnover missing wording appears
 checkGrossTurnoverMissingValidation>12  check_condition  Enter the company's gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
 checkNetTurnoverMissingValidation>12  check_condition  Enter the company's net turnover  link_text  NA  0  Check Net turnover missing wording appears
+.  .  .  .  .  0  Negative confirm your plea
 checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understood the charge against you before you can submit your plea  link_text  NA  0  Check unticked checkbox validation wording appears
+checkEmailUpdatesMissingValidation  check_condition  Tell us if you want to receive email updates about this case  link_text  NA  0  Check ‘tell us if you want to receive email updates’ validation wording appears
+checkEmailMissingValidation  check_condition  You must provide an email address  link_text  NA  0  Check Email address missing validation wording appears
