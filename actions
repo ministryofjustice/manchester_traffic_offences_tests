@@ -123,7 +123,7 @@ enterNotGuilty8Because  standard_keys  id_form-7-not_guilty_extra  id  I am not 
 enterGuilty8Mitigation  standard_keys  id_form-7-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 8 'Mitigation' input field
 clickInterpreter8NeededTrue  click_element  id_form-7-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 8
 clickInterpreter8NeededFalse  click_element  id_form-7-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 8
-enterInterpreterLanguage8 standard_keys  id_form-7-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 8 Interpreter Language field
+enterInterpreterLanguage8  standard_keys  id_form-7-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 8 Interpreter Language field
 .  .  .  .  .  0  your plea 9
 clickYourPlea9GuiltyRadioButton  click_element  id_form-8-guilty_guilty  id  NA  0  Click the 'Your Plea' 9 'Guilty' radio button
 clickYourPlea9NotGuiltyRadioButton  click_element  id_form-8-guilty_not_guilty  id  NA  0  Click the 'Your Plea' 9 'Not Guilty' radio button
