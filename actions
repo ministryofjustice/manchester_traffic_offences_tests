@@ -314,3 +314,6 @@ checkNetTurnoverMissingValidation>12  check_condition  Enter the company's net t
 checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understood the charge against you before you can submit your plea  link_text  NA  0  Check unticked checkbox validation wording appears
 checkEmailUpdatesMissingValidation  check_condition  Tell us if you want to receive email updates about this case  link_text  NA  0  Check ‘tell us if you want to receive email updates’ validation wording appears
 checkEmailMissingValidation  check_condition  You must provide an email address  link_text  NA  0  Check Email address missing validation wording appears
+clickFinishLink  click_element  button  class_name  NA  0  Click the ‘Finish’ button on the completion page
+.  .  .  .  .  0  feedback screen
+checkFeedbackPageTitle  check_title  NA  NA  Send feedback - Make a Plea: Traffic offences - GOV.UK  0  Check the title of the feedback page
