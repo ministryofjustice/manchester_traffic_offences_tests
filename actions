@@ -114,7 +114,7 @@ clickYourPlea7NotGuiltyRadioButton  click_element  id_form-6-guilty_not_guilty  
 enterNotGuilty7Because  standard_keys  id_form-6-not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 7 'Not guilty because?' input field
 enterGuilty7Mitigation  standard_keys  id_form-6-guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 7 'Mitigation' input field
 clickInterpreter7NeededTrue  click_element  id_form-6-interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 7
-clickInterpreter1NeededFalse  click_element  id_form-6-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 7
+clickInterpreter7NeededFalse  click_element  id_form-6-interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 7
 enterInterpreterLanguage7  standard_keys  id_form-6-interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea 7 Interpreter Language field
 .  .  .  .  .  0  your plea 8
 clickYourPlea8GuiltyRadioButton  click_element  id_form-7-guilty_guilty  id  NA  0  Click the 'Your Plea' 8 'Guilty' radio button
