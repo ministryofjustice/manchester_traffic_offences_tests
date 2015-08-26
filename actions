@@ -9,6 +9,8 @@ checkLawSocietyUrl  check_url  NA  NA  http://www.lawsociety.org.uk/for-the-publ
 checkContactCourtLinkText  check_condition  Questions about your pleas?  link_text  NA  0  Check 'Questions about your pleas?' link text is found
 clickContactCourtLink  click_element  Questions about your pleas?  link_text  NA  0  Click the ‘Questions about your pleas?’ link on the homepage
 checkContactCourtUrl  check_url  NA  NA  https://makeaplea.dsd.io/court-finder/  0  Check the URL of the court finder page
+clickCourtFinderFindButton  click_element  button  class_name  NA  0  Click the 'Find my Court' button on the Court Finder page
+checkYourCourtTitle  check_title  NA  NA  Your court - Make a Plea: Traffic offences - GOV.UK  0  Check the title of the ‘Your Court’ page
 checkHelpingYouPleadLinkText  check_condition  Need help using this service?  link_text  NA  0  Check 'Need help using this service?' link text is found
 clickHelpingYouPleadLink  click_element  Need help using this service?  link_text  NA  0  Click the ‘Need help using this service?’ link on the homepage
 checkHelpingYouPleadUrl  check_url  NA  NA  https://makeaplea.dsd.io/helping-you-plead-online/  0  Check the URL of the court finder page
@@ -217,8 +219,6 @@ enterYourDetailsEmail  standard_keys  id_email  id  christine.houlding@digital.j
 checkConditionSentPagePrintOffCopyLink  check_condition  print a copy  link_text  NA  0  Check the 'Print a copy' link text is found
 sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,"m"  5  Send the 'Responsive Design View' shortcut keys
 checkPleaSubmittedText  check_condition  ticked  class_name  NA  0  Check 'Plea has been submitted” text is found
-clickCourtFinderContinueButton  click_element  button  class_name  NA  0  Click the 'Court Finder' page 'Continue' button
-checkYourCourtHeading  check_contact  Your court  tag_name  NA  0  Check that “Your Court” is displayed
 clickFinishLink  click_element  button  class_name  NA  0  Click the ‘Finish’ button on the completion page
 .  .  .  .  .  0  feedback screen
 checkFeedbackPageTitle  check_title  NA  NA  Send feedback - Make a Plea: Traffic offences - GOV.UK  0  Check the title of the feedback page
