@@ -219,6 +219,9 @@ sendResponsiveDesignViewShortcutKeys  key_chords  html  tag_name  CONTROL,SHIFT,
 checkPleaSubmittedText  check_condition  ticked  class_name  NA  0  Check 'Plea has been submitted” text is found
 clickCourtFinderContinueButton  click_element  button  class_name  NA  0  Click the 'Court Finder' page 'Continue' button
 checkYourCourtHeading  check_contact  Your court  tag_name  NA  0  Check that “Your Court” is displayed
+clickFinishLink  click_element  button  class_name  NA  0  Click the ‘Finish’ button on the completion page
+.  .  .  .  .  0  feedback screen
+checkFeedbackPageTitle  check_title  NA  NA  Send feedback - Make a Plea: Traffic offences - GOV.UK  0  Check the title of the feedback page
 .  .  .  .  .  0  Negative case details
 checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
 checkCourtFinderURNMissing  check_content  Enter your URN to find the contact details for your court.  tag_name  NA  0  Check URN missing validation on Court Finder page
@@ -226,7 +229,7 @@ enterInvalidUrn0  standard_keys  id_urn  id  AA  0  Enter 'AA' in the first URN 
 enterInvalidUrn1  standard_keys  id_urn  id  55  0  Enter '55' in the second URN input field
 enterInvalidUrn2  standard_keys  id_urn  id  BB  0  Enter 'BB' in the third URN input field
 enterInvalidUrn3  standard_keys  id_urn  id  CC  0  Enter 'CC' in the fourth URN input field
-checkURNInvalidWording  check_condition  The unique reference number (URN) isn't valid. Enter the number exactly as it appears on page 1 of the pack  link_text  NA  0  Check URN incorrect validation wording appears
+checkURNInvalidWording  check_condition  The unique reference number (URN) isn't valid. Enter the number exactly as it appears on page 1 of the notice  link_text  NA  0  Check URN incorrect validation wording appears
 checkCourtFinderUrnInvalid  check_content  You've entered incorrect details  tag_name  NA  0  Check URN incorrect validation working appears on Court Finder page
 checkHearingDateMissingValidation  check_condition  Provide a court hearing date  link_text  NA  0  Check Hearing Date missing validation wording appears
 enterInvalidCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  31  0  Enter '31' in the court hearing data day input field
@@ -240,7 +243,7 @@ enterInvalidNumberOfCharges11  standard_keys  id_number_of_charges  id  11  0  E
 enterInvalidNumberOfChargesQ  standard_keys  id_number_of_charges  id  Q  0  Enter 'Q' in the 'Number of charges against you' input field
 checkNumberChargesInvalidWording2  check_condition  Enter a whole number.  link_text  NA  0  Check Number of charges must be a number wording appears
 checkNumberChargesInvalidWording  check_condition  Ensure this value is less than or equal to 10.  link_text  NA  0  Check Number of charges invalid wording appears
-checkPersonPleadingValidation  check_condition  You must tell us if you are the person named in the requisition pack or pleading on behalf of a company  link_text  NA  0  Check Person Pleading validation wording appears
+checkPersonPleadingValidation  check_condition  You must tell us if you are the person named in the notice or pleading on behalf of a company  link_text  NA  0  Check Person Pleading validation wording appears
 .  .  .  .  .  0  Negative your details generic
 checkFirstNameMissingValidation  check_condition  Enter your first name  link_text  NA  0  Check First name missing validation wording appears
 checkLastNameMissingValidation  check_condition  Enter your last name  link_text  NA  0  Check Last name missing validation wording appears
@@ -249,9 +252,9 @@ checkEmailMissingValidation  check_condition  You must provide an email address 
 enterYourDetailsInvalidEmail  standard_keys  id_email  id  test.com  0  Enter 'test.com' in the 'Your details' page 'Email' input field
 checkEmailInvalidWording  check_condition  Email address isn't a valid format  link_text  NA  0  Check Email address invalid format wording appears
 .  .  .  .  .  0  Negative your details defendant
-checkDefendantAddressMissingValidation  check_condition  Tell us if your address on the requisition pack is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
-checkDefendantAddressIfDiff  check_condition  Tell us your address  link_text  NA  0  Check Different address missing validation wording appears
-checkDobMissingValidation  check_condition  Enter your date of birth  link_text  NA  0  Check Date of birth missing validation wording appears
+checkDefendantAddressMissingValidation  check_condition  You must tell us if the address on the notice we sent to you is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
+checkDefendantAddressIfDiff  check_condition  Enter your correct address  link_text  NA  0  Check Different address missing validation wording appears
+checkDobMissingValidation  check_condition  Tell us your date of birth  link_text  NA  0  Check Date of birth missing validation wording appears
 enterInvalidDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter '31' in the DOB data day input field
 enterInvalidDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  11  0  Enter '11' in the DOB data month input field
 enterInvalidDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '1964' in the DOB data year input field
@@ -311,9 +314,6 @@ checkNetTurnoverMissingValidation<12  check_condition  Enter the company's proje
 checkGrossTurnoverMissingValidation>12  check_condition  Enter the company's gross turnover  link_text  NA  0  Check Gross turnover missing wording appears
 checkNetTurnoverMissingValidation>12  check_condition  Enter the company's net turnover  link_text  NA  0  Check Net turnover missing wording appears
 .  .  .  .  .  0  Negative confirm your plea
-checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understood the charge against you before you can submit your plea  link_text  NA  0  Check unticked checkbox validation wording appears
+checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understand the important information  link_text  NA  0  Check unticked checkbox validation wording appears
 checkEmailUpdatesMissingValidation  check_condition  Tell us if you want to receive email updates about this case  link_text  NA  0  Check ‘tell us if you want to receive email updates’ validation wording appears
-checkEmailMissingValidation  check_condition  You must provide an email address  link_text  NA  0  Check Email address missing validation wording appears
-clickFinishLink  click_element  button  class_name  NA  0  Click the ‘Finish’ button on the completion page
-.  .  .  .  .  0  feedback screen
-checkFeedbackPageTitle  check_title  NA  NA  Send feedback - Make a Plea: Traffic offences - GOV.UK  0  Check the title of the feedback page
+checkEmailMissingValidation  check_condition  You must provide an email address if you want to receive email updates about this case  link_text  NA  0  Check Email address missing validation wording appears
