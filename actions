@@ -223,6 +223,14 @@ checkPleaSubmittedText  check_condition  ticked  class_name  NA  0  Check 'Plea 
 clickFinishLink  click_element  button  class_name  NA  0  Click the ‘Finish’ button on the completion page
 .  .  .  .  .  0  feedback screen
 checkFeedbackPageTitle  check_title  NA  NA  Send feedback - Make a Plea: Traffic offences - GOV.UK  0  Check the title of the feedback page
+enterFeedback  standard_keys  id_feedback_question  id  Here is some feedback  0  Enter ‘Here is some feedback’ in the feedback box
+enterFeedbackEmail  standard_keys  id_feedback_email  id   christine.houlding@digital.justice.gov.uk  0  Enter 'christine.houlding@digital.justice.gov.uk' in the 'Feedback' page 'Email' input field
+selectVerySatisfied  click_element  id_feedback_satisfaction_5  id  NA  0  Click the ‘Very satisfied’ option on the Feedback page
+selectSatisfied  click_element  id_feedback_satisfaction_4  id  NA  0  Click the ‘Satisfied’ option on the Feedback page
+selectNeitherSatOrDis  click_element  id_feedback_satisfaction_3  id  NA  0  Click the ‘Neither satisfied nor dissatisfied’ option on the Feedback page
+selectDissatisfied  click_element  id_feedback_satisfaction_2  id  NA  0  Click the ‘Dissatisfied’ option on the Feedback page
+selectVeryDissatisfied  click_element  id_feedback_satisfaction_1  id  NA  0  Click the ‘Very dissatisfied’ option on the Feedback page
+clickFeedbackSubmitButton  click_element  button  class_name  NA  0  Click the 'Feedbcak’ page ‘Submit’ button
 .  .  .  .  .  0  Negative case details
 checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
 checkCourtFinderURNMissing  check_condition  Enter your URN to find the contact details for your court.  link_text  NA  0  Check URN missing validation on Court Finder page
