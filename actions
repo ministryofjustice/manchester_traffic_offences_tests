@@ -278,7 +278,7 @@ enterInvalidDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Ent
 checkDobInvalidWording  check_condition  The date of birth isn't a valid format  link_text  NA  0  Check Date of birth invalid wording appears
 .  .  .  .  .  0  Negative your details company
 checkCompanyNameMissingValidation  check_condition  Enter the company name  link_text  NA  0  Check company name missing validation wording appears
-checkCompanyAddressMissingValidation  check_condition  Tell us if the company's address, as it’s written on the notice, is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
+checkCompanyAddressMissingValidation  check_condition  Tell us if the company's address, as it's written on the notice, is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
 checkCompanyAddressIfDiff  check_condition  Enter the correct company address  link_text  NA  0  Check Different address missing validation wording appears
 checkConfirmPositionMissingValidation  check_condition  You must tell us your position in the company  link_text  NA  0  Check confirm position in company option not selected validation wording appears
 checkCompanyContactNumberMissingValidation  check_condition  Enter a contact number  link_text  NA  0  Check Contact number missing validation wording appears
