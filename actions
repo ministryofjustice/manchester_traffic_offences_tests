@@ -56,7 +56,11 @@ clickYourDetailsContinueButton  click_element  button  class_name  NA  0  Click 
 enterDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter '31' in the DOB data day input field
 enterDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  07  0  Enter '07' in the DOB data month input field
 enterDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '1964' in the DOB data year input field
+clickNINumberTrue  click_element  id_have_ni_number_true  id  NA  0  Click ‘Yes’ to ‘Do you have a NI number’
+clickNINumberFalse  click_element  id_have_ni_number_false  id  NA  0  Click ‘No’ to ‘Do you have a NI number’
 enterNINumber  standard_keys  id_ni_number  id  AB123456C  0  Enter 'AB123456C' in the 'Your details' 'National insurance number' input field
+clickDrivingLicenceTrue  click_element  id_have_driving_licence_number_true  id  NA  0  Click ‘Yes’ to ‘Do you have a UK Driving Licence’
+clickDrivingLicenceFalse  click_element  id_have_driving_licence_number_false  id  NA  0  Click ‘No’ to ‘Do you have a UK Driving Licence’
 enterDrivingLicenceNumber  standard_keys  id_driving_licence_number  id  ABCDE12345  0  Enter 'ABCDE12345' in the 'Your details' 'Driving licence number' input field
 .  .  .  .  .  0  your details company
 enterYourDetailsCompanyName  standard_keys  id_company_name  id  ABC Company  0  Enter 'ABC Company' in the Company name field
@@ -276,6 +280,10 @@ enterInvalidDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter 
 enterInvalidDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  11  0  Enter '11' in the DOB data month input field
 enterInvalidDateOfBirthYear  standard_keys  id_date_of_birth_2  id  1964  0  Enter '1964' in the DOB data year input field
 checkDobInvalidWording  check_condition  The date of birth isn't a valid format  link_text  NA  0  Check Date of birth invalid wording appears
+checkSelectNINumberMissing  check_condition  Tell us if you have a National Insurance number  link_text  NA  0  Check ‘Tell us if you have a NI number’ wording appears
+checkSelectDrivingLicenceMissing  check_condition  Tell us if you have a UK driving licence  link_text  NA  0  Check ‘Tell us if you have a UK Driving Licence’ wording appears
+checkNINumberMissingValidation  check_condition  Tell us your National Insurance number  link_text  NA  0  Check ‘Tell us your NI Number’ wording appears
+checkDLNumberMissingValidation  check_condition  Tell us your driving licence number  link_text  NA  0  Check ‘Tell us your driving licence number ’ wording appears
 .  .  .  .  .  0  Negative your details company
 checkCompanyNameMissingValidation  check_condition  Enter the company name  link_text  NA  0  Check company name missing validation wording appears
 checkCompanyAddressMissingValidation  check_condition  Tell us if the company's address, as it's written on the notice, is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
