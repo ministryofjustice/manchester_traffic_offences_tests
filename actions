@@ -82,7 +82,7 @@ clickYourPleaNotGuiltyRadioButton  click_element  id_guilty_not_guilty  id  NA  
 enterNotGuiltyBecause  standard_keys  id_not_guilty_extra  id  I am not guilty  0  Enter 'I am not guilty' into the 'Your Plea' 'Not guilty because?' input field
 enterGuiltyMitigation  standard_keys  id_guilty_extra  id  Please consider this  0  Enter 'Please consider this' into the 'Your Plea' 'Mitigation' input field
 clickInterpreterNeededTrue  click_element  id_interpreter_needed_true  id  NA  0  Click ‘Yes’ to “Do you need an interpreter in court” for Plea 
-clickInterpreter1NeededFalse  click_element  id_interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 
+clickInterpreterNeededFalse  click_element  id_interpreter_needed_false  id  NA  0  Click ‘No’ to “Do you need an interpreter in court” for Plea 
 enterInterpreterLanguage  standard_keys  id_interpreter_language  id  Spanish  0  Enter ‘Spanish’ in Plea Interpreter Language field
 .  .  .  .  .  0  SJP
 clickComeToCourtTrue  click_element  id_come_to_court_true  id  NA  0  Click 'True' to SJP question do you want to come to court to plead guilty
