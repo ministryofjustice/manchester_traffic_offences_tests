@@ -88,7 +88,7 @@ enterInterpreterLanguage  standard_keys  id_interpreter_language  id  Spanish  0
 clickComeToCourtTrue  click_element  id_come_to_court_true  id  NA  0  Click 'True' to SJP question do you want to come to court to plead guilty
 clickComeToCourtFalse  click_element  id_come_to_court_false  id  NA  0  Click 'False' to SJP question do you want to come to court to plead guilty  
 clickSjpInterpreterNeededTrue  click_element  id_sjp_interpreter_needed_true  id  NA  0  Click ‘Yes’ to SJP question “Do you need an interpreter in court”  
-clickSjpInterpreter1NeededFalse  click_element  id_sjp_interpreter_needed_false  id  NA  0  Click ‘No’ to SJP question “Do you need an interpreter in court” 
+clickSjpInterpreterNeededFalse  click_element  id_sjp_interpreter_needed_false  id  NA  0  Click ‘No’ to SJP question “Do you need an interpreter in court” 
 enterSjpInterpreterLanguage  standard_keys  id_sjp_interpreter_language  id  Spanish  0  Enter ‘Spanish’ in SJP Plea Interpreter Language field
 .  .  .  .  .  0  Evidence & Witness Info
 clickDisagreeWithEvidenceTrue  click_element  id_disagree_with_evidence_true  id  NA  0  Click True to 'do you disagree with any evidence' question 
