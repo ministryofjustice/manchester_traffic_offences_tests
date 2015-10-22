@@ -256,7 +256,7 @@ checkCompanyAddressIfDiff  check_condition  Enter the correct company address  l
 checkConfirmPositionMissingValidation  check_condition  You must tell us your position in the company  link_text  NA  0  Check confirm position in company option not selected validation wording appears
 checkCompanyContactNumberMissingValidation  check_condition  Enter a contact number  link_text  NA  0  Check Contact number missing validation wording appears
 .  .  .  .  .  0  Negative your plea
-checkYourPleaMissingValidation  check_condition  You must select a plea for charge 1  link_text  NA  0  Check Your Plea radio option not selected validation wording appears
+checkYourPleaMissingValidation  check_condition  You must select a plea for this charge  link_text  NA  0  Check Your Plea radio option not selected validation wording appears
 checkNotGuiltyBecauseMissingValidation  check_condition  Tell us why you believe you are not guilty  link_text  NA  0  Check Not Guilty additional info required validation wording appears
 checkInterpreterNeededMissingValidation  check_condition  You must tell us if you need an interpreter in court  link_text  NA  0  Check is interpreter needed missing validation appears
 checkInterpreterLanguageMissingValidation  check_condition  You must tell us which language  link_text  NA  0  Check ‘tell us which language’ interpreter wording appears
