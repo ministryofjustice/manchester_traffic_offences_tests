@@ -36,8 +36,8 @@ enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  30  0  Enter 
 enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  12  0  Enter '12' in the court hearing data month input field
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2015  0  Enter '2015' in the court hearing data year input field
 .  .  .  .  .  0  SJP  
-enterPostingDateDay  standard_keys  id_posting_date_0  id  15  0  Enter '15' in the posting date day input field
-enterPostingDateMonth  standard_keys  id_posting_date_1  id  10  0  Enter '10' in the posting date month input field
+enterPostingDateDay  standard_keys  id_posting_date_0  id  01  0  Enter '01' in the posting date day input field
+enterPostingDateMonth  standard_keys  id_posting_date_1  id  11  0  Enter '11' in the posting date month input field
 enterPostingDateYear  standard_keys  id_posting_date_2  id  2015  0  Enter '2015' in the posting date year input field
 .  .  .  .  .  0  . 
 enterNumberOfCharges1  standard_keys  id_number_of_charges  id  1  0  Enter '1' in the 'Number of charges against you' input field
@@ -103,10 +103,10 @@ enterWitnessInterpreterLanguage  standard_keys  id_witness_interpreter_language 
 clickYourPleaContinueButton  click_element  button  class_name  NA  0  Click the 'Your Plea' page 'Continue' button
 .  .  .  .  .  0  your finances
 clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your finances' page
-clickEmployedPaidWeekly  click_element  id_employed_take_home_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
-clickEmployedPaidFortnightly  click_element  id_employed_take_home_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
-clickEmployedPaidMonthly  click_element  id_employed_take_home_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often do you get paid’
-enterEmployedTakeHomePay  standard_keys  id_employed_take_home_pay_amount  id  170  0  Enter ‘170’ in the ‘Take home pay’ amount field
+clickEmployedPaidWeekly  click_element  id_employed_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
+clickEmployedPaidFortnightly  click_element  id_employed_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
+clickEmployedPaidMonthly  click_element  id_employed_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often do you get paid’
+enterEmployedTakeHomePay  standard_keys  id_employed_pay_amount  id  170  0  Enter ‘170’ in the ‘Take home pay’ amount field
 clickEmployedFinancialHardshipTrue  click_element  id_employed_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickEmployedFinancialHardshipFalse  click_element  id_employed_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 .  .  .  .  .  0  .
@@ -114,8 +114,7 @@ clickSelfEmployedButton  click_element  id_you_are_self-employed  id  NA  0  Cli
 clickSelfEmployedPaidWeekly  click_element  id_self_employed_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
 clickSelfEmployedPaidFortnightly  click_element  id_self_employed_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
 clickSelfEmployedPaidMonthly  click_element  id_self_employed_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often do you get paid’
-clickSelfEmployedPaidOther  click_element  id_self_employed_pay_period_self-employed-other  id  NA  0  Click the ‘Other’ radio button under ‘How often do you get paid’
-enterSelfEmployedPaidOtherDetails  standard_keys  id_self_employed_pay_other  id  Every six weeks  0  Enter 'Every six weeks' in the ‘Other’ how often you get paid text field
+clickSelfEmployedPaidOther  click_element  id_self_employed_pay_period_other  id  NA  0  Click the ‘Other’ radio button under ‘How often do you get paid’
 enterSelfEmployedTakeHomePay  standard_keys  id_self_employed_pay_amount  id  250  0  Enter ‘250’ in the ‘Take home pay’ amount field
 clickSelfEmployedFinancialHardshipTrue  click_element  id_self_employed_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickSelfEmployedFinancialHardshipFalse  click_element  id_self_employed_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
@@ -124,12 +123,11 @@ clickReceivingBenefitsButton  click_element  id_you_are_receiving-benefits  id  
 enterBenefitDetails  standard_keys  id_benefits_details  id  Disability Living Allowance  0  Enter 'Disability Living Allowance in the ‘Which benefits do you receive’ text field
 clickPaymentForDependantsTrue  click_element  id_benefits_dependents_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Does this include payment for dependants?’
 clickPaymentForDependantsFalse  click_element  id_benefits_dependents_false  id  NA  0  Click the ‘No’ Radio button under ‘Does this include payment for dependants?’
-clickBenefitsPaidWeekly  click_element  id_benefits_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often are your benefits paid’
-clickBenefitsPaidFortnightly  click_element  id_benefits_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often are your benefits paid’
-clickBenefitsPaidMonthly  click_element  id_benefits_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often are your benefits paid’
-clickBenefitsPaidOther  click_element  id_benefits_period_benefits-other  id  NA  0  Click the ‘Other’ radio button under ‘How often are your benefits paid’
-enterBenefitsPaidOtherDetails  standard_keys  id_benefits_pay_other  id  Every 3 weeks  0  Enter 'Every 3 weeks' in the ‘Other’ ho often are your benefits paid text field
-enterBenefitsTakeHomePay  standard_keys  id_benefits_amount  id  160  0  Enter ‘160’ in the ‘Take home pay’ amount field
+clickBenefitsPaidWeekly  click_element  id_benefits_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often are your benefits paid’
+clickBenefitsPaidFortnightly  click_element  id_benefits_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often are your benefits paid’
+clickBenefitsPaidMonthly  click_element  id_benefits_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often are your benefits paid’
+clickBenefitsPaidOther  click_element  id_benefits_pay_period_other  id  NA  0  Click the ‘Other’ radio button under ‘How often are your benefits paid’
+enterBenefitsTakeHomePay  standard_keys  id_benefits_pay_amount  id  160  0  Enter ‘160’ in the ‘Take home pay’ amount field
 clickBenefitsFinancialHardshipTrue  click_element  id_receiving_benefits_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickBenefitsFinancialHardshipFalse  click_element  id_receiving_benefits_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 .  .  .  .  .  0  .
@@ -194,6 +192,7 @@ selectServiceDissatisfied  click_element  id_service_satisfaction_2  id  NA  0  
 selectServiceVeryDissatisfied  click_element  id_service_satisfaction_1  id  NA  0  Click the ‘Very dissatisfied’ option on the Feedback page
 clickFeedbackContinueButton  click_element  button  class_name  NA  0  Click the 'Feedback’ page ‘Continue’ button
 enterFeedbackComments  standard_keys  id_comments  id  Here is some feedback  0  Enter ‘Here is some feedback’ in the feedback comments box
+enterFeedbackEmail  standard_keys  id_email  id  christine.houlding@digital.justice.gov.uk  0  Enter 'christine.houlding@digital.justice.gov.uk' in the Feedback page 'Email' input field
 clickFeedbackSubmitButton  click_element  button  class_name  NA  0  Click the 'Feedback’ page ‘Submit’ button
 checkFeedbackThanksMessage  check_condition  success-header  class_name  NA  0  Check the ‘Thanks for your feedback’ message appears
 .  .  .  .  .  0  Negative Notice Type
