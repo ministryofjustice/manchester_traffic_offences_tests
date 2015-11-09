@@ -196,7 +196,7 @@ enterFeedbackEmail  standard_keys  id_email  id  christine.houlding@digital.just
 clickFeedbackSubmitButton  click_element  button  class_name  NA  0  Click the 'Feedback’ page ‘Submit’ button
 checkFeedbackThanksMessage  check_condition  success-header  class_name  NA  0  Check the ‘Thanks for your feedback’ message appears
 .  .  .  .  .  0  Negative Notice Type
-checkNoticeTypeMissing  check_condition  Tell us if the notice has the words 'Single Justice Procedure Notice' written at the top  link_text  NA  0  Check select your notice type wording appears
+checkNoticeTypeMissing  check_condition  Tell us what is written at the top of the notice we sent to you  NA  0  Check tell us your notice type wording appears
 .  .  .  .  .  0  Negative case details
 checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
 checkCourtFinderURNMissing  check_condition  Enter your URN to find the contact details for your court.  link_text  NA  0  Check URN missing validation on Court Finder page
@@ -269,7 +269,6 @@ checkWitnessInterpreterLangMissing  check_condition  Your witness needs an inter
 .  .  .  .  .  0  Negative your finances
 checkYourEmploymentMissingValidation  check_condition  You must let us know if you're employed, receiving benefits or other  link_text  NA  0  Check employment radio options not selected validation wording appears
 checkPaidFrequencyMissingValidation  check_condition  Tell us how often you get paid  link_text  NA  0  Check frequency paid radio options not selected validation wording appears
-checkBenefitsOtherDetailsMissing  check_condition  This field is required.  link_text  NA  0  Check Benefits paid ‘Other’ details missing validation wording appears
 checkPaidAmountMissingValidation  check_condition  Enter your take home pay  link_text  NA  0  Check take home pay missing validation wording appears
 enterInvalidTakeHomePay  standard_keys  id_self_employed_pay_amount  id  A  0  Enter ‘A’ in the ‘Take home pay’ amount field
 checkPaidAmountInvalidWording  check_condition  Enter a number.  link_text  NA  0  Check take home pay invalid wording appears
@@ -278,7 +277,7 @@ checkDependantsPayMissingValidation  check_condition  Tell us if this includes p
 checkOtherIncomeMissingValidation  check_condition  Tell us how you earn your money  link_text  NA  0  Check other income source details missing wording appears
 checkFinancialHardshipMissingValidation  check_condition  Tell us if paying a fine would cause you serious financial problems  link_text  NA  0  Check financial hardship radio not selected validation wording
 .  .  .  .  .  0  Negative your expenses
-checkHardshipDetailsMissingValidation  check_condition  You must tell us why paying a fine will cause you serious financial problems  link_text  NA  0  Check financial hardship reason missing wording appears
+checkHardshipDetailsMissingValidation  check_condition  You must tell us why you think you should be allowed to pay your fine in instalments  link_text  NA  0  Check information for the magistrate missing wording appears
 checkOtherContributorsMissingValidation  check_condition  You must tell us if anyone else contributes to your household bills  link_text  NA  0  Check additional contributors radio option not selected validation wording appears
 enterInvalidAccommodationExpenses  standard_keys  id_household_accommodation  id  A  0  Enter ‘A’ in ‘Accommodation’ under ‘Household Expenses’
 enterInvalidUtilityBills  standard_keys  id_household_utility_bills  id  B  0  Enter ‘B’ in ‘Utility Bills’ under ‘Household Expenses’
