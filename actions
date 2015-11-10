@@ -196,7 +196,7 @@ enterFeedbackEmail  standard_keys  id_email  id  christine.houlding@digital.just
 clickFeedbackSubmitButton  click_element  button  class_name  NA  0  Click the 'Feedback’ page ‘Submit’ button
 checkFeedbackThanksMessage  check_condition  success-header  class_name  NA  0  Check the ‘Thanks for your feedback’ message appears
 .  .  .  .  .  0  Negative Notice Type
-checkNoticeTypeMissing  check_condition  Tell us what is written at the top of the notice we sent to you  NA  0  Check tell us your notice type wording appears
+checkNoticeTypeMissing  check_condition  Tell us what is written at the top of the notice we sent to you  link_text  NA  0  Check tell us your notice type wording appears
 .  .  .  .  .  0  Negative case details
 checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
 checkCourtFinderURNMissing  check_condition  Enter your URN to find the contact details for your court.  link_text  NA  0  Check URN missing validation on Court Finder page
