@@ -22,6 +22,7 @@ clickEnglishLink  click_element  English  link_text  NA  0  Click the English li
 startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
+clickYourCaseContinueButton  click_element  button  class_name  NA  0  Click the 'Your Case' page 'Continue' button
 clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
 .  .  .  .  .  0  notice type
 clickSjpTrue  click_element  id_sjp_true  id  NA  0  Click the Yes button to the 'is it an SJP notice' question on the Your Notice page 
