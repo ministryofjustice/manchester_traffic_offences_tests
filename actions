@@ -199,10 +199,10 @@ checkFeedbackThanksMessage  check_condition  success-header  class_name  NA  0  
 .  .  .  .  .  0  Negative Notice Type
 checkNoticeTypeMissing  check_condition  Tell us what is written at the top of the notice we sent to you  link_text  NA  0  Check tell us your notice type wording appears
 .  .  .  .  .  0  Negative case details
-checkURNMissingValidation  check_condition  Enter your unique reference number (URN)  link_text  NA  0  Check URN missing validation wording appears
+checkURNMissingValidation  check_condition  Enter your Unique Reference Number (URN)  link_text  NA  0  Check URN missing validation wording appears
 checkCourtFinderURNMissing  check_condition  Enter your URN to find the contact details for your court.  link_text  NA  0  Check URN missing validation on Court Finder page
 enterInvalidUrn  standard_keys  id_urn  id  AA55BBCC  0  Enter 'AA55BBCC' in the URN input field
-checkURNInvalidWording  check_condition  The unique reference number (URN) isn't valid. Enter the number exactly as it appears on page 1 of the notice  link_text  NA  0  Check URN incorrect validation wording appears
+checkURNInvalidWording  check_condition  The Unique Reference Number (URN) isn't valid. Enter the number exactly as it appears on page 1 of the notice  link_text  NA  0  Check URN incorrect validation wording appears
 checkCourtFinderUrnInvalid  check_condition  Check your URN (it’s on page 1 of the notice we sent you, usually at the top) then try again.  link_text  NA  0  Check URN incorrect validation working appears on Court Finder page
 .  .  .  .  .  0  MaP
 checkHearingDateMissingValidation  check_condition  Provide a court hearing date  link_text  NA  0  Check Hearing Date missing validation wording appears
