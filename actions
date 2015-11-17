@@ -4,7 +4,7 @@ startLiveHomePage  start_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
 checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  Check the URL of the homepage
-checkLiveHomePageRedirectUrl  check_url  NA  NA  hhttps://www.makeaplea.service.gov.uk/?utm_source=Justice%20domain&utm_medium=Referral&utm_campaign=Redirect%20from%20Justice%20domain  0  Check the URL of the homepage after redirect
+checkLiveHomePageRedirectUrl  check_url  NA  NA  https://www.makeaplea.service.gov.uk/?utm_source=Justice%20domain&utm_medium=Referral&utm_campaign=Redirect%20from%20Justice%20domain  0  Check the URL of the homepage after redirect
 checkHomePageTitle  check_title  NA  NA  Make a Plea: Traffic offences - GOV.UK  0  Check the title of the homepage
 checkWelshHomePageTitle  check_title  NA  NA  Cofnodi ple: Troseddau traffig - GOV.UK  0  Check the Welsh title of the homepage
 checkLawSocietyLinkText  check_condition  Legal help and advice  link_text  NA  0  Check 'Legal help and advice' link text is found
