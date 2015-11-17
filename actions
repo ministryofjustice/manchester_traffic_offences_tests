@@ -1,6 +1,10 @@
+startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
+startOldLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the OLD 'Make a plea' application (live)
+startLiveHomePage  start_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  Start the 'Make a plea' application (live)
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
-checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Check the URL of the homepage
+checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  Check the URL of the homepage
+checkLiveHomePageRedirectUrl  check_url  NA  NA  hhttps://www.makeaplea.service.gov.uk/?utm_source=Justice%20domain&utm_medium=Referral&utm_campaign=Redirect%20from%20Justice%20domain  0  Check the URL of the homepage after redirect
 checkHomePageTitle  check_title  NA  NA  Make a Plea: Traffic offences - GOV.UK  0  Check the title of the homepage
 checkWelshHomePageTitle  check_title  NA  NA  Cofnodi ple: Troseddau traffig - GOV.UK  0  Check the Welsh title of the homepage
 checkLawSocietyLinkText  check_condition  Legal help and advice  link_text  NA  0  Check 'Legal help and advice' link text is found
@@ -19,8 +23,6 @@ checkHelpingYouPleadTitle  check_title  NA  NA  Helping you plead online - Make 
 clickHelpingYouPleadBackLink  click_element  Back  link_text  NA  0  Click the ‘Back’ link on the Helping you Plead Online page
 clickCymraegLink  click_element  Cymraeg  link_text  NA  0  Click the Cymraeg link to change the language to Welsh
 clickEnglishLink  click_element  English  link_text  NA  0  Click the English link to change the language to English
-startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
-startLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the 'Make a plea' application (live)
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
 clickYourCaseContinueButton  click_element  button  class_name  NA  0  Click the 'Your Case' page 'Continue' button
 clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
