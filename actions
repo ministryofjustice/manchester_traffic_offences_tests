@@ -1,6 +1,8 @@
 startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
 startOldLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the OLD 'Make a plea' application (live)
 startLiveHomePage  start_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  Start the 'Make a plea' application (live)
+startStagingErrorPage  start_url  NA  NA  https://makeaplea.dsd.io/plea/review/fb2676462af7.eot  0  Enter invalid url to check for errors
+startLiveErrorPage  start_url  NA  NA  https://www.makeaplea.service.gov.uk/plea/review/fb2676462af7.eot  0  Enter invalid url to check for errors
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
 checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  Check the URL of the homepage
