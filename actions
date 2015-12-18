@@ -37,6 +37,8 @@ enterUrn0  standard_keys  id_urn  id  51  0  Enter '51' first in the URN input f
 enterUrn1  standard_keys  id_urn  id  /<RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value secondly in the URN input field
 enterUrn2  standard_keys  id_urn  id  /<RIG>,7,0123456789  0  Enter random input generator value thridly in the URN input field
 enterUrn3  standard_keys  id_urn  id  /<RIG>,2,0123456789  0  Enter random input generator value fourth in the URN input field
+enter1ChargeURN  standard_keys  id_urn  id  54AA0000000  0  Enter '54AA0000000' in the URN field
+enter3ChargeURN  standard_keys  id_urn  id  54AA0000100  0  Enter '54AA0000100' in the URN field
 enterCourtHearingDateDay  standard_keys  id_date_of_hearing_0  id  30  0  Enter '30' in the court hearing data day input field
 enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  05  0  Enter '05' in the court hearing data month input field
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2016  0  Enter '2016' in the court hearing data year input field
