@@ -5,10 +5,10 @@ SELENIUM_URL="http://selenium-release.storage.googleapis.com/2.46/selenium-serve
 
 if [ -d "/vagrant" ]
 then
-    $SCRIPT_HOME = "/vagrant"
+    SCRIPT_HOME = "/vagrant"
     VAGRANT=1
 else
-    $SCRIPT_HOME = "~/jenkins/"
+    SCRIPT_HOME = "~/jenkins/"
 fi
 
 cd "$SCRIPT_HOME"
@@ -95,12 +95,13 @@ sudo easy_install3 pip
 sudo pip3 install -r selenium/requirements.txt
 
 # Git crypt setup
-wget https://github.com/AGWA/git-crypt/archive/0.4.2.zip /tmp
-unzip /tmp/0.4.2.zip
-cd /tmp/git-crypt-0.4.2/
+cd /tmp
+wget https://github.com/AGWA/git-crypt/archive/0.4.2.zip
+unzip 0.4.2.zip
+cd git-crypt-0.4.2/
 make
 sudo make install
-cd -
+cd $SCRIPT_HOME
 
 gpg --import /home/jenkins/.ssh/jenkins.gpg
 

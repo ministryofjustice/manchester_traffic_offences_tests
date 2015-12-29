@@ -105,7 +105,10 @@ class Nexus(object):
     def do_action(self, action_type, action_on, action_by, action_text):
         execute_action = self.locate_element(action_on, action_by)
         if action_type == "click_element":
-            execute_action.click()
+            if hasattr(execute_action, "click"):
+                execute_action.click()
+            else:
+                raise Exception("Unable to run click action on: {}".format(execute_action))
         elif action_type == "standard_keys":
             if "<RIG>" not in action_text:
                 execute_action.send_keys(action_text)
