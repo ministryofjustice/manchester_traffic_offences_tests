@@ -74,7 +74,7 @@ pip install coverage
 ../bin/python manage.py test --noinput --settings=manchester_traffic_offences.settings.testing
 
 mkdir -p reports
-coverage run --source=manchester_traffic_offences,apps.feedback,apps.plea,apps.govuk_utils,apps.receipt manage.py test --noinput --settings=manchester_traffic_offences.settings.testing
+coverage run --source=manchester_traffic_offences,apps.feedback,apps.plea,apps.forms,apps.receipt manage.py test --noinput --settings=manchester_traffic_offences.settings.testing
 coverage xml -o reports/coverage.xml --omit=*/migrations/*</command>
     </hudson.tasks.Shell>
   </builders>
