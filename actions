@@ -161,6 +161,10 @@ enterTelephoneExpenses  standard_keys  id_other_telephone  id  35  0  Enter ‘3
 enterLoanRepayments  standard_keys  id_other_loan_repayments  id  0  0  Enter ‘0’ in ‘Loan repayments’ under ‘Other Expenses’
 enterCountyCourtOrders  standard_keys  id_other_court_payments  id  20  0  Enter ‘20’ in ‘County court orders’ under ‘Other Expenses’
 enterChildMaintenance  standard_keys  id_other_child_maintenance  id  147  0  Enter ‘147’ in ‘Child Maintenance’ under ‘Other Expenses’
+clickOtherExpensesTrue  click_element  id_other_not_listed_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Any other expenses not listed above?’
+clickOtherExpensesFalse  click_element  id_other_not_listed_false  id  NA  0  Click the ‘No’ Radio button under ‘Any other expenses not listed above?’
+enterOtherExpensesDetails  standard_keys  id_other_not_listed_details  id  Childcare  0  Enter ‘Childcare’ in ‘Other expenses details’ field under ‘Other Expenses’
+enterOtherExpensesAmount  standard_keys  id_other_not_listed_amount  id  700  0  Enter ‘700’ in ‘Other expenses amount’ field under ‘Other Expenses’
 .  .  .  .  .  0  .
 clickYourExpensesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Expenses' page 'Continue' button
 .  .  .  .  .  0  company details
@@ -237,9 +241,6 @@ checkPersonPleadingValidation  check_condition  You must tell us if you are the 
 checkFirstNameMissingValidation  check_condition  Enter your first name  link_text  NA  0  Check First name missing validation wording appears
 checkLastNameMissingValidation  check_condition  Enter your last name  link_text  NA  0  Check Last name missing validation wording appears
 checkContactNumberMissingValidation  check_condition  You must provide a contact number  link_text  NA  0  Check Contact number missing validation wording appears
-checkEmailMissingValidation  check_condition  You must provide an email address  link_text  NA  0  Check Email address missing validation wording appears
-enterYourDetailsInvalidEmail  standard_keys  id_email  id  test.com  0  Enter 'test.com' in the 'Your details' page 'Email' input field
-checkEmailInvalidWording  check_condition  Email address isn't a valid format  link_text  NA  0  Check Email address invalid format wording appears
 .  .  .  .  .  0  Negative your details defendant
 checkDefendantAddressMissingValidation  check_condition  You must tell us if the address on the notice we sent to you is correct  link_text  NA  0  Check Correct Address radio option not selected validation wording appears
 checkDefendantAddressIfDiff  check_condition  Enter your correct address  link_text  NA  0  Check Different address missing validation wording appears
@@ -305,6 +306,12 @@ checkTelephoneInvalidWording  check_condition  Telephone must be a number  link_
 checkLoanInvalidWording  check_condition  Loan repayment must be a number  link_text  NA  0  Check Loan Repayments invalid wording appears
 checkCourtInvalidWording  check_condition  Court payments must be a number  link_text  NA  0  Check Court Payments invalid wording appears
 checkChildInvalidWording  check_condition  Child maintenance must be a number  link_text  NA  0  Check Child Maintenance invalid wording appears
+checkOtherExpensesMissing  check_condition  Tell us if you have any other significant expenses  link_text  NA  0  Check any other significant expenses wording appears
+checkOtherExpensesDetails  check_condition  Enter your other significant expenses  link_text  NA  0  Check enter expenses details wording appears
+checkOtherExpensesTotal  check_condition  Enter the monthly total of your other significant expenses  NA  0  Check enter monthly total of expenses wording appears
+enterInvalidOtherExpenses  standard_keys  id_other_not_listed_amount  id  E  0  Enter ‘E’ in Other Expenses Amount field under ‘Other Expenses’
+checkOtherExpensesTotalInvalid  check_condition  The monthly total must be a number  NA  0  Check monthly total of expenses invalid wording appears
+
 .  .  .  .  .  0  Negative company details
 check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
@@ -314,5 +321,102 @@ checkGrossTurnoverMissingValidation>12  check_condition  Enter the company's gro
 checkNetTurnoverMissingValidation>12  check_condition  Enter the company's net turnover  link_text  NA  0  Check Net turnover missing wording appears
 .  .  .  .  .  0  Negative confirm your plea
 checkConfirmPleaMissingValidation  check_condition  You must confirm that you have read and understand the important information  link_text  NA  0  Check unticked checkbox validation wording appears
-checkEmailUpdatesMissingValidation  check_condition  Tell us if you want to receive email updates about this case  link_text  NA  0  Check ‘tell us if you want to receive email updates’ validation wording appears
+checkEmailUpdatesMissingValidation  check_condition  Tell us if you want to receive an email confirming your plea submission  link_text  NA  0  Check ‘tell us if you want to receive email confirmation’ validation wording appears
 checkEmailMissingValidation  check_condition  You must provide an email address if you want to receive email updates about this case  link_text  NA  0  Check Email address missing validation wording appears
+enterYourDetailsInvalidEmail  standard_keys  id_email  id  test.com  0  Enter 'test.com' in the 'Your details' page 'Email' input field
+checkEmailInvalidWording  check_condition  Email address isn't a valid format  link_text  NA  0  Check Email address invalid format wording appears
+
+
+
+
+
+.  .  .  .  .  0  Negative Notice Type WELSH
+checkNoticeTypeMissingWelsh  check_condition  Dywedwch wrthym beth sydd wedi'i ysgrifennu ar frig yr hysbysiad a anfonwyd atoch  link_text  NA  0  Check tell us your notice type Welsh wording appears
+.  .  .  .  .  0  Negative case details
+checkURNMissingValidationWelsh  check_condition  Rhowch eich cyfeirnod unigryw (URN)  link_text  NA  0  Check URN missing validation Welsh wording appears
+checkCourtFinderURNMissingWelsh  check_condition  Rhowch eich cyfeirnod unigryw i ddod o hyd i'r manylion cysylltu ar gyfer eich llys.  link_text  NA  0  Check URN missing Welsh validation on Court Finder page
+checkURNInvalidWordingWelsh  check_condition  Nid yw’r cyfeirnod unigryw (URN) yn ddilys. Rhowch y rhif yn union fel y mae’n ymddangos ar dudalen 1 o’r hysbysiad  link_text  NA  0  Check URN incorrect validation Welsh wording appears
+checkCourtFinderUrnInvalidWelsh  check_condition  Gwiriwch eich cyfeirnod unigryw (mae ar dudalen 1 yr hysbysiad a anfonwyd atoch, fel arfer ar y brig) a rhowch gynnig arall arni.  link_text  NA  0  Check URN incorrect validation Welsh wording appears on Court Finder page
+.  .  .  .  .  0  MaP WELSH
+checkHearingDateMissingValidationWelsh  check_condition  Rhowch ddyddiad gwrandawiad llys  link_text  NA  0  Check Hearing Date missing validation Welsh wording appears
+checkHearingDateInvalidWordingWelsh  check_condition  Nid yw dyddiad y gwrandawiad llys mewn fformat dilys  link_text  NA  0  Check Hearing Date is invalid Welsh wording appears
+checkHearingDatePastWordingWelsh  check_condition  Rhaid i ddyddiad y gwrandawiad llys fod ar ôl dyddiad heddiw  link_text  NA  0  Check Hearing Date must be after today Welsh wording appears
+.  .  .  .  .  0  SJP WELSH
+checkPostingDateMissingValidationWelsh  check_condition  Rhowch ddyddiad postio  link_text  NA  0  Check Posting Date missing validation Welsh wording appears
+checkPostingDateInvalidWordingWelsh  check_condition  Nid yw'r dyddiad postio mewn fformat dilys  link_text  NA  0  Check Posting Date is invalid Welsh wording appears
+checkPostingDateFutureWordingWelsh  check_condition  Rhaid i'r dyddiad postio fod cyn heddiw  link_text  NA  0  Check Posting Date must be before today Welsh wording appears
+.  .  .  .  .  0  WELSH
+checkNumberChargesMissingValidationWelsh  check_condition  Dewiswch y nifer o gyhuddiadau yn eich erbyn  link_text  NA  0  Check Number of charges missing validation Welsh wording appears
+checkNumberChargesInvalidWordingWelsh  check_condition  Sicrhewch fod y gwerth hwn yn fwy neu'n llai na 10.  link_text  NA  0  Check Number of charges invalid Welsh wording appears
+checkNumberChargesInvalidWordingWelsh2  check_condition  Rhowch cyfanrif.  link_text  NA  0  Check Enter a Number Welsh wording appears
+checkPersonPleadingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym ai chi yw'r unigolyn a enwir yn yr hysbysiad neu unigolyn sy'n pledio ar ran cwmni  link_text  NA  0  Check Person Pleading validation Welsh wording appears
+.  .  .  .  .  0  Negative your details generic WELSH
+checkFirstNameMissingValidationWelsh  check_condition  Rhowch eich enw cyntaf  link_text  NA  0  Check First name missing validation Welsh wording appears
+checkLastNameMissingValidationWelsh  check_condition  Rhowch eich cyfenw  link_text  NA  0  Check Last name missing validation Welsh wording appears
+checkContactNumberMissingValidationWelsh  check_condition  Rhaid i chi ddarparu rhif cyswllt  link_text  NA  0  Check Contact number missing validation Welsh wording appears
+.  .  .  .  .  0  Negative your details defendant WELSH
+checkDefendantAddressMissingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym a yw'r cyfeiriad ar yr hysbysiad a anfonwyd atoch yn gywir  link_text  NA  0  Check Correct Address radio option not selected validation Welsh wording appears
+checkDefendantAddressIfDiffWelsh  check_condition  Rhowch eich cyfeiriad cywir  link_text  NA  0  Check Different address missing validation Welsh wording appears
+checkDobMissingValidationWelsh  check_condition  Dywedwch wrthym beth yw eich dyddiad geni  link_text  NA  0  Check Date of birth missing validation Welsh wording appears
+checkDobInvalidWordingWelsh  check_condition  Nid yw'r dyddiad geni mewn fformat dilys  link_text  NA  0  Check Date of birth invalid Welsh wording appears
+checkSelectNINumberMissingWelsh  check_condition  Dywedwch wrthym os oes gennych rif Yswiriant Gwladol  link_text  NA  0  Check ‘Tell us if you have a NI number’ Welsh wording appears
+checkSelectDrivingLicenceMissingWelsh  check_condition  Dywedwch wrthym os oes gennych drwydded yrru y DU  link_text  NA  0  Check ‘Tell us if you have a UK Driving Licence’ Welsh wording appears
+checkNINumberMissingValidationWelsh  check_condition  Dywedwch wrthym beth yw eich rhif Yswiriant Gwladol  link_text  NA  0  Check ‘Tell us your NI Number’ Welsh wording appears
+checkDLNumberMissingValidationWelsh  check_condition  Dywedwch wrthym beth yw rhif eich Trwydded Yrru  link_text  NA  0  Check ‘Tell us your driving licence number ’ Welsh wording appears
+.  .  .  .  .  0  Negative your details company WELSH
+checkCompanyNameMissingValidationWelsh  check_condition  Rhowch enw'r cwmni  link_text  NA  0  Check company name missing validation Welsh wording appears
+checkCompanyAddressMissingValidationWelsh  check_condition  Dywedwch wrthym a yw cyfeiriad y cwmni, fel y mae wedi'i ysgrifennu ar yr hysbysiad, yn gywir  link_text  NA  0  Check Correct Address radio option not selected validation Welsh wording appears
+checkCompanyAddressIfDiffWelsh  check_condition  Rhowch gyfeiriad cywir y cwmni  link_text  NA  0  Check Different address missing validation Welsh wording appears
+checkConfirmPositionMissingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym beth yw eich swydd yn y cwmni  link_text  NA  0  Check confirm position in company option not selected validation Welsh wording appears
+checkCompanyContactNumberMissingValidationWelsh  check_condition  Rhowch rif cyswllt  link_text  NA  0  Check Contact number missing validation Welsh wording appears
+.  .  .  .  .  0  Negative your plea WELSH
+checkYourPleaMissingValidationWelsh  check_condition  Rhaid i chi ddewis ple ar gyfer y cyhuddiad hwn  link_text  NA  0  Check Your Plea radio option not selected validation Welsh wording appears
+checkNotGuiltyBecauseMissingValidationWelsh  check_condition  Dywedwch wrthym pam rydych yn credu eich bod yn ddieuog  link_text  NA  0  Check Not Guilty additional info required validation Welsh wording appears
+checkInterpreterNeededMissingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym os oes arnoch angen cyfieithydd/dehonglydd yn y llys  link_text  NA  0  Check is interpreter needed missing Welsh validation appears
+checkInterpreterLanguageMissingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym pa iaith  link_text  NA  0  Check ‘tell us which language’ interpreter Welsh wording appears
+checkComeToCourtMissingWelsh  check_condition  Rhaid i chi ddweud wrthym os hoffech ddod i'r llys i bledio'n euog  link_text  NA  0  Check 'tell us if you want to come to court' Welsh wording appears
+checkDisagreeEvidenceMissingWelsh  check_condition  Dywedwch wrthym os ydych yn anghytuno gydag unrhyw dystiolaeth a anfonwyd atoch  link_text  NA  0  Check Tell us if you disagree with any of the evidence Welsh wording appears
+checkDisagreeDetailsMissingWelsh  check_condition  Rhaid i chi ddweud wrthym beth yw enw'r tyst a'r hyn rydych chi'n anghytuno yn ei gylch  link_text  NA  0  Check 'You need to tell us the name of the witness and what you disagree with' Welsh wording appears
+checkDefenceWitnessMissingWelsh  check_condition  Rhaid i chi ddweud wrthym os hoffech alw ar dyst yr amddiffyniad  link_text  NA  0  Check 'You must tell us if you want to call a defence witness' Welsh wording appears
+checkDefenceWitnessDetailsMissingWelsh  check_condition  Dywedwch wrthym beth yw enw, cyfeiriad a dyddiad geni tyst yr amddiffyniad  link_text  NA  0  Check 'Tell us the name, address and date of birth of your defence witness' Welsh wording appears
+checkWitnessInterpreterMissingWelsh  check_condition  Dywedwch wrthym os oes angen cyfieithydd/dehonglydd yn y llys ar gyfer eich tyst  link_text  NA  0  Check 'Tell us if your witness needs an interpreter in court' Welsh wording appears
+checkWitnessInterpreterLangMissingWelsh  check_condition  Mae angen cyfieithydd/dehonglydd yn y llys ar gyfer eich tyst - dywedwch wrthym pa iaith  link_text  NA  0  Check 'Your witness needs an interpreter in court - tell us which language' Welsh wording appears
+.  .  .  .  .  0  Negative your finances WELSH
+checkYourEmploymentMissingValidationWelsh  check_condition  Rhaid i chi roi gwybod i ni os ydych yn gyflogedig, yn derbyn budd-daliadau neu arall  link_text  NA  0  Check employment radio options not selected validation Welsh wording appears
+checkPaidFrequencyMissingValidationWelsh  check_condition  Dywedwch wrthym pa mor aml yr ydych yn cael eich talu  link_text  NA  0  Check frequency paid radio options not selected validation Welsh wording appears
+checkPaidAmountMissingValidationWelsh  check_condition  Rhowch eich cyflog clir (cyflog ar ôl didyniadau)  link_text  NA  0  Check take home pay missing validation Welsh wording appears
+checkPaidAmountInvalidWordingWelsh  check_condition  Rhowch rif.  link_text  NA  0  Check take home pay invalid Welsh wording appears
+checkBenefitsReceivedMissingValidationWelsh  check_condition  Dywedwch wrthym pa fudd-daliadau rydych yn eu derbyn  link_text  NA  0  Check benefits received missing Welsh wording appears
+checkDependantsPayMissingValidationWelsh  check_condition  Dywedwch wrthym os yw hyn yn cynnwys talu am ddibynyddion  link_text  NA  0  Check payment for dependants missing Welsh wording appears
+checkOtherIncomeMissingValidationWelsh  check_condition  Dywedwch wrthym sut yr ydych yn ennill eich arian  link_text  NA  0  Check other income source details missing Welsh wording appears
+checkFinancialHardshipMissingValidationWelsh  check_condition  Dywedwch wrthym pe bai talu dirwy yn achosi problemau ariannol difrifol i chi  link_text  NA  0  Check financial hardship radio not selected validation Welsh wording
+.  .  .  .  .  0  Negative your expenses WELSH
+checkHardshipDetailsMissingValidationWelsh  check_condition  Mae'n rhaid i chi ddweud wrthym pam rydych chi'n credu y dylech gael caniatâd i dalu eich dirwy mewn rhandaliadau  link_text  NA  0  Check information for the magistrate missing Welsh wording appears
+checkOtherContributorsMissingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym os yw unrhyw un arall yn cyfrannu at dalu biliau eich cartref  link_text  NA  0  Check additional contributors radio option not selected validation Welsh wording appears
+.  .  .  .  .  0  WELSH
+checkAccomInvalidWordingWelsh  check_condition  Rhaid i’r costau llety fod yn rhif  link_text  NA  0  Check Accommodation invalid Welsh wording appears
+checkUtilityInvalidWordingWelsh  check_condition  Rhaid i’r costau biliau cyfleustodau fod yn rhif  link_text  NA  0  Check Utility bills invalid Welsh wording appears
+checkInsuranceInvalidWordingWelsh  check_condition  Rhaid i’r costau yswiriant fod yn rhif  link_text  NA  0  Check Insurance invalid Welsh wording appears
+checkTaxInvalidWordingWelsh  check_condition  Rhaid i’r dreth gyngor fod yn rhif  link_text  NA  0  Check Council Tax invalid Welsh wording appears
+checkTVInvalidWordingWelsh  check_condition  Rhaid i’r tanysgrifiad teledu fod yn rhif  link_text  NA  0  Check TV Subscription invalid Welsh wording appears
+checkTravelInvalidWordingWelsh  check_condition  Rhaid i’r costau teithio fod yn rhif  link_text  NA  0  Check Travel Expenses invalid Welsh wording appears
+checkTelephoneInvalidWordingWelsh  check_condition  Rhaid i’r rhif ffôn fod yn rhif  link_text  NA  0  Check Telephone invalid Welsh wording appears
+checkLoanInvalidWordingWelsh  check_condition  Rhaid i'r ad-daliadau benthyciadau fod yn rhif  link_text  NA  0  Check Loan Repayments invalid Welsh wording appears
+checkCourtInvalidWordingWelsh  check_condition  Rhaid i’r taliadau llys fod yn rhif  link_text  NA  0  Check Court Payments invalid Welsh wording appears
+checkChildInvalidWordingWelsh  check_condition  Rhaid i’r gynhaliaeth plant fod yn rhif  link_text  NA  0  Check Child Maintenance invalid Welsh wording appears
+checkOtherExpensesWelsh  check_condition  Dywedwch wrthym os oes gennych unrhyw dreuliau sylweddol eraill  link_text  NA  0  Check any other significant expenses Welsh wording appears
+checkOtherExpensesDetailsWelsh  check_condition  Rhowch fanylion eich treuliau sylweddol eraill  link_text  NA  0  Check enter expenses details Welsh wording appears
+checkOtherExpensesTotalWelsh  check_condition  Rhowch gyfanswm misol eich treuliau sylweddol eraill  NA  0  Check enter monthly total of expenses Welsh wording appears
+checkOtherExpensesTotalInvalidWelsh  check_condition  Rhaid i’r cyfanswm misol fod yn rhif  NA  0  Check monthly total of expenses invalid Welsh wording appears
+.  .  .  .  .  0  Negative company details WELSH
+check12MonthsRadioMissingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym os yw’r cwmni wedi bod yn masnachu am fwy na 12 mis  link_text  NA  0  Check company trading more than 12 months missing validation Welsh wording appears
+checkNumberOfEmployeesMissingValidationWelsh  check_condition  Rhowch y nifer o gyflogeion  link_text  NA  0  Check number of employees missing validation Welsh wording appears
+checkGrossTurnoverMissingValidation<12Welsh  check_condition  Rhowch drosiant gros amcanol y cwmni  link_text  NA  0  Check Gross turnover missing Welsh wording appears
+checkNetTurnoverMissingValidation<12Welsh  check_condition  Rhowch drosiant net amcanol y cwmni  link_text  NA  0  Check Net turnover missing Welsh wording appears
+checkGrossTurnoverMissingValidation>12Welsh  check_condition  Rhowch drosiant gros y cwmni  link_text  NA  0  Check Gross turnover missing Welsh wording appears
+checkNetTurnoverMissingValidation>12Welsh  check_condition  Rhowch drosiant net y cwmni  link_text  NA  0  Check Net turnover missing Welsh wording appears
+.  .  .  .  .  0  Negative confirm your plea WELSH
+checkConfirmPleaMissingValidationWelsh  check_condition  Rhaid i chi gadarnhau eich bod wedi darllen a deall yr wybodaeth bwysig  link_text  NA  0  Check unticked checkbox validation Welsh wording appears
+checkEmailUpdatesMissingValidationWelsh  check_condition  Dywedwch wrthym os ydych eisiau cadarnhad drwy e-bost eich bod wedi cyflwyno eich ple   link_text  NA  0  Check ‘tell us if you want to receive email updates’ validation Welsh wording appears
+checkEmailMissingValidationWelsh  check_condition  Mae'n rhaid i chi roi cyfeiriad e-bost os ydych eisiau cael gwybod y diweddaraf am yr achos hwn drwy e-bost  link_text  NA  0  Check Email address missing validation Welsh wording appears
+checkEmailInvalidWordingWelsh  check_condition  Nid yw’r cyfeiriad e-bost mewn fformat dilys  link_text  NA  0  Check Email address invalid format Welsh wording appears
