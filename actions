@@ -310,7 +310,7 @@ checkOtherExpensesMissing  check_condition  Tell us if you have any other signif
 checkOtherExpensesDetails  check_condition  Enter your other significant expenses  link_text  NA  0  Check enter expenses details wording appears
 checkOtherExpensesTotal  check_condition  Enter the monthly total of your other significant expenses  link_text  NA  0  Check enter monthly total of expenses wording appears
 enterInvalidOtherExpenses  standard_keys  id_other_not_listed_amount  id  E  0  Enter ‘E’ in Other Expenses Amount field under ‘Other Expenses’
-checkOtherExpensesTotalInvalid  check_condition  The monthly total must be a number  NA  0  Check monthly total of expenses invalid wording appears
+checkOtherExpensesTotalInvalid  check_condition  The monthly total must be a number  link_text  NA  0  Check monthly total of expenses invalid wording appears
 
 .  .  .  .  .  0  Negative company details
 check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
