@@ -308,7 +308,7 @@ checkCourtInvalidWording  check_condition  Court payments must be a number  link
 checkChildInvalidWording  check_condition  Child maintenance must be a number  link_text  NA  0  Check Child Maintenance invalid wording appears
 checkOtherExpensesMissing  check_condition  Tell us if you have any other significant expenses  link_text  NA  0  Check any other significant expenses wording appears
 checkOtherExpensesDetails  check_condition  Enter your other significant expenses  link_text  NA  0  Check enter expenses details wording appears
-checkOtherExpensesTotal  check_condition  Enter the monthly total of your other significant expenses  NA  0  Check enter monthly total of expenses wording appears
+checkOtherExpensesTotal  check_condition  Enter the monthly total of your other significant expenses  link_text  NA  0  Check enter monthly total of expenses wording appears
 enterInvalidOtherExpenses  standard_keys  id_other_not_listed_amount  id  E  0  Enter ‘E’ in Other Expenses Amount field under ‘Other Expenses’
 checkOtherExpensesTotalInvalid  check_condition  The monthly total must be a number  NA  0  Check monthly total of expenses invalid wording appears
 
