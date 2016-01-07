@@ -311,7 +311,6 @@ checkOtherExpensesDetails  check_condition  Enter your other significant expense
 checkOtherExpensesTotal  check_condition  Enter the monthly total of your other significant expenses  link_text  NA  0  Check enter monthly total of expenses wording appears
 enterInvalidOtherExpenses  standard_keys  id_other_not_listed_amount  id  E  0  Enter ‘E’ in Other Expenses Amount field under ‘Other Expenses’
 checkOtherExpensesTotalInvalid  check_condition  The monthly total must be a number  link_text  NA  0  Check monthly total of expenses invalid wording appears
-
 .  .  .  .  .  0  Negative company details
 check12MonthsRadioMissingValidation  check_condition  You must tell us if the company has been trading for more than 12 months  link_text  NA  0  Check company trading more than 12 months missing validation wording appears
 checkNumberOfEmployeesMissingValidation  check_condition  Enter the number of employees  link_text  NA  0  Check number of employees missing validation wording appears
@@ -325,11 +324,6 @@ checkEmailUpdatesMissingValidation  check_condition  Tell us if you want to rece
 checkEmailMissingValidation  check_condition  You must provide an email address if you want to receive email updates about this case  link_text  NA  0  Check Email address missing validation wording appears
 enterYourDetailsInvalidEmail  standard_keys  id_email  id  test.com  0  Enter 'test.com' in the 'Your details' page 'Email' input field
 checkEmailInvalidWording  check_condition  Email address isn't a valid format  link_text  NA  0  Check Email address invalid format wording appears
-
-
-
-
-
 .  .  .  .  .  0  Negative Notice Type WELSH
 checkNoticeTypeMissingWelsh  check_condition  Dywedwch wrthym beth sydd wedi'i ysgrifennu ar frig yr hysbysiad a anfonwyd atoch  link_text  NA  0  Check tell us your notice type Welsh wording appears
 .  .  .  .  .  0  Negative case details
