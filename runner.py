@@ -36,9 +36,10 @@ class Jam(object):
                         for case in cases:
                             case = case.strip()
                             case_fields = case.split("  ")
-                            case_identifier, case_description, explicit_wait, case_actions = case_fields
-                            if case_identifier == suite_case:
-                                self.run_test(case_identifier, case_description, explicit_wait, case_actions, case_browser, case_hub, case_target, suite_screenshot)
+                            if len(case_fields):
+                                case_identifier, case_description, explicit_wait, case_actions = case_fields
+                                if case_identifier == suite_case:
+                                    self.run_test(case_identifier, case_description, explicit_wait, case_actions, case_browser, case_hub, case_target, suite_screenshot)
 
     def run_test(self, case_identifier, case_description, explicit_wait, case_actions, case_browser, case_hub, case_target, action_screenshot):
         nexus = Nexus(case_browser, case_hub, case_target)
