@@ -401,7 +401,7 @@ checkTelephoneInvalidWordingWelsh  check_condition  Rhaid i’r rhif ffôn fod y
 checkLoanInvalidWordingWelsh  check_condition  Rhaid i'r ad-daliadau benthyciadau fod yn rhif  link_text  NA  0  Check Loan Repayments invalid Welsh wording appears
 checkCourtInvalidWordingWelsh  check_condition  Rhaid i’r taliadau llys fod yn rhif  link_text  NA  0  Check Court Payments invalid Welsh wording appears
 checkChildInvalidWordingWelsh  check_condition  Rhaid i’r gynhaliaeth plant fod yn rhif  link_text  NA  0  Check Child Maintenance invalid Welsh wording appears
-checkOtherExpensesWelsh  check_condition  Dywedwch wrthym os oes gennych unrhyw dreuliau sylweddol eraill  link_text  NA  0  Check any other significant expenses Welsh wording appears
+checkOtherExpensesMissingWelsh  check_condition  Dywedwch wrthym os oes gennych unrhyw dreuliau sylweddol eraill  link_text  NA  0  Check any other significant expenses Welsh wording appears
 checkOtherExpensesDetailsWelsh  check_condition  Rhowch fanylion eich treuliau sylweddol eraill  link_text  NA  0  Check enter expenses details Welsh wording appears
 checkOtherExpensesTotalWelsh  check_condition  Rhowch gyfanswm misol eich treuliau sylweddol eraill  NA  0  Check enter monthly total of expenses Welsh wording appears
 checkOtherExpensesTotalInvalidWelsh  check_condition  Rhaid i’r cyfanswm misol fod yn rhif  NA  0  Check monthly total of expenses invalid Welsh wording appears
