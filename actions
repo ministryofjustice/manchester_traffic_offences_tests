@@ -208,7 +208,7 @@ clickFeedbackContinueButton  click_element  button  class_name  NA  0  Click the
 enterFeedbackComments  standard_keys  id_comments  id  Here is some feedback  0  Enter ‘Here is some feedback’ in the feedback comments box
 enterFeedbackEmail  standard_keys  id_email  id  christine.houlding@digital.justice.gov.uk  0  Enter 'christine.houlding@digital.justice.gov.uk' in the Feedback page 'Email' input field
 clickFeedbackSubmitButton  click_element  button  class_name  NA  0  Click the 'Feedback’ page ‘Submit’ button
-checkFeedbackThanksMessage  check_condition  success-header  class_name  NA  0  Check the ‘Thanks for your feedback’ message appears
+checkFeedbackThanksMessage  check_condition  success-header  class_name  NA  0  Check the ‘Your feedback has been submitted’ message appears
 .  .  .  .  .  0  Negative Notice Type
 checkNoticeTypeMissing  check_condition  Tell us what is written at the top of the notice we sent to you  link_text  NA  0  Check tell us your notice type wording appears
 .  .  .  .  .  0  Negative case details
