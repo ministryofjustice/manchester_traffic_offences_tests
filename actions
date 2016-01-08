@@ -25,7 +25,7 @@ checkHelpingYouPleadTitle  check_title  NA  NA  Helping you plead online - Make 
 clickHelpingYouPleadBackLink  click_element  Back  link_text  NA  0  Click the ‘Back’ link on the Helping you Plead Online page
 clickCymraegLink  click_element  Cymraeg  link_text  NA  0  Click the Cymraeg link to change the language to Welsh
 clickEnglishLink  click_element  English  link_text  NA  0  Click the English link to change the language to English
-clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' link
+clickStartNowLink  click_element  button button-get-started  class_name  NA  0  Click the 'Start now' button
 clickYourCaseContinueButton  click_element  button  class_name  NA  0  Click the 'Your Case' page 'Continue' button
 clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
 .  .  .  .  .  0  notice type
