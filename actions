@@ -29,6 +29,7 @@ clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start 
 clickWelshStartLink  click_element  Dechrau nawr  link_text  NA  0  Click the Welsh start button
 clickYourCaseContinueButton  click_element  button  class_name  NA  0  Click the 'Your Case' page 'Continue' button
 clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
+clickWelshMapHeaderLink  click_element  Cofnodi ple: Troseddau traffig  link_text  NA  0  Click the Welsh MaP header link
 .  .  .  .  .  0  notice type
 clickSjpTrue  click_element  id_sjp_true  id  NA  0  Click the Yes button to the 'is it an SJP notice' question on the Your Notice page 
 clickSjpFalse  click_element  id_sjp_false  id  NA  0  Click the No button to the 'is it an SJP notice' question on the Your Notice page
@@ -146,6 +147,7 @@ clickOtherFinancialHardshipTrue  click_element  id_other_hardship_true  id  NA  
 clickOtherFinancialHardshipFalse  click_element  id_other_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 .  .  .  .  .  0  .
 clickFinancesChangeLink  click_element  Change  link_text  NA  0  Click the 'Change' link on the Your Finances page
+clickWelshFinancesChangeLink  click_element  Newid  link_text  NA  0  Click the Welsh change link on the Your Finances page
 clickYourFinancesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Finances' page 'Continue' button
 .  .  .  .  .  0  your expenses
 enterHardshipDetails  standard_keys  id_hardship_details  id  House being repossessed  0  Enter ‘House being repossessed’ in ‘How would paying a fine cause you serious financial problems?’
