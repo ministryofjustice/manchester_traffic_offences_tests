@@ -345,7 +345,7 @@ checkPostingDateFutureWordingWelsh  check_condition  Rhaid i'r dyddiad postio fo
 .  .  .  .  .  0  WELSH
 checkNumberChargesMissingValidationWelsh  check_condition  Dewiswch y nifer o gyhuddiadau yn eich erbyn  link_text  NA  0  Check Number of charges missing validation Welsh wording appears
 checkNumberChargesInvalidWordingWelsh  check_condition  Sicrhewch fod y gwerth hwn yn fwy neu'n llai na 10.  link_text  NA  0  Check Number of charges invalid Welsh wording appears
-checkNumberChargesInvalidWordingWelsh2  check_condition  Rhowch cyfanrif.  link_text  NA  0  Check Enter a Number Welsh wording appears
+checkNumberChargesInvalidWording2Welsh  check_condition  Rhowch cyfanrif.  link_text  NA  0  Check Enter a Number Welsh wording appears
 checkPersonPleadingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym ai chi yw'r unigolyn a enwir yn yr hysbysiad neu unigolyn sy'n pledio ar ran cwmni  link_text  NA  0  Check Person Pleading validation Welsh wording appears
 .  .  .  .  .  0  Negative your details generic WELSH
 checkFirstNameMissingValidationWelsh  check_condition  Rhowch eich enw cyntaf  link_text  NA  0  Check First name missing validation Welsh wording appears
