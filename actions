@@ -414,6 +414,6 @@ checkGrossTurnoverMissingValidation>12Welsh  check_condition  Rhowch drosiant gr
 checkNetTurnoverMissingValidation>12Welsh  check_condition  Rhowch drosiant net y cwmni  link_text  NA  0  Check Net turnover missing Welsh wording appears
 .  .  .  .  .  0  Negative confirm your plea WELSH
 checkConfirmPleaMissingValidationWelsh  check_condition  Rhaid i chi gadarnhau eich bod wedi darllen a deall yr wybodaeth bwysig  link_text  NA  0  Check unticked checkbox validation Welsh wording appears
-checkEmailUpdatesMissingValidationWelsh  check_condition  Dywedwch wrthym os ydych eisiau cadarnhad drwy e-bost eich bod wedi cyflwyno eich ple   link_text  NA  0  Check ‘tell us if you want to receive email updates’ validation Welsh wording appears
+checkEmailUpdatesMissingValidationWelsh  check_condition  Dywedwch wrthym os ydych eisiau cadarnhad drwy e-bost eich bod wedi cyflwyno eich ple  link_text  NA  0  Check ‘tell us if you want to receive email updates’ validation Welsh wording appears
 checkEmailMissingValidationWelsh  check_condition  Mae'n rhaid i chi roi cyfeiriad e-bost os ydych eisiau cael gwybod y diweddaraf am yr achos hwn drwy e-bost  link_text  NA  0  Check Email address missing validation Welsh wording appears
 checkEmailInvalidWordingWelsh  check_condition  Nid yw’r cyfeiriad e-bost mewn fformat dilys  link_text  NA  0  Check Email address invalid format Welsh wording appears
