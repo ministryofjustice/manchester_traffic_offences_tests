@@ -403,8 +403,8 @@ checkCourtInvalidWordingWelsh  check_condition  Rhaid i’r taliadau llys fod yn
 checkChildInvalidWordingWelsh  check_condition  Rhaid i’r gynhaliaeth plant fod yn rhif  link_text  NA  0  Check Child Maintenance invalid Welsh wording appears
 checkOtherExpensesMissingWelsh  check_condition  Dywedwch wrthym os oes gennych unrhyw dreuliau sylweddol eraill  link_text  NA  0  Check any other significant expenses Welsh wording appears
 checkOtherExpensesDetailsWelsh  check_condition  Rhowch fanylion eich treuliau sylweddol eraill  link_text  NA  0  Check enter expenses details Welsh wording appears
-checkOtherExpensesTotalWelsh  check_condition  Rhowch gyfanswm misol eich treuliau sylweddol eraill  NA  0  Check enter monthly total of expenses Welsh wording appears
-checkOtherExpensesTotalInvalidWelsh  check_condition  Rhaid i’r cyfanswm misol fod yn rhif  NA  0  Check monthly total of expenses invalid Welsh wording appears
+checkOtherExpensesTotalWelsh  check_condition  Rhowch gyfanswm misol eich treuliau sylweddol eraill  link_text  NA  0  Check enter monthly total of expenses Welsh wording appears
+checkOtherExpensesTotalInvalidWelsh  check_condition  Rhaid i’r cyfanswm misol fod yn rhif  link_text  NA  0  Check monthly total of expenses invalid Welsh wording appears
 .  .  .  .  .  0  Negative company details WELSH
 check12MonthsRadioMissingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym os yw’r cwmni wedi bod yn masnachu am fwy na 12 mis  link_text  NA  0  Check company trading more than 12 months missing validation Welsh wording appears
 checkNumberOfEmployeesMissingValidationWelsh  check_condition  Rhowch y nifer o gyflogeion  link_text  NA  0  Check number of employees missing validation Welsh wording appears
