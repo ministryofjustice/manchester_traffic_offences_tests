@@ -1,13 +1,13 @@
 startStagingHomePage  start_url  NA  NA  https://makeaplea.dsd.io/  0  Start the 'Make a plea' application (staging)
 startOldLiveHomePage  start_url  NA  NA  https://www.makeaplea.justice.gov.uk/  0  Start the OLD 'Make a plea' application (live)
-startLiveHomePage  start_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  Start the 'Make a plea' application (live)
+startLiveHomePage  start_url  NA  NA  https://www.gov.uk/make-a-plea  0  Start the 'Make a plea' application (live)
 startStagingErrorPage  start_url  NA  NA  https://makeaplea.dsd.io/plea/review/fb2676462af7.eot  0  Enter invalid url to check for errors
 startLiveErrorPage  start_url  NA  NA  https://www.makeaplea.service.gov.uk/plea/review/fb2676462af7.eot  0  Enter invalid url to check for errors
 checkHomePageConditionStartNowLinkText  check_condition  Start now  link_text  NA  0  Check 'Start now' link text is found
 checkStagingHomePageUrl  check_url  NA  NA  https://makeaplea.dsd.io/  0  Check the URL of the homepage
-checkLiveHomePageUrl  check_url  NA  NA  https://www.makeaplea.service.gov.uk/  0  Check the URL of the homepage
-checkLiveHomePageRedirectUrl  check_url  NA  NA  https://www.makeaplea.service.gov.uk/?utm_source=Justice%20domain&utm_medium=Referral&utm_campaign=Redirect%20from%20Justice%20domain  0  Check the URL of the homepage after redirect
+checkLiveHomePageUrl  check_url  NA  NA  https://www.gov.uk/make-a-plea  0  Check the URL of the homepage
 checkHomePageTitle  check_title  NA  NA  Make a Plea: Traffic offences - GOV.UK  0  Check the title of the homepage
+checkLiveHomePageTitle  check_title  NA  NA  Make a plea for a traffic offence - GOV.UK  0  Check the title of the live homepage
 checkWelshHomePageTitle  check_title  NA  NA  Cofnodi ple: Troseddau traffig - GOV.UK  0  Check the Welsh title of the homepage
 checkLawSocietyLinkText  check_condition  Legal help and advice  link_text  NA  0  Check 'Legal help and advice' link text is found
 clickLawSocietyLink  click_element  Legal help and advice  link_text  NA  0  Click the ‘Legal help and advice’ link on the homepage
