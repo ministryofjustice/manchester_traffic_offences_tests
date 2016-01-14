@@ -59,6 +59,8 @@ enterNumberOfCharges7  standard_keys  id_number_of_charges  id  7  0  Enter '7' 
 enterNumberOfCharges8  standard_keys  id_number_of_charges  id  8  0  Enter '8' in the 'Number of charges against you' input field
 enterNumberOfCharges9  standard_keys  id_number_of_charges  id  9  0  Enter '9' in the 'Number of charges against you' input field
 enterNumberOfCharges10  standard_keys  id_number_of_charges  id  10  0  Enter '10' in the 'Number of charges against you' input field
+enterPostCode  standard_keys  id_postcode  id  M60 1PR  0  Enter 'M60 1PR' in Postcode field
+enterIncorrectPostcode  standard_keys  id_postcode  id  M1 1PR  0  Enter 'M1 1PR' in Postcode field
 clickDefendantPlea  click_element  id_plea_made_by_defendant  id  NA  0  Click 'the person named in the requisition pack' radio button
 clickCompanyPlea  click_element  id_plea_made_by_company-representative  id  NA  0  Click the 'Pleading on behalf of a company' radio button
 clickCaseDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Case details' page 'Continue' button
