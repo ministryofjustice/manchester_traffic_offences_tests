@@ -236,7 +236,7 @@ enterFuturePostingDateYear  standard_keys  id_posting_date_2  id  2017  0  Enter
 checkPostingDateInvalidWording  check_condition  The posting date isn't a valid format  link_text  NA  0  Check Posting Date is invalid wording appears
 checkPostingDateFutureWording  check_condition  The posting date must be before today  link_text  NA  0  Check Posting Date must be before today wording appears
 .  .  .  .  .  0  .
-checkNumberChargesMissingValidation  check_condition  Select the number of charges against you  link_text  NA  0  Check Number of charges missing validation wording appears
+checkNumberChargesMissingValidation  check_condition  Enter the number of charges against you  link_text  NA  0  Check Number of charges missing validation wording appears
 enterInvalidNumberOfCharges11  standard_keys  id_number_of_charges  id  11  0  Enter '11' in the 'Number of charges against you' input field
 enterInvalidNumberOfChargesQ  standard_keys  id_number_of_charges  id  Q  0  Enter 'Q' in the 'Number of charges against you' input field
 checkNumberChargesInvalidWording2  check_condition  Enter a whole number.  link_text  NA  0  Check Number of charges must be a number wording appears
