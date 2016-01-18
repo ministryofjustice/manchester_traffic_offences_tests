@@ -112,42 +112,42 @@ clickWitnessInterpreterTrue  click_element  id_witness_interpreter_needed_true  
 clickWitnessInterpreterFalse  click_element  id_witness_interpreter_needed_false  id  NA  0  Click False to 'Does your witness need an interpreter'
 enterWitnessInterpreterLanguage  standard_keys  id_witness_interpreter_language  id  Welsh  0  Enter 'Welsh' in Witness Interpreter Language field
 clickYourPleaContinueButton  click_element  button  class_name  NA  0  Click the 'Your Plea' page 'Continue' button
-.  .  .  .  .  0  your finances
-clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your finances' page
-clickEmployedPaidWeekly  click_element  id_employed_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
-clickEmployedPaidFortnightly  click_element  id_employed_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
-clickEmployedPaidMonthly  click_element  id_employed_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often do you get paid’
-enterEmployedTakeHomePay  standard_keys  id_employed_pay_amount  id  170  0  Enter ‘170’ in the ‘Take home pay’ amount field
-clickEmployedFinancialHardshipTrue  click_element  id_employed_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
-clickEmployedFinancialHardshipFalse  click_element  id_employed_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+**********************************************************************************************************************************************************
+.  .  .  .  .  0  your employment status
+clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your employment status' page
+clickEmployedBenefitsButton  click_element  id_you_are_employed-and-also-receiving-benefits  id  NA  0  Click the 'Employed and also receiving benefits' radio button on the 'Your employment status' page
+clickSelfEmployedButton  click_element  id_you_are_self-employed  id  NA  0  Click the 'Self Employed' radio button on the 'Your employment status' page
+clickSelfEmployedBenefitsButton  click_element  id_you_are_self-employed-and-also-receiving-benefits  id  NA  0  Click the 'Self Employed and also receiving benefits' radio button on the 'Your employment status' page
+clickReceivingBenefitsButton  click_element  id_you_are_receiving-out-of-work-benefits  id  NA  0  Click the 'Receiving Benefits' radio button on the 'Your employment status' page
+clickOtherButton  click_element  id_you_are_other  id  NA  0  Click the 'Other' radio button on the 'Your employment status' page
+.  .  .  .  .  0  your employment
+clickPaidWeekly  click_element  id_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
+clickPaidFortnightly  click_element  id_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
+clickPaidMonthly  click_element  id_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often do you get paid’
+clickPaidOther  click_element  id_pay_period_other  id  NA  0  Click the ‘Other’ radio button under ‘How often do you get paid’
+enterTakeHomePay  standard_keys  id_pay_amount  id  170  0  Enter ‘170’ in the ‘Take home pay’ amount field
+.  .  .  .  .  0  your benefits (employed & self-employed)
+clickCESABenefit  click_element  id_benefit_type_contributory-employment-and-support-allowance  id  NA  0  Click the ‘Contributory Employment & Support Allowance’ radio button under ‘Your benefits’
+clickIrESABenefit  click_element  id_benefit_type_income-related-employment-and-support-allowance  id  NA  0  Click the 'Income-related Employment & Support Allowance’ radio button under ‘Your benefits’
+clickIncomeSupportBenefit  click_element  id_benefit_type_income-support  id  NA  0  Click the 'Income Support’ radio button under ‘Your benefits’
+.  .  .  .  .  0  your benefit (on benefits)
+clickCJABenefit  click_element  id_benefit_type_contributory-jobseekers-allowance  id  NA  0  Click the ‘Contributory Jobseekers Allowance’ radio button under ‘Your benefit’
+clickIbJABenefit  click_element  id_benefit_type_income-based-jobseekers-allowance  id  NA  0  Click the ‘Income based Jobseekers Allowance’ radio button under ‘Your benefit’
+clickOtherBenefit  click_element  id_benefit_type_other  id  NA  0  Click the ‘Other’ radio button under ‘Your benefit’
+.  .  .  .  .  0  your income
+enterOtherEmploymentDetails  standard_keys  id_income_source  id  Pension  0  Enter ‘Pension’ under 'What is the source of your main income'
+clickPensionCreditYes  click_element  id_pension_credit_true  id  NA  0  Click the 'Yes' radio button under ‘Do you receive Pension Credit’
+clickPensionCreditNo  click_element  id_pension_credit_false  id  NA  0  Click the 'Yes' radio button under ‘Do you receive Pension Credit’
 .  .  .  .  .  0  .
-clickSelfEmployedButton  click_element  id_you_are_self-employed  id  NA  0  Click the 'Self Employed' radio button on the 'Your finances' page
-clickSelfEmployedPaidWeekly  click_element  id_self_employed_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often do you get paid’
-clickSelfEmployedPaidFortnightly  click_element  id_self_employed_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often do you get paid’
-clickSelfEmployedPaidMonthly  click_element  id_self_employed_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often do you get paid’
-clickSelfEmployedPaidOther  click_element  id_self_employed_pay_period_other  id  NA  0  Click the ‘Other’ radio button under ‘How often do you get paid’
-enterSelfEmployedTakeHomePay  standard_keys  id_self_employed_pay_amount  id  250  0  Enter ‘250’ in the ‘Take home pay’ amount field
-clickSelfEmployedFinancialHardshipTrue  click_element  id_self_employed_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
-clickSelfEmployedFinancialHardshipFalse  click_element  id_self_employed_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+clickFinancialHardshipTrue  click_element  id_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
+clickFinancialHardshipFalse  click_element  id_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 .  .  .  .  .  0  .
-clickReceivingBenefitsButton  click_element  id_you_are_receiving-benefits  id  NA  0  Click the 'Receiving Benefits' radio button on the 'Your finances' page
-enterBenefitDetails  standard_keys  id_benefits_details  id  Disability Living Allowance  0  Enter 'Disability Living Allowance in the ‘Which benefits do you receive’ text field
 clickPaymentForDependantsTrue  click_element  id_benefits_dependents_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Does this include payment for dependants?’
 clickPaymentForDependantsFalse  click_element  id_benefits_dependents_false  id  NA  0  Click the ‘No’ Radio button under ‘Does this include payment for dependants?’
-clickBenefitsPaidWeekly  click_element  id_benefits_pay_period_weekly  id  NA  0  Click the ‘Weekly’ radio button under ‘How often are your benefits paid’
-clickBenefitsPaidFortnightly  click_element  id_benefits_pay_period_fortnightly  id  NA  0  Click the ‘Fortnightly’ radio button under ‘How often are your benefits paid’
-clickBenefitsPaidMonthly  click_element  id_benefits_pay_period_monthly  id  NA  0  Click the ‘Monthly’ radio button under ‘How often are your benefits paid’
-clickBenefitsPaidOther  click_element  id_benefits_pay_period_other  id  NA  0  Click the ‘Other’ radio button under ‘How often are your benefits paid’
-enterBenefitsTakeHomePay  standard_keys  id_benefits_pay_amount  id  160  0  Enter ‘160’ in the ‘Take home pay’ amount field
-clickBenefitsFinancialHardshipTrue  click_element  id_benefits_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
-clickBenefitsFinancialHardshipFalse  click_element  id_benefits_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 .  .  .  .  .  0  .
-clickOtherButton  click_element  id_you_are_other  id  NA  0  Click the 'Other' radio button on the 'Your finances' page
-enterOtherEmploymentDetails  standard_keys  id_other_details  id  Retired  0  Enter ‘Retired’ in the ‘Provide details’ other employment text field
 enterOtherDisposableIncome  standard_keys  id_other_pay_amount  id  500  0  Enter ‘500’ in the ‘Disposable Income’ amount field
-clickOtherFinancialHardshipTrue  click_element  id_other_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
-clickOtherFinancialHardshipFalse  click_element  id_other_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 .  .  .  .  .  0  .
+**********************************************************************************************************************************************************
 clickFinancesChangeLink  click_element  Change  link_text  NA  0  Click the 'Change' link on the Your Finances page
 clickWelshFinancesChangeLink  click_element  Newid  link_text  NA  0  Click the Welsh change link on the Your Finances page
 clickYourFinancesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Finances' page 'Continue' button
