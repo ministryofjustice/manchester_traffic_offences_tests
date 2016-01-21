@@ -27,13 +27,12 @@ clickCymraegLink  click_element  Cymraeg  link_text  NA  0  Click the Cymraeg li
 clickEnglishLink  click_element  English  link_text  NA  0  Click the English link to change the language to English
 clickStartNowLink  click_element  Start now  link_text  NA  0  Click the 'Start now' button
 clickWelshStartLink  click_element  Dechrau nawr  link_text  NA  0  Click the Welsh start button
-clickYourCaseContinueButton  click_element  button  class_name  NA  0  Click the 'Your Case' page 'Continue' button
 clickMakeaPleaHeaderLink  click_element  Make a Plea: Traffic offences  link_text  NA  0  Click the 'Make a Plea' link in the page header
 clickWelshMapHeaderLink  click_element  Cofnodi ple: Troseddau traffig  link_text  NA  0  Click the Welsh MaP header link
+clickContinueButton  click_element  button  class_name  NA  0  Click the 'Continue' button
 .  .  .  .  .  0  notice type
 clickSjpTrue  click_element  id_sjp_true  id  NA  0  Click the Yes button to the 'is it an SJP notice' question on the Your Notice page 
 clickSjpFalse  click_element  id_sjp_false  id  NA  0  Click the No button to the 'is it an SJP notice' question on the Your Notice page
-clickYourNoticeContinueButton  click_element  button  class_name  NA  0  Click the 'Your Notice' page 'Continue' button
 .  .  .  .  .  0  case details
 enterUrn0  standard_keys  id_urn  id  51  0  Enter '51' first in the URN input field
 enterUrn1  standard_keys  id_urn  id  /<RIG>,2,ABCDEFGHIJKLMNOPQRSTUVWXYZ  0  Enter random input generator value secondly in the URN input field
@@ -63,7 +62,6 @@ enterPostCode  standard_keys  id_postcode  id  M60 1PR  0  Enter 'M60 1PR' in Po
 enterIncorrectPostcode  standard_keys  id_postcode  id  M1 1PR  0  Enter 'M1 1PR' in Postcode field
 clickDefendantPlea  click_element  id_plea_made_by_defendant  id  NA  0  Click 'the person named in the requisition pack' radio button
 clickCompanyPlea  click_element  id_plea_made_by_company-representative  id  NA  0  Click the 'Pleading on behalf of a company' radio button
-clickCaseDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Case details' page 'Continue' button
 .  .  .  .  .  0  your details generic
 enterYourDetailsFirstName  standard_keys  id_first_name  id  Christine  0  Enter 'Christine' in the 'Your details' page 'First Name' input field
 enterYourDetailsLastName  standard_keys  id_last_name  id  Houlding  0  Enter 'Houlding' in the 'Your details' page 'Last Name' input field
@@ -71,7 +69,6 @@ correctAddressOnPostalRequisition  click_element  id_correct_address_true  id  N
 incorrectAddressOnPostalRequisition  click_element  id_correct_address_false  id  NA  0  Click 'Is your address on the Postal Requisition correct?' No radio button
 enterCorrectAddressIfDiff  standard_keys  id_updated_address  id  12 High Street Manchester M1 3BN  0  Enter '12 High Street Manchester M1 3BN' in the company address text box
 enterYourDetailsContactNumber  standard_keys  id_contact_number  id  0123456789  0  Enter '0123456789' in the 'Your details' 'Contact Number' input field
-clickYourDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Your details' page 'Continue' button
 .  .  .  .  .  0  your details defendant
 enterDateOfBirthDay  standard_keys  id_date_of_birth_0  id  31  0  Enter '31' in the DOB data day input field
 enterDateOfBirthMonth  standard_keys  id_date_of_birth_1  id  07  0  Enter '07' in the DOB data month input field
@@ -111,7 +108,6 @@ enterWitnessDetails  standard_keys  id_witness_details  id  Kenneth Smith, 14 Hi
 clickWitnessInterpreterTrue  click_element  id_witness_interpreter_needed_true  id  NA  0  Click True to 'Does your witness need an interpreter'
 clickWitnessInterpreterFalse  click_element  id_witness_interpreter_needed_false  id  NA  0  Click False to 'Does your witness need an interpreter'
 enterWitnessInterpreterLanguage  standard_keys  id_witness_interpreter_language  id  Welsh  0  Enter 'Welsh' in Witness Interpreter Language field
-clickYourPleaContinueButton  click_element  button  class_name  NA  0  Click the 'Your Plea' page 'Continue' button
 **********************************************************************************************************************************************************
 .  .  .  .  .  0  your employment status
 clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your employment status' page
@@ -130,11 +126,12 @@ enterTakeHomePay  standard_keys  id_pay_amount  id  170  0  Enter ‘170’ in t
 clickCESABenefit  click_element  id_benefit_type_contributory-employment-and-support-allowance  id  NA  0  Click the ‘Contributory Employment & Support Allowance’ radio button under ‘Your benefits’
 clickIrESABenefit  click_element  id_benefit_type_income-related-employment-and-support-allowance  id  NA  0  Click the 'Income-related Employment & Support Allowance’ radio button under ‘Your benefits’
 clickIncomeSupportBenefit  click_element  id_benefit_type_income-support  id  NA  0  Click the 'Income Support’ radio button under ‘Your benefits’
-.  .  .  .  .  0  your benefit (on benefits)
+clickUniversalCreditBenefit  click_element  id_benefit_type_universal-credit  id  NA  0  Click the 'Universal Credit’ radio button under ‘Your benefits’
+.  .  .  .  .  0  your benefits (on benefits)
 clickCJABenefit  click_element  id_benefit_type_contributory-jobseekers-allowance  id  NA  0  Click the ‘Contributory Jobseekers Allowance’ radio button under ‘Your benefit’
 clickIbJABenefit  click_element  id_benefit_type_income-based-jobseekers-allowance  id  NA  0  Click the ‘Income based Jobseekers Allowance’ radio button under ‘Your benefit’
 clickOtherBenefit  click_element  id_benefit_type_other  id  NA  0  Click the ‘Other’ radio button under ‘Your benefit’
-.  .  .  .  .  0  your income
+.  .  .  .  .  0  your income (other)
 enterOtherEmploymentDetails  standard_keys  id_income_source  id  Pension  0  Enter ‘Pension’ under 'What is the source of your main income'
 clickPensionCreditYes  click_element  id_pension_credit_true  id  NA  0  Click the 'Yes' radio button under ‘Do you receive Pension Credit’
 clickPensionCreditNo  click_element  id_pension_credit_false  id  NA  0  Click the 'Yes' radio button under ‘Do you receive Pension Credit’
@@ -142,15 +139,7 @@ clickPensionCreditNo  click_element  id_pension_credit_false  id  NA  0  Click t
 clickFinancialHardshipTrue  click_element  id_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickFinancialHardshipFalse  click_element  id_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 .  .  .  .  .  0  .
-clickPaymentForDependantsTrue  click_element  id_benefits_dependents_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Does this include payment for dependants?’
-clickPaymentForDependantsFalse  click_element  id_benefits_dependents_false  id  NA  0  Click the ‘No’ Radio button under ‘Does this include payment for dependants?’
-.  .  .  .  .  0  .
-enterOtherDisposableIncome  standard_keys  id_other_pay_amount  id  500  0  Enter ‘500’ in the ‘Disposable Income’ amount field
-.  .  .  .  .  0  .
 **********************************************************************************************************************************************************
-clickFinancesChangeLink  click_element  Change  link_text  NA  0  Click the 'Change' link on the Your Finances page
-clickWelshFinancesChangeLink  click_element  Newid  link_text  NA  0  Click the Welsh change link on the Your Finances page
-clickYourFinancesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Finances' page 'Continue' button
 .  .  .  .  .  0  your expenses
 enterHardshipDetails  standard_keys  id_hardship_details  id  House being repossessed  0  Enter ‘House being repossessed’ in ‘How would paying a fine cause you serious financial problems?’
 enterAccommodationExpenses  standard_keys  id_household_accommodation  id  750  0  Enter ‘750’ in ‘Accommodation’ under ‘Household Expenses’
@@ -170,8 +159,6 @@ clickOtherExpensesTrue  click_element  id_other_not_listed_true  id  NA  0  Clic
 clickOtherExpensesFalse  click_element  id_other_not_listed_false  id  NA  0  Click the ‘No’ Radio button under ‘Any other expenses not listed above?’
 enterOtherExpensesDetails  standard_keys  id_other_not_listed_details  id  Childcare  0  Enter ‘Childcare’ in ‘Other expenses details’ field under ‘Other Expenses’
 enterOtherExpensesAmount  standard_keys  id_other_not_listed_amount  id  700  0  Enter ‘700’ in ‘Other expenses amount’ field under ‘Other Expenses’
-.  .  .  .  .  0  .
-clickYourExpensesContinueButton  click_element  button  class_name  NA  0  Click the 'Your Expenses' page 'Continue' button
 .  .  .  .  .  0  company details
 clickMoreThan12MonthsRadioButton  click_element  id_trading_period_true  id  NA  0  Click the 'Yes' radio button under 'Has the company been trading for more than 12 months?'
 clickLessThan12MonthsRadioButton  click_element  id_trading_period_false  id  NA  0  Click the 'No' radio button under 'Has the company been trading for more than 12 months?'
@@ -180,7 +167,6 @@ checkCompanyAccountsWording1  check_content  NA  NA  From the most recent audite
 checkCompanyAccountsWording2  check_content  NA  NA  From the first 12 months' trading projections, tell us  0  Check less than 12 months wording 
 enterGrossTurnover  standard_keys  id_gross_turnover  id  150000  0  Enter '150000' in 'Gross turnover' field
 enterNetTurnover  standard_keys  id_net_turnover  id  110000  0  Enter '110000' in 'Gross turnover' field
-clickCompanyDetailsContinueButton  click_element  button  class_name  NA  0  Click the 'Company Details' page 'Continue' button
 .  .  .  .  .  0  confirm your plea
 clickConfirmPleaCheckbox  click_element  id_understand  id  NA  0  Click the 'I confirm' checkbox
 clickMakeYourPleaButton  click_element  button-large  class_name  NA  0  Click the 'Make your plea' button
@@ -206,7 +192,6 @@ selectServiceSatisfied  click_element  id_service_satisfaction_4  id  NA  0  Cli
 selectServiceNeitherSatOrDis  click_element  id_service_satisfaction_3  id  NA  0  Click the ‘Neither satisfied nor dissatisfied’ option on the Feedback page
 selectServiceDissatisfied  click_element  id_service_satisfaction_2  id  NA  0  Click the ‘Dissatisfied’ option on the Feedback page
 selectServiceVeryDissatisfied  click_element  id_service_satisfaction_1  id  NA  0  Click the ‘Very dissatisfied’ option on the Feedback page
-clickFeedbackContinueButton  click_element  button  class_name  NA  0  Click the 'Feedback’ page ‘Continue’ button
 enterFeedbackComments  standard_keys  id_comments  id  Here is some feedback  0  Enter ‘Here is some feedback’ in the feedback comments box
 enterFeedbackEmail  standard_keys  id_email  id  christine.houlding@digital.justice.gov.uk  0  Enter 'christine.houlding@digital.justice.gov.uk' in the Feedback page 'Email' input field
 clickFeedbackSubmitButton  click_element  button  class_name  NA  0  Click the 'Feedback’ page ‘Submit’ button
