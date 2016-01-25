@@ -108,7 +108,6 @@ enterWitnessDetails  standard_keys  id_witness_details  id  Kenneth Smith, 14 Hi
 clickWitnessInterpreterTrue  click_element  id_witness_interpreter_needed_true  id  NA  0  Click True to 'Does your witness need an interpreter'
 clickWitnessInterpreterFalse  click_element  id_witness_interpreter_needed_false  id  NA  0  Click False to 'Does your witness need an interpreter'
 enterWitnessInterpreterLanguage  standard_keys  id_witness_interpreter_language  id  Welsh  0  Enter 'Welsh' in Witness Interpreter Language field
-**********************************************************************************************************************************************************
 .  .  .  .  .  0  your employment status
 clickEmployedButton  click_element  id_you_are_employed  id  NA  0  Click the 'Employed' radio button on the 'Your employment status' page
 clickEmployedBenefitsButton  click_element  id_you_are_employed-and-also-receiving-benefits  id  NA  0  Click the 'Employed and also receiving benefits' radio button on the 'Your employment status' page
@@ -138,8 +137,6 @@ clickPensionCreditNo  click_element  id_pension_credit_false  id  NA  0  Click t
 .  .  .  .  .  0  .
 clickFinancialHardshipTrue  click_element  id_hardship_true  id  NA  0  Click the ‘Yes’ Radio button under ‘Would paying a fine cause you serious financial problems?’
 clickFinancialHardshipFalse  click_element  id_hardship_false  id  NA  0  Click the ‘No’ Radio button under ‘Would paying a fine cause you serious financial problems?’
-.  .  .  .  .  0  .
-**********************************************************************************************************************************************************
 .  .  .  .  .  0  your expenses
 enterHardshipDetails  standard_keys  id_hardship_details  id  House being repossessed  0  Enter ‘House being repossessed’ in ‘How would paying a fine cause you serious financial problems?’
 enterAccommodationExpenses  standard_keys  id_household_accommodation  id  750  0  Enter ‘750’ in ‘Accommodation’ under ‘Household Expenses’
@@ -261,15 +258,22 @@ checkDefenceWitnessMissing  check_condition  You must tell us if you want to cal
 checkDefenceWitnessDetailsMissing  check_condition  Tell us the name, address and date of birth of your defence witness  link_text  NA  0  Check 'Tell us the name, address and date of birth of your defence witness' wording appears
 checkWitnessInterpreterMissing  check_condition  Tell us if your witness needs an interpreter in court  link_text  NA  0  Check 'Tell us if your witness needs an interpreter in court' wording appears
 checkWitnessInterpreterLangMissing  check_condition  Your witness needs an interpreter in court - tell us which language  link_text  NA  0  Check 'Your witness needs an interpreter in court - tell us which language' wording appears
-.  .  .  .  .  0  Negative your finances
-checkYourEmploymentMissingValidation  check_condition  You must let us know if you're employed, receiving benefits or other  link_text  NA  0  Check employment radio options not selected validation wording appears
+.  .  .  .  .  0  Negative your employment
+checkYourEmploymentMissingValidation  check_condition  Select your employment status  link_text  NA  0  Check employment radio options not selected validation wording appears
 checkPaidFrequencyMissingValidation  check_condition  Tell us how often you get paid  link_text  NA  0  Check frequency paid radio options not selected validation wording appears
 checkPaidAmountMissingValidation  check_condition  Enter your take home pay  link_text  NA  0  Check take home pay missing validation wording appears
-enterInvalidTakeHomePay  standard_keys  id_self_employed_pay_amount  id  A  0  Enter ‘A’ in the ‘Take home pay’ amount field
+enterInvalidTakeHomePay  standard_keys  id_pay_amount  id  A  0  Enter ‘A’ in the ‘Take home pay’ amount field
 checkPaidAmountInvalidWording  check_condition  Enter a number.  link_text  NA  0  Check take home pay invalid wording appears
-checkBenefitsReceivedMissingValidation  check_condition  Tell us which benefits you receive  link_text  NA  0  Check benefits received missing wording appears
-checkDependantsPayMissingValidation  check_condition  Tell us if this includes payment for dependants  link_text  NA  0  Check payment for dependants missing wording appears
-checkOtherIncomeMissingValidation  check_condition  Tell us how you earn your money  link_text  NA  0  Check other income source details missing wording appears
+checkEmpBensMissingValidation  check_condition  Select which benefit you receive  link_text  NA  0  Check employed benefits received missing validation appears
+checkBenefitsReceivedMissingValidation  check_condition  Select the out of work benefit you receive  link_text  NA  0  Check benefits received missing wording appears
+checkEmpBensPymtValidation  check_condition  Enter the amount of your benefit payment  link_text  NA  0  Check employed benefits payment amount missing validation appears
+
+checkBenefitPayFreqMissingValidation  check_condition  Select how often your benefit is paid  link_text  NA  0  Check benefit payment frequency missing wording appears
+checkOtherIncomeMissingValidation  check_condition  Tell us the source of your main income  link_text  NA  0  Check other income source details missing wording appears
+checkOtherPaidFreqMissingValidation  check_condition  Select how often your main income is paid  link_text  NA  0  Check other income frequency paid validation wording appears
+checkPensionCreditMissingValidation  check_condition  Tell us if you receive Pension Credit  link_text  NA  0  Check select Pension Credit option validation wording appears
+checkPensionCreditFreqValidation  check_condition  Select how often your Pension Credit is paid  link_text  NA  0  Check Pension Credit payment frequency validation wording appears
+checkPensionCreditAmountValidation  check_condition  Enter how much Pension Credit you receive  link_text  NA  0  Check Pension Credit amount missing validation wording appears
 checkFinancialHardshipMissingValidation  check_condition  Tell us if paying a fine would cause you serious financial problems  link_text  NA  0  Check financial hardship radio not selected validation wording
 .  .  .  .  .  0  Negative your expenses
 checkHardshipDetailsMissingValidation  check_condition  You must tell us why you think you should be allowed to pay your fine in instalments  link_text  NA  0  Check information for the magistrate missing wording appears
@@ -365,14 +369,20 @@ checkDefenceWitnessMissingWelsh  check_condition  Rhaid i chi ddweud wrthym os h
 checkDefenceWitnessDetailsMissingWelsh  check_condition  Dywedwch wrthym beth yw enw, cyfeiriad a dyddiad geni tyst yr amddiffyniad  link_text  NA  0  Check 'Tell us the name, address and date of birth of your defence witness' Welsh wording appears
 checkWitnessInterpreterMissingWelsh  check_condition  Dywedwch wrthym os oes angen cyfieithydd/dehonglydd yn y llys ar gyfer eich tyst  link_text  NA  0  Check 'Tell us if your witness needs an interpreter in court' Welsh wording appears
 checkWitnessInterpreterLangMissingWelsh  check_condition  Mae angen cyfieithydd/dehonglydd yn y llys ar gyfer eich tyst - dywedwch wrthym pa iaith  link_text  NA  0  Check 'Your witness needs an interpreter in court - tell us which language' Welsh wording appears
-.  .  .  .  .  0  Negative your finances WELSH
+.  .  .  .  .  0  Negative your employment WELSH
 checkYourEmploymentMissingValidationWelsh  check_condition  Rhaid i chi roi gwybod i ni os ydych yn gyflogedig, yn derbyn budd-daliadau neu arall  link_text  NA  0  Check employment radio options not selected validation Welsh wording appears
 checkPaidFrequencyMissingValidationWelsh  check_condition  Dywedwch wrthym pa mor aml yr ydych yn cael eich talu  link_text  NA  0  Check frequency paid radio options not selected validation Welsh wording appears
 checkPaidAmountMissingValidationWelsh  check_condition  Rhowch eich cyflog clir (cyflog ar ôl didyniadau)  link_text  NA  0  Check take home pay missing validation Welsh wording appears
 checkPaidAmountInvalidWordingWelsh  check_condition  Rhowch rif.  link_text  NA  0  Check take home pay invalid Welsh wording appears
-checkBenefitsReceivedMissingValidationWelsh  check_condition  Dywedwch wrthym pa fudd-daliadau rydych yn eu derbyn  link_text  NA  0  Check benefits received missing Welsh wording appears
-checkDependantsPayMissingValidationWelsh  check_condition  Dywedwch wrthym os yw hyn yn cynnwys talu am ddibynyddion  link_text  NA  0  Check payment for dependants missing Welsh wording appears
-checkOtherIncomeMissingValidationWelsh  check_condition  Dywedwch wrthym sut yr ydych yn ennill eich arian  link_text  NA  0  Check other income source details missing Welsh wording appears
+checkEmpBensMissingValidationWelsh  check_condition  Dewiswch pa fudd-dal rydych chi'n ei dderbyn  link_text  NA  0  Check employed benefits received missing Welsh validation appears
+checkBenefitsReceivedMissingValidationWelsh  check_condition  Dewiswch y budd-daliadau diweithdra rydych yn eu derbyn  link_text  NA  0  Check benefits received missing Welsh wording appears
+checkEmpBensPymtValidationWelsh  check_condition  Rhowch swm eich taliad budd-daliadau  link_text  NA  0  Check employed benefits payment amount missing Welsh validation appears
+checkBenefitPayFreqMissingValidationWelsh  check_condition  Dewiswch pa mor aml y telir budd-daliadau i chi  link_text  NA  0  Check benefit payment frequency missing Welsh wording appears
+checkOtherIncomeMissingValidationWelsh  check_condition  Dywedwch wrthym beth yw ffynhonnell eich prif incwm  link_text  NA  0  Check other income source details missing Welsh wording appears
+checkOtherPaidFreqMissingValidationWelsh  check_condition  Dewiswch pa mor aml y telir eich prif incwm i chi  link_text  NA  0  Check other income frequency paid Welsh validation wording appears
+checkPensionCreditMissingValidationWelsh  check_condition  Dywedwch wrthym os ydych yn cael Credyd Pensiwn  link_text  NA  0  Check select Pension Credit option Welsh validation wording appears
+checkPensionCreditFreqValidationWelsh  check_condition  Dewiswch pa mor aml y telir eich Credyd Pensiwn i chi  link_text  NA  0  Check Pension Credit payment frequency Welsh validation wording appears
+checkPensionCreditAmountValidationWelsh  check_condition  Nodwch faint o Gredyd Pensiwn rydych chi'n ei dderbyn  link_text  NA  0  Check Pension Credit amount missing Welsh validation wording appears
 checkFinancialHardshipMissingValidationWelsh  check_condition  Dywedwch wrthym pe bai talu dirwy yn achosi problemau ariannol difrifol i chi  link_text  NA  0  Check financial hardship radio not selected validation Welsh wording
 .  .  .  .  .  0  Negative your expenses WELSH
 checkHardshipDetailsMissingValidationWelsh  check_condition  Mae'n rhaid i chi ddweud wrthym pam rydych chi'n credu y dylech gael caniatâd i dalu eich dirwy mewn rhandaliadau  link_text  NA  0  Check information for the magistrate missing Welsh wording appears
