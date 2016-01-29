@@ -334,7 +334,7 @@ checkPostingDateMissingValidationWelsh  check_condition  Rhowch ddyddiad postio 
 checkPostingDateInvalidWordingWelsh  check_condition  Nid yw'r dyddiad postio mewn fformat dilys  link_text  NA  0  Check Posting Date is invalid Welsh wording appears
 checkPostingDateFutureWordingWelsh  check_condition  Rhaid i'r dyddiad postio fod cyn heddiw  link_text  NA  0  Check Posting Date must be before today Welsh wording appears
 .  .  .  .  .  0  WELSH
-checkNumberChargesMissingValidationWelsh  check_condition  Dewiswch y nifer o gyhuddiadau yn eich erbyn  link_text  NA  0  Check Number of charges missing validation Welsh wording appears
+checkNumberChargesMissingValidationWelsh  check_condition  Rhowch y nifer o gyhuddiadau sydd yn eich erbyn  link_text  NA  0  Check Number of charges missing validation Welsh wording appears
 checkNumberChargesInvalidWordingWelsh  check_condition  Sicrhewch fod y gwerth hwn yn fwy neu'n llai na 10.  link_text  NA  0  Check Number of charges invalid Welsh wording appears
 checkNumberChargesInvalidWording2Welsh  check_condition  Rhowch cyfanrif.  link_text  NA  0  Check Enter a Number Welsh wording appears
 checkPersonPleadingValidationWelsh  check_condition  Rhaid i chi ddweud wrthym ai chi yw'r unigolyn a enwir yn yr hysbysiad neu unigolyn sy'n pledio ar ran cwmni  link_text  NA  0  Check Person Pleading validation Welsh wording appears
@@ -370,7 +370,7 @@ checkDefenceWitnessDetailsMissingWelsh  check_condition  Dywedwch wrthym beth yw
 checkWitnessInterpreterMissingWelsh  check_condition  Dywedwch wrthym os oes angen cyfieithydd/dehonglydd yn y llys ar gyfer eich tyst  link_text  NA  0  Check 'Tell us if your witness needs an interpreter in court' Welsh wording appears
 checkWitnessInterpreterLangMissingWelsh  check_condition  Mae angen cyfieithydd/dehonglydd yn y llys ar gyfer eich tyst - dywedwch wrthym pa iaith  link_text  NA  0  Check 'Your witness needs an interpreter in court - tell us which language' Welsh wording appears
 .  .  .  .  .  0  Negative your employment WELSH
-checkYourEmploymentMissingValidationWelsh  check_condition  Rhaid i chi roi gwybod i ni os ydych yn gyflogedig, yn derbyn budd-daliadau neu arall  link_text  NA  0  Check employment radio options not selected validation Welsh wording appears
+checkYourEmploymentMissingValidationWelsh  check_condition  Dewiswch eich statws cyflogaeth  link_text  NA  0  Check employment radio options not selected validation Welsh wording appears
 checkPaidFrequencyMissingValidationWelsh  check_condition  Dywedwch wrthym pa mor aml yr ydych yn cael eich talu  link_text  NA  0  Check frequency paid radio options not selected validation Welsh wording appears
 checkPaidAmountMissingValidationWelsh  check_condition  Rhowch eich cyflog clir (cyflog ar ôl didyniadau)  link_text  NA  0  Check take home pay missing validation Welsh wording appears
 checkPaidAmountInvalidWordingWelsh  check_condition  Rhowch rif.  link_text  NA  0  Check take home pay invalid Welsh wording appears
