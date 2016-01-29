@@ -99,7 +99,8 @@ clickSjpInterpreterNeededTrue  click_element  id_sjp_interpreter_needed_true  id
 clickSjpInterpreterNeededFalse  click_element  id_sjp_interpreter_needed_false  id  NA  0  Click ‘No’ to SJP question “Do you need an interpreter in court” 
 enterSjpInterpreterLanguage  standard_keys  id_sjp_interpreter_language  id  Spanish  0  Enter ‘Spanish’ in SJP Plea Interpreter Language field
 .  .  .  .  .  0  Evidence & Witness Info
-clickDisagreeWithEvidenceTrue  click_element  id_disagree_with_evidence_true  id  NA  0  Click True to 'do you disagree with any evidence' question 
+clickDisagreeWithEvidenceTrue  click_element  id_disagree_with_evidence_true  id  NA  0  Click True to 'do you disagree with any evidence' question
+clickDisagreeWithEvidenceFalse  click_element  id_disagree_with_evidence_false  id  NA  0  Click False to 'do you disagree with any evidence' question 
 enterEvidenceDetails  standard_keys  id_disagree_with_evidence_details  id  Officer Jones has stated I was carrying 2 passengers but there was only 1  0  Enter details of the evidence disagreed with
 clickWitnessNeededTrue  click_element  id_witness_needed_true  id  NA  0  Click True to 'Do you want to call a defence witness'
 clickWitnessNeededFalse  click_element  id_witness_needed_false  id  NA  0  Click False to 'Do you want to call a defence witness'
@@ -265,7 +266,7 @@ enterInvalidTakeHomePay  standard_keys  id_pay_amount  id  A  0  Enter ‘A’ i
 checkPaidAmountInvalidWording  check_condition  Enter a number.  link_text  NA  0  Check take home pay invalid wording appears
 checkEmpBensMissingValidation  check_condition  Select which benefit you receive  link_text  NA  0  Check employed benefits received missing validation appears
 checkBenefitsReceivedMissingValidation  check_condition  Select the out of work benefit you receive  link_text  NA  0  Check benefits received missing wording appears
-checkEmpBensPymtValidation  check_condition  Enter the amount of your benefit payment  link_text  NA  0  Check employed benefits payment amount missing validation appears
+checkEmpBensPymtValidation  check_condition  Enter the amount of your benefit payment  link_text  NA  0  Check benefits payment amount missing validation appears
 enterBackSpace  special_keys  id_pay_amount  id  BACK_SPACE  0  Delete entry in the ‘Take home pay’ amount field
 checkBenefitPayFreqMissingValidation  check_condition  Select how often your benefit is paid  link_text  NA  0  Check benefit payment frequency missing wording appears
 checkOtherIncomeMissingValidation  check_condition  Tell us the source of your main income  link_text  NA  0  Check other income source details missing wording appears
