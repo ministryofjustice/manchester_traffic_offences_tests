@@ -45,7 +45,7 @@ enterCourtHearingDateMonth  standard_keys  id_date_of_hearing_1  id  05  0  Ente
 enterCourtHearingDateYear  standard_keys  id_date_of_hearing_2  id  2016  0  Enter '2016' in the court hearing data year input field
 .  .  .  .  .  0  SJP  
 enterPostingDateDay  standard_keys  id_posting_date_0  id  01  0  Enter '01' in the posting date day input field
-enterPostingDateMonth  standard_keys  id_posting_date_1  id  01  0  Enter '01' in the posting date month input field
+enterPostingDateMonth  standard_keys  id_posting_date_1  id  02  0  Enter '02' in the posting date month input field
 enterPostingDateYear  standard_keys  id_posting_date_2  id  2016  0  Enter '2016' in the posting date year input field
 .  .  .  .  .  0  . 
 enterNumberOfCharges1  standard_keys  id_number_of_charges  id  1  0  Enter '1' in the 'Number of charges against you' input field
@@ -214,7 +214,7 @@ checkPostingDateMissingValidation  check_condition  Provide a posting date  link
 enterInvalidPostingDateDay  standard_keys  id_posting_date_0  id  31  0  Enter '31' in the Posting Date day input field
 enterInvalidPostingDateMonth  standard_keys  id_posting_date_1  id  09  0  Enter '09' in the Posting Date month input field
 enterInvalidPostingDateYear  standard_keys  id_posting_date_2  id  2015  0  Enter '2015' in the Posting Date year input field
-enterFuturePostingDateYear  standard_keys  id_posting_date_2  id  2017  0  Enter '2016' in the Posting Date year input field
+enterFuturePostingDateYear  standard_keys  id_posting_date_2  id  2017  0  Enter '2017' in the Posting Date year input field
 checkPostingDateInvalidWording  check_condition  The posting date isn't a valid format  link_text  NA  0  Check Posting Date is invalid wording appears
 checkPostingDateFutureWording  check_condition  The posting date must be before today  link_text  NA  0  Check Posting Date must be before today wording appears
 .  .  .  .  .  0  .
